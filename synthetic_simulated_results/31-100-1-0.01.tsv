@@ -1,0 +1,2 @@
+Read_file	Genome_file	Adjusted_ANI	Naive_ANI	ANI_5-95_percentile	Eff_cov	Eff_lambda	Lambda_5-95_percentile	Median_cov	Mean_cov	Containment_ind	Contig_name
+synthetic_simulated_reads/1-0.01-synthetic.fq	./refs/MN-03.fa	95.64	85.49	93.99-97.68	0.031	0.031	0.01-0.05	1	0.008	398/51326	NZ_CP081897.1 Klebsiella pneumoniae strain MN-03 chromosome, complete genome
