@@ -181,9 +181,6 @@ for (i,x) in enumerate(['Illumina', 'nanopore-old', 'PacBio']):
 
 for a in ax:
     a.spines[['right', 'top']].set_visible(False)
-   
-
-    
 
     #plt.scatter(rand_jitter([positions[4*i]  for x in range(len(res_anis_low[2*i]))]), res_anis_low[2*i], s = s, c = 'black')
     #plt.scatter(rand_jitter([positions[4*i]  for x in range(len(res_anis_pass[2*i]))]), res_anis_pass[2*i], s = s)
@@ -194,7 +191,6 @@ for a in ax:
     #plt.scatter(rand_jitter([positions[4*i+2]  for x in range(len(box_mash))]), box_mash, s = s)
     #plt.scatter(rand_jitter([positions[4*i+3]  for x in range(len(box_sour))]), box_sour, s = s)
 
-    
 #ax.boxplot(boxes, showfliers=False, positions = positions, widths = width, vert=False)
 plt.show()
 

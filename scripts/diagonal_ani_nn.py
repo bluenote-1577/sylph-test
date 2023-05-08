@@ -137,17 +137,17 @@ query_to_ani = defaultdict(list)
 query_to_err = defaultdict(list)
 query_to_anis_nn = defaultdict(list)
 
-for res in true_results[1]:
+for res in true_results[0]:
     if res.final_ani > 90:
         query_to_anis_nn[res.ref_file].append(res.final_ani)
 for (key,res) in query_to_anis_nn.items():
     query_to_ani[key].append(np.max(res))
-for res in results[3]:
+for res in results[1]:
     if not res.low and res.lam != None:
         query_to_ani[res.ref_file].append(res.final_ani)
         query_to_err[res.ref_file].append(res.high_ani)
         query_to_err[res.ref_file].append(res.low_ani)
-for res in mash_results[1]:
+for res in mash_results[0]:
     query_to_ani[res[0]].append(res[1])
 
 x = []
