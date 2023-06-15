@@ -10,7 +10,6 @@ from natsort import natsorted
 from scipy import stats
 
 cmap = sns.color_palette("muted")
-cmap = sns.color_palette("hls", 4)
 
 np.random.seed(0)
 def rand_jitter(arr):
@@ -121,7 +120,7 @@ control_globo_n = []
 globo_used_pairs = set()
 
 
-fig, ax = plt.subplots(2,2,figsize = (12* cm , 10 * cm))
+fig, ax = plt.subplots(2,2,figsize = (8* cm , 8 * cm))
 for res in results[0]:
     srr = res.query_file.split('.')[0].split('/')[-1]
     if srr not in read_file_to_pair_dict:
@@ -162,9 +161,9 @@ sc2_g = np.array(list(pair_to_res_naive_globo.values()))
 
 s = 7
 ax[0][0].scatter(sc[:,0], sc[:,1], alpha = 1.00, s = s, color = cmap[0], label = 'sylph adjusted')
-ax[0][1].scatter(sc2[:,0], sc2[:,1], alpha = 1.00, s = s, color = cmap[1], label =  'naive containment')
+ax[0][1].scatter(sc2[:,0], sc2[:,1], alpha = 1.00, s = s, color = cmap[3], label =  'naive containment')
 ax[1][0].scatter(sc_g[:,0], sc_g[:,1], alpha = 1.00, s = s, color = cmap[0], label = 'sylph adjusted')
-ax[1][1].scatter(sc2_g[:,0], sc2_g[:,1], alpha = 1.00, s = s, color = cmap[1], label =  'naive containment')
+ax[1][1].scatter(sc2_g[:,0], sc2_g[:,1], alpha = 1.00, s = s, color = cmap[3], label =  'naive containment')
 ax[0][0].plot([82,100],[82,100],'--',c='black')
 ax[1][0].plot([82,100],[82,100],'--',c='black')
 ax[0][1].plot([82,100],[82,100],'--',c='black')
@@ -202,6 +201,7 @@ for a in ax:
         #b.legend(frameon=False, loc='lower right')
 #fig.tight_layout()
 fig.tight_layout(rect=(0,0,1,0.95))
+plt.savefig("figures/chng_left_right_concordance.pdf")
 plt.show()
 
 
@@ -255,13 +255,13 @@ def add_stat_annotation(ax, bp, pval):
     ax.text((x1+x2)/2, y_annotation - 0.50, "p={:.4f}".format(pval), ha='center', va='bottom', fontsize=7)
 
 # Create the figure and axes
-fig, ax = plt.subplots(2,2, figsize=(12*cm, 12*cm))
+fig, ax = plt.subplots(2,2, figsize=(8*cm, 12*cm))
 
 # Add the boxplots to the axes
 bp1 = ax[0][0].boxplot([case_res, control_res], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['case', 'control'])
-bp2 = ax[0][1].boxplot([case_res_n, control_res_n], patch_artist=True, boxprops=dict(facecolor=cmap[1]),labels = ['case', 'control'])
+bp2 = ax[0][1].boxplot([case_res_n, control_res_n], patch_artist=True, boxprops=dict(facecolor=cmap[3]),labels = ['case', 'control'])
 bp3 = ax[1][0].boxplot([case_globo, control_globo], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['case','control'])
-bp4 = ax[1][1].boxplot([case_globo_n, control_globo_n], patch_artist=True, boxprops=dict(facecolor=cmap[1]), labels = ['case', 'control'])
+bp4 = ax[1][1].boxplot([case_globo_n, control_globo_n], patch_artist=True, boxprops=dict(facecolor=cmap[3]), labels = ['case', 'control'])
 boxplots = [bp1, bp2, bp3, bp4]
 
 lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes[0:2]]
@@ -277,10 +277,14 @@ ax[0][1].set_ylabel('ANI')
 ax[1][1].set_ylabel('ANI')
 ax[1][0].set_ylabel('ANI')
 
-ax[0][0].text(.05, 1.09, rf"M. restricta ", ha='left', va='top', transform=ax[0][0].transAxes)
-ax[0][1].text(.05, 1.09, 'M. restricta', ha='left', va='top', transform=ax[0][1].transAxes)
-ax[1][1].text(.05, 1.09, 'M. globosa', ha='left', va='top', transform=ax[1][1].transAxes)
-ax[1][0].text(.05, 1.09, 'M. globosa', ha='left', va='top', transform=ax[1][0].transAxes)
+#for l in range(2):
+    #for k in range(2):
+        #ax[l][k].set_ylim([85,103])
+
+ax[0][0].text(.05, 1.09, rf"M. restricta ", ha='left', va='top', transform=ax[0][0].transAxes, fontsize = 8)
+ax[0][1].text(.05, 1.09, 'M. restricta', ha='left', va='top', transform=ax[0][1].transAxes, fontsize = 8)
+ax[1][1].text(.05, 1.09, 'M. globosa', ha='left', va='top', transform=ax[1][1].transAxes, fontsize = 8)
+ax[1][0].text(.05, 1.09, 'M. globosa', ha='left', va='top', transform=ax[1][0].transAxes, fontsize = 8)
 
 
 
@@ -309,4 +313,5 @@ for a in ax:
 
 fig.legend([bp1["boxes"][0], bp2["boxes"][0]], ['sylph adjusted', 'naive containment'], loc='upper center', frameon=False, bbox_transform = plt.gcf().transFigure, ncol = 2)
 fig.tight_layout(rect=(0,0,1,0.95))
+plt.savefig("figures/chng_adjusted_ani_pvalues.pdf")
 plt.show()

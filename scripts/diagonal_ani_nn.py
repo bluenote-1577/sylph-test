@@ -8,6 +8,7 @@ import seaborn as sns
 from dataclasses import dataclass
 from natsort import natsorted
 cmap = sns.color_palette("muted")
+plt_diag = False
 
 np.random.seed(0)
 def rand_jitter(arr):
@@ -40,6 +41,17 @@ plt.rcParams.update({'font.family':'arial'})
 
 results = []
 true_results = []
+
+prita_files_gap = [
+        "/home/jshaw/projects/prita_test/gtdb-gap/gtdb-on-reads/gtdb-on-ill-c100.tsv",
+        "/home/jshaw/projects/prita_test//gtdb-gap/gtdb-on-reads/gtdb-on-ill-c1000.tsv",
+        "/home/jshaw/projects/prita_test//gtdb-gap/gtdb-on-reads/gtdb-on-nano-c100.tsv",
+        "/home/jshaw/projects/prita_test//gtdb-gap/gtdb-on-reads/gtdb-on-nano-c1000.tsv",
+        "/home/jshaw/projects/prita_test//gtdb-gap/gtdb-on-reads/gtdb-on-pac-c100.tsv",
+        "/home/jshaw/projects/prita_test//gtdb-gap/gtdb-on-reads/gtdb-on-pac-c1000.tsv",
+        ]
+
+
 prita_files = [
         "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-ill-c100.tsv",
         "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-ill-c1000.tsv",
@@ -55,10 +67,12 @@ truth_files = [
         ]
 
 mash_files = [
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-ill-mash-s1000.tsv",
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-nano-mash-s1000.tsv",
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-pac-mash-s1000.tsv",
+        "/home/jshaw/projects/prita_test/gtdb-gap/gtdb-on-reads/gtdb-on-ill-mash-s1000.tsv",
+        "/home/jshaw/projects/prita_test/gtdb-gap/gtdb-on-reads/gtdb-on-nano-mash-s1000.tsv",
+        "/home/jshaw/projects/prita_test/gtdb-gap/gtdb-on-reads/gtdb-on-pac-mash-s1000.tsv",
         ]
+
+prita_files = prita_files_gap
 
 mash_results = []
 for file in mash_files:
@@ -133,41 +147,130 @@ for file in truth_files:
         res = result(mean_cov, adj_ani, naive_ani, median_cov, ref_file, query_file, cis[0], cis[1], lam, 0, final_ani, low)
         true_results[-1].append(res)
 
-query_to_ani = defaultdict(list)
-query_to_err = defaultdict(list)
-query_to_anis_nn = defaultdict(list)
 
-for res in true_results[0]:
-    if res.final_ani > 90:
-        query_to_anis_nn[res.ref_file].append(res.final_ani)
-for (key,res) in query_to_anis_nn.items():
-    query_to_ani[key].append(np.max(res))
-for res in results[1]:
-    if not res.low and res.lam != None:
-        query_to_ani[res.ref_file].append(res.final_ani)
-        query_to_err[res.ref_file].append(res.high_ani)
-        query_to_err[res.ref_file].append(res.low_ani)
-for res in mash_results[0]:
-    query_to_ani[res[0]].append(res[1])
+fig, ax = plt.subplots(2, 3, figsize = (16* cm , 8 * cm), sharey = True, sharex = True)
+s = 8
 
-x = []
-y = []
-z = []
-ymax = []
-ymin = []
+for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
+    for j in range(2):
+        query_to_ani = defaultdict(list)
+        query_to_err = defaultdict(list)
+        query_to_anis_nn = defaultdict(list)
+        query_to_diff = defaultdict(list)
+        query_to_eff_cov = dict()
+        for res in true_results[j]:
+            if res.final_ani > 90:
+                query_to_anis_nn[res.ref_file].append(res.final_ani)
+        for (key,res) in query_to_anis_nn.items():
+            query_to_ani[key].append(np.max(res))
+        for res in results[2*i + j]:
+            #if not res.low and res.lam != None:
+            if not res.low:
+                query_to_eff_cov[res.ref_file] = res.lam
+                if res.lam != None:
+                    query_to_ani[res.ref_file].append(res.final_ani)
+                else:
+                    query_to_ani[res.ref_file].append(res.naive_ani)
+                query_to_err[res.ref_file].append(res.high_ani)
+                query_to_err[res.ref_file].append(res.low_ani)
+                query_to_diff[res.ref_file].append(res.final_ani - query_to_ani[res.ref_file][0])
+        for res in mash_results[i]:
+            query_to_ani[res[0]].append(res[1])
+            query_to_diff[res[0]].append(res[1] - query_to_ani[res[0]][0])
 
-for (key,val) in query_to_ani.items():
-    if len(val) >= 3:
-        print(key)
-        print(query_to_err[key])
-        x.append(val[0])
-        y.append(val[1])
-        z.append(val[2])
-        ymax.append(query_to_err[key][0] - val[1])
-        ymin.append(np.abs(query_to_err[key][1] - val[1]))
-plt.errorbar(x,y,yerr = [ymin,ymax], fmt = 'o', c = 'orange')
-plt.scatter(x,z)
-plt.plot([90,100],[90,100],'--', c = 'black')
+        x = []
+        x_lam = []
+        y = []
+        z = []
+        ymax = []
+        ymin = []
+
+        y_diff = []
+        z_diff = []
+
+        covered = 0
+        total = 0
+        for (key,val) in query_to_ani.items():
+            if len(val) >= 3:
+                x.append(val[0])
+                y.append(val[1])
+                z.append(val[2])
+                if query_to_err[key][0] == None:
+                    continue
+                x_lam.append(query_to_eff_cov[key])
+                y_diff.append(query_to_diff[key][0])
+                z_diff.append(query_to_diff[key][1])
+                if z_diff[-1] > y_diff[-1]:
+                    print(key,val)
+                ymax.append(query_to_err[key][0] - val[1])
+                ymin.append(np.abs(query_to_err[key][1] - val[1]))
+                if x_lam[-1] < 10:
+                    if val[0] <= query_to_err[key][0] and val[0] >= query_to_err[key][1]:
+                        covered += 1
+                    total += 1
+        #ax[j][i].errorbar(x,y,yerr = [ymin,ymax], fmt = 'o', c = 'orange', ms = 2)
+
+        ax[j][i].spines[['right', 'top']].set_visible(False)
+        if plt_diag:
+            if j == 1:
+                ax[j][i].scatter(x,y,s = s, color = cmap[2], alpha = 0.5, label = 'c = 1000')
+                ax[j][i].set_xlabel("True 31-mer ANI")
+            else:
+                if i == 0:
+                    ax[j][i].set_title("Illumina")
+                elif i == 1:
+                    ax[j][i].set_title("Nanopore-old")
+                elif i == 2:
+                    ax[j][i].set_title("PacBio")
+
+                ax[j][i].scatter(x,y,s = s, color = cmap[0], alpha = 0.5, label = 'c = 100')
+            ax[j][i].scatter(x,z, s= s, color = cmap[3], alpha = 0.5, label = 'Naive')
+            ax[j][i].plot([90,100],[90,100],'--', c = 'black')
+            print('covered: ' + str(covered/total) + 'total: ' + str(total))
+            ax[j][i].set_ylim([85,100])
+            if i == 0:
+                ax[j][i].set_ylabel("Estimated ANI")
+
+
+        else:
+            if j == 1:
+                ax[j][i].scatter(x_lam,y_diff,s = s, color = cmap[2], alpha = 0.5, label = 'c = 1000')
+                ax[j][i].set_xlabel("Estimated lambda")
+            else:
+                if i == 0:
+                    ax[j][i].set_title("Illumina")
+                elif i == 1:
+                    ax[j][i].set_title("Nanopore-old")
+                elif i == 2:
+                    ax[j][i].set_title("PacBio")
+
+                ax[j][i].scatter(x_lam,y_diff,s = s, color = cmap[0], alpha = 0.5, label = 'c = 100')
+            ax[j][i].scatter(x_lam,z_diff, s= s, color = cmap[3], alpha = 0.5, label = 'Naive')
+            ax[j][i].set_xscale('log')
+            ax[j][i].axhline(0, c = 'black', ls = '--')
+            #ax[j][i].plot([90,100],[90,100],'--', c = 'black')
+            print('covered: ' + str(covered/total) + 'total: ' + str(total))
+            if i == 0:
+                ax[j][i].set_ylabel("ANI deviation from truth")
+
+        if plt_diag:
+            lg = ax[j][i].legend(frameon = False, loc='upper left' )
+        else:
+            lg = ax[j][i].legend(frameon = False, loc='lower right' )
+        #change the marker size manually for both lines
+        lg.legendHandles[0]._sizes = [20]
+        lg.legendHandles[1]._sizes = [20] 
+
+            #ax[j][i].set_ylim([85,100])
+if plt_diag:
+    plt.savefig("figures/mock_diag.pdf")
+else:
+    plt.savefig("figures/mock_deviation.pdf")
 plt.show()
+
+    #plt.scatter(x_lam, y_diff)
+    #plt.scatter(x_lam, z_diff)
+    ##plt.xscale('log')
+    #plt.show()
 
 
