@@ -38,7 +38,7 @@ mag_to_pval = dict()
 #pval_file = './98-ordered_pvals.txt'
 pval_file = './98-fixed-covs-ordered_pvals.txt'
 #pval_file = './95-fixed-covs-ordered_pvals.txt'
-order_file = './ordered_mags_by_cluster.txt'
+order_file = './121ordered_mags_by_cluster.txt'
 mag_to_c = dict()
 
 for line in open(pval_file,'r'):
@@ -102,5 +102,4 @@ ax.spines[['right', 'top']].set_visible(False)
 plt.axhline(-np.log10(0.01))
 plt.ylabel("-log10(p-val)")
 plt.xlabel("UHGG MAGs coloured by species")
-plt.xticks([])
 plt.show()
