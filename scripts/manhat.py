@@ -34,8 +34,8 @@ mag_to_effect = dict()
 #pval_file = './no-adj_ordered_pvals.txt'
 #pval_file = './ordered_pvals.txt'
 #pval_file = './98-ordered_pvals.txt'
-#pval_file = './98-fixed-covs-ordered_pvals.txt'
-pval_file = './95-fixed-covs-ordered_pvals.txt'
+pval_file = './98-fixed-covs-ordered_pvals.txt'
+#pval_file = './95-fixed-covs-ordered_pvals.txt'
 order_file = './121ordered_mags_by_cluster.txt'
 metadata = './genomes-all_metadata.tsv'
 mag_to_c = dict()
@@ -142,6 +142,7 @@ ax.spines[['right', 'top']].set_visible(False)
 plt.xticks([])
 plt.axhline(-np.log10(q))
 
+<<<<<<< HEAD
 #plt.scatter(range(len(qvals)), fd,c = c,s = 1)
 plt.ylabel("-log10(q-val)")
 plt.xlabel("UHGG MAGs coloured and clustered by species")
@@ -162,4 +163,10 @@ plt.xticks([])
 ax.spines[['right', 'top']].set_visible(False)
 plt.axhline(-np.log10(q))
 plt.savefig("figures/agatho.png", dpi = 300)
+=======
+#plt.scatter(range(len(pvals)), fd,c = c,s = 1)
+plt.axhline(-np.log10(0.01))
+plt.ylabel("-log10(p-val)")
+plt.xlabel("UHGG MAGs coloured by species")
+>>>>>>> 96214eeb4a28b4736b42976cea84c1de2beebf78
 plt.show()
