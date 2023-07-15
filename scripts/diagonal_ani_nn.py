@@ -1,4 +1,5 @@
 import sys
+from scipy import stats
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
@@ -8,7 +9,7 @@ import seaborn as sns
 from dataclasses import dataclass
 from natsort import natsorted
 cmap = sns.color_palette("muted")
-plt_diag = False
+plt_diag = True
 
 np.random.seed(0)
 def rand_jitter(arr):
@@ -42,37 +43,37 @@ plt.rcParams.update({'font.family':'arial'})
 results = []
 true_results = []
 
-prita_files_gap = [
-        "/home/jshaw/projects/prita_test/gtdb-gap/gtdb-on-reads/gtdb-on-ill-c100.tsv",
-        "/home/jshaw/projects/prita_test//gtdb-gap/gtdb-on-reads/gtdb-on-ill-c1000.tsv",
-        "/home/jshaw/projects/prita_test//gtdb-gap/gtdb-on-reads/gtdb-on-nano-c100.tsv",
-        "/home/jshaw/projects/prita_test//gtdb-gap/gtdb-on-reads/gtdb-on-nano-c1000.tsv",
-        "/home/jshaw/projects/prita_test//gtdb-gap/gtdb-on-reads/gtdb-on-pac-c100.tsv",
-        "/home/jshaw/projects/prita_test//gtdb-gap/gtdb-on-reads/gtdb-on-pac-c1000.tsv",
+sylph_files_gap = [
+        "/home/jshaw/projects/sylph_test/gtdb-gap/gtdb-on-reads/gtdb-on-ill-c100.tsv",
+        "/home/jshaw/projects/sylph_test//gtdb-gap/gtdb-on-reads/gtdb-on-ill-c1000.tsv",
+        "/home/jshaw/projects/sylph_test//gtdb-gap/gtdb-on-reads/gtdb-on-nano-c100.tsv",
+        "/home/jshaw/projects/sylph_test//gtdb-gap/gtdb-on-reads/gtdb-on-nano-c1000.tsv",
+        "/home/jshaw/projects/sylph_test//gtdb-gap/gtdb-on-reads/gtdb-on-pac-c100.tsv",
+        "/home/jshaw/projects/sylph_test//gtdb-gap/gtdb-on-reads/gtdb-on-pac-c1000.tsv",
         ]
 
 
-prita_files = [
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-ill-c100.tsv",
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-ill-c1000.tsv",
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-nano-c100.tsv",
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-nano-c1000.tsv",
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-pac-c100.tsv",
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/gtdb-on-pac-c1000.tsv",
+sylph_files = [
+        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-ill-c100.tsv",
+        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-ill-c1000.tsv",
+        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-nano-c100.tsv",
+        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-nano-c1000.tsv",
+        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-pac-c100.tsv",
+        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-pac-c1000.tsv",
         ]
 
 truth_files = [
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/true-gtdb-on-on-mock-c100.tsv",
-        "/home/jshaw/projects/prita_test/gtdb-on-reads/true-gtdb-on-on-mock.tsv",
+        "/home/jshaw/projects/sylph_test/gtdb-on-reads/true-gtdb-on-on-mock-c100.tsv",
+        "/home/jshaw/projects/sylph_test/gtdb-on-reads/true-gtdb-on-on-mock.tsv",
         ]
 
 mash_files = [
-        "/home/jshaw/projects/prita_test/gtdb-gap/gtdb-on-reads/gtdb-on-ill-mash-s1000.tsv",
-        "/home/jshaw/projects/prita_test/gtdb-gap/gtdb-on-reads/gtdb-on-nano-mash-s1000.tsv",
-        "/home/jshaw/projects/prita_test/gtdb-gap/gtdb-on-reads/gtdb-on-pac-mash-s1000.tsv",
+        "/home/jshaw/projects/sylph_test/gtdb-gap/gtdb-on-reads/gtdb-on-ill-mash-s1000.tsv",
+        "/home/jshaw/projects/sylph_test/gtdb-gap/gtdb-on-reads/gtdb-on-nano-mash-s1000.tsv",
+        "/home/jshaw/projects/sylph_test/gtdb-gap/gtdb-on-reads/gtdb-on-pac-mash-s1000.tsv",
         ]
 
-prita_files = prita_files_gap
+sylph_files = sylph_files_gap
 
 mash_results = []
 for file in mash_files:
@@ -82,7 +83,7 @@ for file in mash_files:
         file = line.split()[4].split('/')[-1]
         mash_results[-1].append((file,float(ani) * 100))
 
-for file in prita_files:
+for file in sylph_files:
     results.append([])
     for line in open(file,'r'):
         if 'Naive' in line:
@@ -148,7 +149,7 @@ for file in truth_files:
         true_results[-1].append(res)
 
 
-fig, ax = plt.subplots(2, 3, figsize = (16* cm , 8 * cm), sharey = True, sharex = True)
+fig, ax = plt.subplots(2, 3, figsize = (16* cm , 12 * cm), sharey = True, sharex = True)
 s = 8
 
 for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
@@ -212,8 +213,11 @@ for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
 
         ax[j][i].spines[['right', 'top']].set_visible(False)
         if plt_diag:
+            good_lr = stats.linregress(x,y)
+            naive_lr = stats.linregress(x,z)
+
             if j == 1:
-                ax[j][i].scatter(x,y,s = s, color = cmap[2], alpha = 0.5, label = 'c = 1000')
+                ax[j][i].scatter(x,y,s = s, color = cmap[2], alpha = 0.5, label = rf"c = 1000, $R^2$ = {round(good_lr.rvalue**2,3)}")
                 ax[j][i].set_xlabel("True 31-mer ANI")
             else:
                 if i == 0:
@@ -223,8 +227,8 @@ for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
                 elif i == 2:
                     ax[j][i].set_title("PacBio")
 
-                ax[j][i].scatter(x,y,s = s, color = cmap[0], alpha = 0.5, label = 'c = 100')
-            ax[j][i].scatter(x,z, s= s, color = cmap[3], alpha = 0.5, label = 'Naive')
+                ax[j][i].scatter(x,y,s = s, color = cmap[0], alpha = 0.5, label = rf"c = 100, $R^2$ = {round(good_lr.rvalue**2,3)}")
+            ax[j][i].scatter(x,z, s= s, color = cmap[3], alpha = 0.5, label = rf"Naive, $R^2$ = {round(naive_lr.rvalue**2,3)}")
             ax[j][i].plot([90,100],[90,100],'--', c = 'black')
             print('covered: ' + str(covered/total) + 'total: ' + str(total))
             ax[j][i].set_ylim([85,100])

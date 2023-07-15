@@ -41,7 +41,8 @@ class result:
 
 
 #21-500-10-0.48621887049186563.tsv
-files_g = [glob.glob('synthetic_simulated_results/31-*-*'), glob.glob('synthetic_simulated_results_95/31-*-*'), glob.glob('synthetic_simulated_results_85/31-*-*')]
+#files_g = [glob.glob('synthetic_simulated_results/31-*-*'), glob.glob('synthetic_simulated_results_95/31-*-*'), glob.glob('synthetic_simulated_results_85/31-*-*')]
+files_g = [glob.glob('synthetic_simulated_results_jul3/31-*-*'), glob.glob('synthetic_simulated_results_95_jul3/31-*-*'), glob.glob('synthetic_simulated_results_85_jul3/31-*-*')]
 
 #files = sys.argv[2:]
 true_anis = [100, 96.2, 90.5]
@@ -266,7 +267,7 @@ for index in range(3):
             ani_label = ', ANI = 96.2'
         if index == 2:
             ani_label = ', ANI = 90.5'
-        ax[0][index].scatter(np.array(l)[:,0], np.array(l)[:,1], color = cmap[1], s = 10, alpha = 1.0, facecolors='none',label='c = 1000' + ani_label)
+        ax[0][index].scatter(np.array(l)[:,0], np.array(l)[:,1], color = cmap[2], s = 10, alpha = 1.0, facecolors='none',label='c = 1000' + ani_label)
         ax[0][index].plot(r,r, '--', c = 'black')
 
         ax[0][0].set_ylabel("Predicted effective coverage (lambda)")
@@ -276,10 +277,10 @@ for index in range(3):
         ax[2][1].set_xlabel("True effective coverage")
         ax[2][2].set_xlabel("True effective coverage")
 
-        ax[1][index].scatter(np.array(l500)[:,0], np.array(l500)[:,1], color = cmap[2], s = 10, alpha = 1.0, facecolors='none',label = 'c = 500' + ani_label)
+        ax[1][index].scatter(np.array(l500)[:,0], np.array(l500)[:,1], color = cmap[1], s = 10, alpha = 1.0, facecolors='none',label = 'c = 500' + ani_label)
         ax[1][index].plot(r,r, '--', c = 'black')
         #ax[1][index].yaxis.set_visible(False)
-        ax[2][index].scatter(np.array(l100)[:,0], np.array(l100)[:,1], color = cmap[3], s = 10, alpha = 1.0, facecolors='none',label = 'c = 100' + ani_label)
+        ax[2][index].scatter(np.array(l100)[:,0], np.array(l100)[:,1], color = cmap[0], s = 10, alpha = 1.0, facecolors='none',label = 'c = 100' + ani_label)
         ax[2][index].plot(r,r,'--', c = 'black')
         #ax[2][index].yaxis.set_visible(False)
         for b in ax:

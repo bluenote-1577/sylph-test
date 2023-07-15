@@ -27,7 +27,7 @@ class result:
     low_ani: float
     high_ani: float
     lam: float
-    true_eff_cov: float
+    eff_cov: float
     final_ani: float
     low: bool
     contig_name: str
@@ -43,8 +43,11 @@ plt.rcParams.update({'font.size': 7})
 plt.rcParams.update({'font.family':'arial'})
 
 results = []
-#metadata = '/home/jshaw/projects/prita_test/atopic_controls_table.txt'
-metadata = '/home/jshaw/projects/prita_test/all_case_control_table_nofail.txt'
+metadata = '/home/jshaw/projects/sylph_test/atopic_controls_table.txt'
+#metadata = '/home/jshaw/projects/sylph_test/all_case_control_table_nofail.txt'
+#metadata = '/home/jshaw/projects/sylph_test/spt_case.txt'
+
+boxplot_covs = True
 
 prev_file = None
 for line in open(metadata,'r'):
@@ -58,9 +61,9 @@ for line in open(metadata,'r'):
         prev_file = None
     read_file_to_status[file] = case_control
 
-print(read_file_to_pair_dict)
 prita_files = [
-        "/home/jshaw/projects/prita_test/results/c100-fungi+aureus.tsv",
+        #"/home/jshaw/projects/sylph_test/results/c100-fungi+aureus.tsv",
+        "/home/jshaw/projects/sylph_test/results/c100-fungi-jul2.txt",
         ]
 
 for file in prita_files:
@@ -93,7 +96,7 @@ for file in prita_files:
         mean_cov = float(spl[9])
         median_cov = float(spl[8])
         contig_nam = spl[-1]
-        res = result(mean_cov, adj_ani, naive_ani, median_cov, ref_file, query_file, cis[0], cis[1], lam, 0, final_ani, low, contig_nam)
+        res = result(mean_cov, adj_ani, naive_ani, median_cov, ref_file, query_file, cis[0], cis[1], lam, float(spl[5]), final_ani, low, contig_nam)
         results[-1].append(res)
 
 
@@ -122,7 +125,8 @@ globo_used_pairs = set()
 
 fig, ax = plt.subplots(2,2,figsize = (8* cm , 8 * cm))
 for res in results[0]:
-    srr = res.query_file.split('.')[0].split('/')[-1]
+    #srr = res.query_file.split('/')[-1].split('_')[0]
+    srr = res.query_file.split('/')[-1].split('.')[0].split('_')[0]
     if srr not in read_file_to_pair_dict:
         continue
     pair = natsorted([srr,read_file_to_pair_dict[srr]])
@@ -132,11 +136,22 @@ for res in results[0]:
         if tuple(pair) in res_used_pairs:
             continue
         if read_file_to_status[srr] == 'Case':
-            case_res.append(res.final_ani)
-            case_res_n.append(res.naive_ani)
+            if not boxplot_covs:
+                case_res.append(res.final_ani)
+                case_res_n.append(res.naive_ani)
+
+            else:
+                case_res.append(res.mean_cov)
+                case_res_n.append(res.mean_cov)
         else:
-            control_res.append(res.final_ani)
-            control_res_n.append(res.naive_ani)
+            if not boxplot_covs:
+                control_res.append(res.final_ani)
+                control_res_n.append(res.naive_ani)
+
+            else:
+                control_res.append(res.mean_cov)
+                control_res_n.append(res.mean_cov)
+
         res_used_pairs.add(tuple(pair))
     if 'globo' in res.contig_name:
         pair_to_res_globo[tuple(pair)].append((res.final_ani))
@@ -145,13 +160,25 @@ for res in results[0]:
         if tuple(pair) in globo_used_pairs:
             continue
         if read_file_to_status[srr] == 'Case':
-            case_globo.append(res.final_ani)
-            case_globo_n.append(res.naive_ani)
+            if not boxplot_covs:
+                case_globo.append(res.final_ani)
+                case_globo_n.append(res.naive_ani)
+
+            else:
+                case_globo.append(res.mean_cov)
+                case_globo_n.append(res.mean_cov)
+
         else:
-            control_globo.append(res.final_ani)
-            control_globo_n.append(res.naive_ani)
+            if not boxplot_covs:
+                control_globo.append(res.final_ani)
+                control_globo_n.append(res.naive_ani)
+            else:
+                control_globo.append(res.mean_cov)
+                control_globo_n.append(res.mean_cov)
+
         globo_used_pairs.add(tuple(pair))
 
+print(len(globo_used_pairs))
 
 sc = np.array(list(pair_to_res.values()))
 sc2 = np.array(list(pair_to_res_naive.values()))
@@ -239,14 +266,15 @@ def add_stat_annotation(ax, bp, pval):
     x2 = 2
 
     # Add the asterisk if the p-value is significant
+    scale = 0.085
     if pval < 0.001:
-        ax.plot([x1, x1, x2, x2], [y_annotation, y_annotation + 0.03 * y_range, y_annotation + 0.03 * y_range, y_annotation], lw=1.5, c='k')
+        ax.plot([x1, x1, x2, x2], [y_annotation, y_annotation + scale * y_range, y_annotation + scale * y_range, y_annotation], lw=1.5, c='k')
         ax.text((x1+x2)/2, y_annotation + 0.01 * y_range, "***", ha='center', va='bottom', fontsize = 11)
     elif pval < 0.01:
-        ax.plot([x1, x1, x2, x2], [y_annotation, y_annotation + 0.03 * y_range, y_annotation + 0.03 * y_range, y_annotation], lw=1.5, c='k')
+        ax.plot([x1, x1, x2, x2], [y_annotation, y_annotation + scale * y_range, y_annotation + scale * y_range, y_annotation], lw=1.5, c='k')
         ax.text((x1+x2)/2, y_annotation + 0.01 * y_range, "**", ha='center', va='bottom', fontsize = 11)
     elif pval < 0.05:
-        ax.plot([x1, x1, x2, x2], [y_annotation, y_annotation + 0.03 * y_range, y_annotation + 0.03 * y_range, y_annotation], lw=1.5, c='k')
+        ax.plot([x1, x1, x2, x2], [y_annotation, y_annotation + scale * y_range, y_annotation + scale * y_range, y_annotation], lw=1.5, c='k')
         ax.text((x1+x2)/2, y_annotation + 0.01 * y_range, "*", ha='center', va='bottom', fontsize = 11)
 
 
@@ -255,7 +283,7 @@ def add_stat_annotation(ax, bp, pval):
     ax.text((x1+x2)/2, y_annotation - 0.50, "p={:.4f}".format(pval), ha='center', va='bottom', fontsize=7)
 
 # Create the figure and axes
-fig, ax = plt.subplots(2,2, figsize=(8*cm, 12*cm))
+fig, ax = plt.subplots(2,2, figsize=(8*cm, 8*cm))
 
 # Add the boxplots to the axes
 bp1 = ax[0][0].boxplot([case_res, control_res], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['case', 'control'])
@@ -263,6 +291,8 @@ bp2 = ax[0][1].boxplot([case_res_n, control_res_n], patch_artist=True, boxprops=
 bp3 = ax[1][0].boxplot([case_globo, control_globo], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['case','control'])
 bp4 = ax[1][1].boxplot([case_globo_n, control_globo_n], patch_artist=True, boxprops=dict(facecolor=cmap[3]), labels = ['case', 'control'])
 boxplots = [bp1, bp2, bp3, bp4]
+
+print(f"n = {len(case_res) + len(case_globo)}")
 
 lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes[0:2]]
 lines, labels = [sum(lol, []) for lol in zip(*lines_labels)]
@@ -281,10 +311,10 @@ ax[1][0].set_ylabel('ANI')
     #for k in range(2):
         #ax[l][k].set_ylim([85,103])
 
-ax[0][0].text(.05, 1.09, rf"M. restricta ", ha='left', va='top', transform=ax[0][0].transAxes, fontsize = 8)
-ax[0][1].text(.05, 1.09, 'M. restricta', ha='left', va='top', transform=ax[0][1].transAxes, fontsize = 8)
-ax[1][1].text(.05, 1.09, 'M. globosa', ha='left', va='top', transform=ax[1][1].transAxes, fontsize = 8)
-ax[1][0].text(.05, 1.09, 'M. globosa', ha='left', va='top', transform=ax[1][0].transAxes, fontsize = 8)
+ax[0][0].text(.05, 1.15, rf"M. restricta ", ha='left', va='top', transform=ax[0][0].transAxes, fontsize = 8)
+ax[0][1].text(.05, 1.15, 'M. restricta', ha='left', va='top', transform=ax[0][1].transAxes, fontsize = 8)
+ax[1][1].text(.05, 1.15, 'M. globosa', ha='left', va='top', transform=ax[1][1].transAxes, fontsize = 8)
+ax[1][0].text(.05, 1.15, 'M. globosa', ha='left', va='top', transform=ax[1][0].transAxes, fontsize = 8)
 
 
 

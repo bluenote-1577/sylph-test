@@ -40,32 +40,32 @@ results = []
 mash_results = []
 sour_results = []
 
-prita_files = [
-        "/home/jshaw/projects/prita_test/results_gap/mock2_ill_c100",
-        "/home/jshaw/projects/prita_test/results_gap/mock2_ill_c1000",
-        "/home/jshaw/projects/prita_test/results_gap/mock2_nano_c100",
-        "/home/jshaw/projects/prita_test/results_gap/mock2_nano_c1000",
-        "/home/jshaw/projects/prita_test/results_gap/mock2_pac_c100",
-        "/home/jshaw/projects/prita_test/results_gap/mock2_pac_c1000",]
+sylph_files = [
+        "/home/jshaw/projects/sylph_test/results_gap/mock2_ill_c100",
+        "/home/jshaw/projects/sylph_test/results_gap/mock2_ill_c1000",
+        "/home/jshaw/projects/sylph_test/results_gap/mock2_nano_c100",
+        "/home/jshaw/projects/sylph_test/results_gap/mock2_nano_c1000",
+        "/home/jshaw/projects/sylph_test/results_gap/mock2_pac_c100",
+        "/home/jshaw/projects/sylph_test/results_gap/mock2_pac_c1000",]
 
 
-#prita_files = [
-#        "/home/jshaw/projects/prita_test/results/mock2_ill_c100",
-#        "/home/jshaw/projects/prita_test/results/mock2_ill_c1000",
-#        "/home/jshaw/projects/prita_test/results/mock2_nano_c100",
-#        "/home/jshaw/projects/prita_test/results/mock2_nano_c1000",
-#        "/home/jshaw/projects/prita_test/results/mock2_pac_c100",
-#        "/home/jshaw/projects/prita_test/results/mock2_pac_c1000",]
+#sylph_files = [
+#        "/home/jshaw/projects/sylph_test/results/mock2_ill_c100",
+#        "/home/jshaw/projects/sylph_test/results/mock2_ill_c1000",
+#        "/home/jshaw/projects/sylph_test/results/mock2_nano_c100",
+#        "/home/jshaw/projects/sylph_test/results/mock2_nano_c1000",
+#        "/home/jshaw/projects/sylph_test/results/mock2_pac_c100",
+#        "/home/jshaw/projects/sylph_test/results/mock2_pac_c1000",]
 
 mash_files = [
-        "/home/jshaw/projects/prita_test/results/mash_ill",
-        "/home/jshaw/projects/prita_test/results/mash_nano",
-        "/home/jshaw/projects/prita_test/results/mash_pac",]
+        "/home/jshaw/projects/sylph_test/results/mash_ill",
+        "/home/jshaw/projects/sylph_test/results/mash_nano",
+        "/home/jshaw/projects/sylph_test/results/mash_pac",]
 
 sourmash_files = [
-        "/home/jshaw/projects/prita_test/results/sour_ill",
-        "/home/jshaw/projects/prita_test/results/sour_nano",
-        "/home/jshaw/projects/prita_test/results/sour_pac",]
+        "/home/jshaw/projects/sylph_test/results/sour_ill",
+        "/home/jshaw/projects/sylph_test/results/sour_nano",
+        "/home/jshaw/projects/sylph_test/results/sour_pac",]
 
 for file in mash_files:
     mash_results.append([])
@@ -82,7 +82,7 @@ for file in sourmash_files:
         sour_results[-1].append(float(ani) * 100)
 
 
-for file in prita_files:
+for file in sylph_files:
     results.append([])
     for line in open(file,'r'):
         if 'Naive' in line:
@@ -186,6 +186,7 @@ for (i,x) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
     bp = ax[i].boxplot(boxes, showfliers=False, positions = positions, widths = width, labels=labels)
     for median in bp['medians']:
         median.set_color('black')
+        print(median.get_ydata())
     ax[i].tick_params(axis='x', labelrotation=60)
 
 
