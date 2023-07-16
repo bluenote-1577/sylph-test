@@ -1,0 +1,2 @@
+Read_file	Genome_file	Adjusted_ANI	Naive_ANI	ANI_5-95_percentile	Eff_cov	Eff_lambda	Lambda_5-95_percentile	Median_cov	Mean_cov	Containment_ind	Contig_name
+synthetic_simulated_reads/10-0.4481404746557166-synthetic.fq	./refs/k.aerogenes.fa	87.55	84.10	85.93-88.68	0.547	0.547	0.39-0.81	1	0.033	125/4750	NC_015663.1 Klebsiella aerogenes KCTC 2190, complete sequence
