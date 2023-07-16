@@ -9,7 +9,7 @@ import seaborn as sns
 from dataclasses import dataclass
 from natsort import natsorted
 cmap = sns.color_palette("muted")
-plt_diag = True
+plt_diag = False
 
 np.random.seed(0)
 def rand_jitter(arr):
@@ -44,33 +44,33 @@ results = []
 true_results = []
 
 sylph_files_gap = [
-        "/home/jshaw/projects/sylph_test/gtdb-gap/gtdb-on-reads/gtdb-on-ill-c100.tsv",
-        "/home/jshaw/projects/sylph_test//gtdb-gap/gtdb-on-reads/gtdb-on-ill-c1000.tsv",
-        "/home/jshaw/projects/sylph_test//gtdb-gap/gtdb-on-reads/gtdb-on-nano-c100.tsv",
-        "/home/jshaw/projects/sylph_test//gtdb-gap/gtdb-on-reads/gtdb-on-nano-c1000.tsv",
-        "/home/jshaw/projects/sylph_test//gtdb-gap/gtdb-on-reads/gtdb-on-pac-c100.tsv",
-        "/home/jshaw/projects/sylph_test//gtdb-gap/gtdb-on-reads/gtdb-on-pac-c1000.tsv",
+        "gtdb-gap/gtdb-on-reads/gtdb-on-ill-c100.tsv",
+        "gtdb-gap/gtdb-on-reads/gtdb-on-ill-c1000.tsv",
+        "gtdb-gap/gtdb-on-reads/gtdb-on-nano-c100.tsv",
+        "gtdb-gap/gtdb-on-reads/gtdb-on-nano-c1000.tsv",
+        "gtdb-gap/gtdb-on-reads/gtdb-on-pac-c100.tsv",
+        "gtdb-gap/gtdb-on-reads/gtdb-on-pac-c1000.tsv",
         ]
 
 
 sylph_files = [
-        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-ill-c100.tsv",
-        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-ill-c1000.tsv",
-        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-nano-c100.tsv",
-        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-nano-c1000.tsv",
-        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-pac-c100.tsv",
-        "/home/jshaw/projects/sylph_test/gtdb-on-reads/gtdb-on-pac-c1000.tsv",
+        "gtdb-on-reads/gtdb-on-ill-c100.tsv",
+        "gtdb-on-reads/gtdb-on-ill-c1000.tsv",
+        "gtdb-on-reads/gtdb-on-nano-c100.tsv",
+        "gtdb-on-reads/gtdb-on-nano-c1000.tsv",
+        "gtdb-on-reads/gtdb-on-pac-c100.tsv",
+        "gtdb-on-reads/gtdb-on-pac-c1000.tsv",
         ]
 
 truth_files = [
-        "/home/jshaw/projects/sylph_test/gtdb-on-reads/true-gtdb-on-on-mock-c100.tsv",
-        "/home/jshaw/projects/sylph_test/gtdb-on-reads/true-gtdb-on-on-mock.tsv",
+        "gtdb-on-reads/true-gtdb-on-on-mock-c100.tsv",
+        "gtdb-on-reads/true-gtdb-on-on-mock.tsv",
         ]
 
 mash_files = [
-        "/home/jshaw/projects/sylph_test/gtdb-gap/gtdb-on-reads/gtdb-on-ill-mash-s1000.tsv",
-        "/home/jshaw/projects/sylph_test/gtdb-gap/gtdb-on-reads/gtdb-on-nano-mash-s1000.tsv",
-        "/home/jshaw/projects/sylph_test/gtdb-gap/gtdb-on-reads/gtdb-on-pac-mash-s1000.tsv",
+        "gtdb-gap/gtdb-on-reads/gtdb-on-ill-mash-s1000.tsv",
+        "gtdb-gap/gtdb-on-reads/gtdb-on-nano-mash-s1000.tsv",
+        "gtdb-gap/gtdb-on-reads/gtdb-on-pac-mash-s1000.tsv",
         ]
 
 sylph_files = sylph_files_gap

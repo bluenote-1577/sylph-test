@@ -41,12 +41,12 @@ mash_results = []
 sour_results = []
 
 sylph_files = [
-        "/home/jshaw/projects/sylph_test/results_gap/mock2_ill_c100",
-        "/home/jshaw/projects/sylph_test/results_gap/mock2_ill_c1000",
-        "/home/jshaw/projects/sylph_test/results_gap/mock2_nano_c100",
-        "/home/jshaw/projects/sylph_test/results_gap/mock2_nano_c1000",
-        "/home/jshaw/projects/sylph_test/results_gap/mock2_pac_c100",
-        "/home/jshaw/projects/sylph_test/results_gap/mock2_pac_c1000",]
+        "results_gap/mock2_ill_c100",
+        "results_gap/mock2_ill_c1000",
+        "results_gap/mock2_nano_c100",
+        "results_gap/mock2_nano_c1000",
+        "results_gap/mock2_pac_c100",
+        "results_gap/mock2_pac_c1000",]
 
 
 #sylph_files = [
@@ -58,14 +58,14 @@ sylph_files = [
 #        "/home/jshaw/projects/sylph_test/results/mock2_pac_c1000",]
 
 mash_files = [
-        "/home/jshaw/projects/sylph_test/results/mash_ill",
-        "/home/jshaw/projects/sylph_test/results/mash_nano",
-        "/home/jshaw/projects/sylph_test/results/mash_pac",]
+        "results/mash_ill",
+        "results/mash_nano",
+        "results/mash_pac",]
 
 sourmash_files = [
-        "/home/jshaw/projects/sylph_test/results/sour_ill",
-        "/home/jshaw/projects/sylph_test/results/sour_nano",
-        "/home/jshaw/projects/sylph_test/results/sour_pac",]
+        "results/sour_ill",
+        "results/sour_nano",
+        "results/sour_pac",]
 
 for file in mash_files:
     mash_results.append([])

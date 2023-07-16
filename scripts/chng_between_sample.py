@@ -43,7 +43,8 @@ plt.rcParams.update({'font.size': 7})
 plt.rcParams.update({'font.family':'arial'})
 
 results = []
-metadata = '/home/jshaw/projects/sylph_test/atopic_controls_table.txt'
+#metadata = '/home/jshaw/projects/sylph_test/atopic_controls_table.txt'
+metadata = 'atopic_controls_table.txt'
 #metadata = '/home/jshaw/projects/sylph_test/all_case_control_table_nofail.txt'
 #metadata = '/home/jshaw/projects/sylph_test/spt_case.txt'
 
@@ -63,7 +64,7 @@ for line in open(metadata,'r'):
 
 prita_files = [
         #"/home/jshaw/projects/sylph_test/results/c100-fungi+aureus.tsv",
-        "/home/jshaw/projects/sylph_test/results/c100-fungi-jul2.txt",
+        "results/c100-fungi-jul2.txt",
         ]
 
 for file in prita_files:
