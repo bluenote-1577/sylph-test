@@ -33,7 +33,7 @@ class result:
 cm = 1/2.54  # centimeters in inches\n",
     ##Change this to get a bigger figure. \n",
 cmap = sns.color_palette("muted")
-plt.rcParams.update({'font.size': 7})
+plt.rcParams.update({'font.size': 6.5})
 plt.rcParams.update({'figure.autolayout': True})
 plt.rcParams.update({'font.family':'arial'})
 results = []
@@ -114,7 +114,7 @@ for file in sylph_files:
         res = result(mean_cov, adj_ani, naive_ani, median_cov, ref_file, query_file, cis[0], cis[1], lam, 0, final_ani, low)
         results[-1].append(res)
 
-fig, ax = plt.subplots(ncols = 3, figsize = (16* cm , 11 * cm), sharey = True)
+fig, ax = plt.subplots(ncols = 3, figsize = (16* cm, 11 * cm * 0.8), sharey = True)
 res_anis = [[x.final_ani for x in res] for res in results]
 res_anis_low = [[x.final_ani for x in res if x.low] for res in results]
 res_anis_pass = [[x.adj_ani for x in res if not x.low] for res in results]

@@ -54,7 +54,7 @@ lam_cutoff = 0.00
 cov_plot = False
 
 if not cov_plot: 
-    fig, ax = plt.subplots(3,1, figsize = (16* cm , 15 * cm))
+    fig, ax = plt.subplots(3,1, figsize = (16* cm , 15 * cm * 0.8))
 else:
     fig, ax = plt.subplots(3,3, figsize = (16* cm , 16 * cm))
 

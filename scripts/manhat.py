@@ -54,6 +54,7 @@ for line in open(metadata,'r'):
     #print(rep)
 
 
+s_and_mag_pair = []
 for line in open(pval_file,'r'):
     spl = line.split()
     if spl[ind] == "nan":
@@ -75,12 +76,17 @@ for line in open(pval_file,'r'):
         mag_to_effect[spl[-1].rstrip()] = float(spl[2])
         if spl[4] not in seen_cs:
             s.append(float(spl[ind]))
+            s_and_mag_pair.append([float(spl[ind]),spl[-1][0:-3]])
             seen_cs.add(spl[4])
 
 
 qq = stats.probplot(s,dist=uniform)
+s_and_mag_pair = sorted(s_and_mag_pair,reverse=False)
+for i in range(10):
+    print(gn_to_rep[s_and_mag_pair[i][1]])
+    #exit()
 
-ax.scatter(-np.log10(qq[0][0]), -np.log10(qq[0][1]), s = 4, label = 'Species representative')
+ax.scatter(-np.log10(qq[0][0]), -np.log10(qq[0][1]), s = 4, label = 'Arbitrary species representative')
 #ax.plot([np.min(-np.log10(qq[0][0])), np.max(-np.log10(qq[0][0]))], [np.min(-np.log10(qq[0][1])), np.max(-np.log10(qq[0][1]))], 'r-')
 ax.plot([0,5],[0,5], 'r-')
 #plt.title('Q-Q plot of -log10(p-values) against uniform distribution')
@@ -115,7 +121,7 @@ for line in open(order_file,'r'):
         cs.append(len(seen_cs)%20)
         mag_pval_list.append(mag)
 
-fig, ax = plt.subplots(figsize = (16* cm , 7 * cm))
+fig, ax = plt.subplots(figsize = (16* cm , 6 * cm))
 agatho_qvals = []
 agatho_rep = 'MGYG000002492'
 #print(pvals)
@@ -142,7 +148,6 @@ ax.spines[['right', 'top']].set_visible(False)
 plt.xticks([])
 plt.axhline(-np.log10(q))
 
-<<<<<<< HEAD
 #plt.scatter(range(len(qvals)), fd,c = c,s = 1)
 plt.ylabel("-log10(q-val)")
 plt.xlabel("UHGG MAGs coloured and clustered by species")
@@ -163,10 +168,4 @@ plt.xticks([])
 ax.spines[['right', 'top']].set_visible(False)
 plt.axhline(-np.log10(q))
 plt.savefig("figures/agatho.png", dpi = 300)
-=======
-#plt.scatter(range(len(pvals)), fd,c = c,s = 1)
-plt.axhline(-np.log10(0.01))
-plt.ylabel("-log10(p-val)")
-plt.xlabel("UHGG MAGs coloured by species")
->>>>>>> 96214eeb4a28b4736b42976cea84c1de2beebf78
 plt.show()
