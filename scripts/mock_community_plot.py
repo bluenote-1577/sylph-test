@@ -114,7 +114,7 @@ for file in sylph_files:
         res = result(mean_cov, adj_ani, naive_ani, median_cov, ref_file, query_file, cis[0], cis[1], lam, 0, final_ani, low)
         results[-1].append(res)
 
-fig, ax = plt.subplots(ncols = 3, figsize = (16* cm, 11 * cm * 0.8), sharey = True)
+fig, ax = plt.subplots(ncols = 3, figsize = (16* cm, 11 * cm * 0.5), sharey = True)
 res_anis = [[x.final_ani for x in res] for res in results]
 res_anis_low = [[x.final_ani for x in res if x.low] for res in results]
 res_anis_pass = [[x.adj_ani for x in res if not x.low] for res in results]
@@ -164,30 +164,39 @@ for (i,x) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
             elif val >= 95:
                 geq95 += 1
         print(geq99, geq95)
-        dot_label.append(str(geq99) + "/87, " + str(geq95) + "/87")
+        #dot_label.append(str(geq99) + "/87\n " + str(geq95) + "/87")
+        dot_label.append(str(geq99) + "\n" + str(geq95))
 
 
     ax[i].scatter(pos_c100_low,res_anis_low[2*i], s = s, color = 'black', marker = "s")
-    ax[i].scatter(pos_c100_pass,res_anis_pass[2*i],  s = s, color= cmap[0], label = dot_label[0] + ' sylph -c100')
-    ax[i].set_ylim([70,100])
+    #ax[i].scatter(pos_c100_pass,res_anis_pass[2*i],  s = s, color= cmap[0], label = dot_label[0] + ' sylph -c100')
+    ax[i].scatter(pos_c100_pass,res_anis_pass[2*i],  s = s, color= cmap[0])
+   # ax[i].set_ylim([70,100])
 
     ax[i].scatter( pos_c1000_low,res_anis_low[2*i+1], s = s, color = 'black', marker = "s")
-    ax[i].scatter( pos_c1000_pass, res_anis_pass[2*i+1],s = s, color = cmap[4], label=dot_label[1] + ' sylph -c1000')
+    #ax[i].scatter( pos_c1000_pass, res_anis_pass[2*i+1],s = s, color = cmap[4], label=dot_label[1] + ' sylph -c1000')
+    ax[i].scatter( pos_c1000_pass, res_anis_pass[2*i+1],s = s, color = cmap[4])
 
-    ax[i].scatter( pos_mash,box_mash,s = s, color = cmap[2], label=dot_label[2] + ' mash screen')
-    ax[i].scatter( pos_sour,box_sour, s = s, color = cmap[3], label=dot_label[3] + ' sourmash')
-    ax[i].legend(frameon = False,title="# ANI > 99, 95")
+    #ax[i].scatter( pos_mash,box_mash,s = s, color = cmap[2], label=dot_label[2] + ' mash screen')
+    ax[i].scatter( pos_mash,box_mash,s = s, color = cmap[2])
+
+    #ax[i].scatter( pos_sour,box_sour, s = s, color = cmap[3], label=dot_label[3] + ' sourmash')
+    ax[i].scatter( pos_sour,box_sour, s = s, color = cmap[3])
+    #ax[i].legend(frameon = False,title="# ANI > 99, 95")
 
     labels = []
-    labels.append("sylph -c 100")
-    labels.append("sylph -c 1000")
-    labels.append("mash screen")
-    labels.append("sourmash")
+    labels.append("sylph\n-c 100\n\n" + dot_label[0])
+    labels.append("sylph\n-c 1000\n\n" + dot_label[1])
+    labels.append("mash\nscreen\n\n" + dot_label[2])
+    labels.append("sourmash\n\n\n" + dot_label[3])
     bp = ax[i].boxplot(boxes, showfliers=False, positions = positions, widths = width, labels=labels)
     for median in bp['medians']:
         median.set_color('black')
         print(median.get_ydata())
-    ax[i].tick_params(axis='x', labelrotation=60)
+    ax[i].tick_params(axis='x', labelrotation=0)
+
+    if i == 0:
+        ax[i].set_ylabel('Query ANI')
 
 
 

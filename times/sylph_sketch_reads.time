@@ -1,0 +1,23 @@
+	Command being timed: "sylph sketch -1 504-507-reads/ERR8609775_1.fastq.gz 504-507-reads/ERR8609778_1.fastq.gz 504-507-reads/ERR8609788_1.fastq.gz 504-507-reads/ERR8609794_1.fastq.gz 504-507-reads/ERR8609795_1.fastq.gz 504-507-reads/ERR8609797_1.fastq.gz 504-507-reads/ERR8609801_1.fastq.gz 504-507-reads/ERR8609802_1.fastq.gz 504-507-reads/ERR8609804_1.fastq.gz 504-507-reads/ERR8609805_1.fastq.gz 504-507-reads/ERR8609807_1.fastq.gz 504-507-reads/ERR8609809_1.fastq.gz 504-507-reads/ERR8609810_1.fastq.gz 504-507-reads/ERR8609812_1.fastq.gz 504-507-reads/ERR8609816_1.fastq.gz 504-507-reads/ERR8609817_1.fastq.gz 504-507-reads/ERR8609818_1.fastq.gz 504-507-reads/ERR8609826_1.fastq.gz 504-507-reads/ERR8609828_1.fastq.gz 504-507-reads/ERR8609831_1.fastq.gz 504-507-reads/ERR8609836_1.fastq.gz 504-507-reads/ERR8609852_1.fastq.gz 504-507-reads/ERR8609867_1.fastq.gz 504-507-reads/ERR8609869_1.fastq.gz 504-507-reads/ERR8609871_1.fastq.gz 504-507-reads/ERR8609889_1.fastq.gz 504-507-reads/ERR8609896_1.fastq.gz 504-507-reads/ERR8609904_1.fastq.gz 504-507-reads/ERR8609909_1.fastq.gz 504-507-reads/ERR8609918_1.fastq.gz 504-507-reads/ERR8609931_1.fastq.gz 504-507-reads/ERR8609935_1.fastq.gz 504-507-reads/ERR8609945_1.fastq.gz 504-507-reads/ERR8609953_1.fastq.gz 504-507-reads/ERR8609958_1.fastq.gz 504-507-reads/ERR8609967_1.fastq.gz 504-507-reads/ERR8609972_1.fastq.gz 504-507-reads/ERR8609979_1.fastq.gz 504-507-reads/ERR8609980_1.fastq.gz 504-507-reads/ERR8610055_1.fastq.gz 504-507-reads/ERR8610071_1.fastq.gz 504-507-reads/ERR8610072_1.fastq.gz 504-507-reads/ERR8610103_1.fastq.gz 504-507-reads/ERR8610119_1.fastq.gz 504-507-reads/ERR8610125_1.fastq.gz -2 504-507-reads/ERR8609775_2.fastq.gz 504-507-reads/ERR8609778_2.fastq.gz 504-507-reads/ERR8609788_2.fastq.gz 504-507-reads/ERR8609794_2.fastq.gz 504-507-reads/ERR8609795_2.fastq.gz 504-507-reads/ERR8609797_2.fastq.gz 504-507-reads/ERR8609801_2.fastq.gz 504-507-reads/ERR8609802_2.fastq.gz 504-507-reads/ERR8609804_2.fastq.gz 504-507-reads/ERR8609805_2.fastq.gz 504-507-reads/ERR8609807_2.fastq.gz 504-507-reads/ERR8609809_2.fastq.gz 504-507-reads/ERR8609810_2.fastq.gz 504-507-reads/ERR8609812_2.fastq.gz 504-507-reads/ERR8609816_2.fastq.gz 504-507-reads/ERR8609817_2.fastq.gz 504-507-reads/ERR8609818_2.fastq.gz 504-507-reads/ERR8609826_2.fastq.gz 504-507-reads/ERR8609828_2.fastq.gz 504-507-reads/ERR8609831_2.fastq.gz 504-507-reads/ERR8609836_2.fastq.gz 504-507-reads/ERR8609852_2.fastq.gz 504-507-reads/ERR8609867_2.fastq.gz 504-507-reads/ERR8609869_2.fastq.gz 504-507-reads/ERR8609871_2.fastq.gz 504-507-reads/ERR8609889_2.fastq.gz 504-507-reads/ERR8609896_2.fastq.gz 504-507-reads/ERR8609904_2.fastq.gz 504-507-reads/ERR8609909_2.fastq.gz 504-507-reads/ERR8609918_2.fastq.gz 504-507-reads/ERR8609931_2.fastq.gz 504-507-reads/ERR8609935_2.fastq.gz 504-507-reads/ERR8609945_2.fastq.gz 504-507-reads/ERR8609953_2.fastq.gz 504-507-reads/ERR8609958_2.fastq.gz 504-507-reads/ERR8609967_2.fastq.gz 504-507-reads/ERR8609972_2.fastq.gz 504-507-reads/ERR8609979_2.fastq.gz 504-507-reads/ERR8609980_2.fastq.gz 504-507-reads/ERR8610055_2.fastq.gz 504-507-reads/ERR8610071_2.fastq.gz 504-507-reads/ERR8610072_2.fastq.gz 504-507-reads/ERR8610103_2.fastq.gz 504-507-reads/ERR8610119_2.fastq.gz 504-507-reads/ERR8610125_2.fastq.gz -s 504-507-sketches -t 20"
+	User time (seconds): 2186.65
+	System time (seconds): 101.51
+	Percent of CPU this job got: 657%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:48.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2831688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 7883146
+	Voluntary context switches: 40703
+	Involuntary context switches: 3674
+	Swaps: 0
+	File system inputs: 176234112
+	File system outputs: 5431440
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

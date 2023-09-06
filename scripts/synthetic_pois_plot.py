@@ -54,7 +54,7 @@ lam_cutoff = 0.00
 cov_plot = False
 
 if not cov_plot: 
-    fig, ax = plt.subplots(3,1, figsize = (16* cm , 15 * cm * 0.8))
+    fig, ax = plt.subplots(3,1, figsize = (16* cm , 15 * cm * 0.6))
 else:
     fig, ax = plt.subplots(3,3, figsize = (16* cm , 16 * cm))
 
@@ -193,10 +193,11 @@ for index in range(3):
 
     # Create the boxplot
     box_colors = [cmap[3-i] for i in range(4)]
+    box_colors = [cmap[2], cmap[4], cmap[0]]
     boxes = []
     labels = []
     positions = []
-    offset = 0.1
+    offset = 0.5
     width = 0.9
     s = 12
 
@@ -204,21 +205,21 @@ for index in range(3):
         for i, (key, value) in enumerate(sorted(grouped_data.items())):
             boxes.append(value['z'])
             boxes.append(value['y'])
-            boxes.append(value['y500'])
+            #boxes.append(value['y500'])
             boxes.append(value['y100'])
             labels.append(str(key) + '-z')
             labels.append(str(key) + '-y')
-            labels.append(str(key) + '-y500')
+            #labels.append(str(key) + '-y500')
             labels.append(str(key) + '-y100')
-            positions.append(i*4 - 1)
-            positions.append(i*4 + 0 - offset)
-            positions.append(i*4 + 1 - 2*offset)
-            positions.append(i*4 + 2 - 3*offset)
+            positions.append(i*3 - 0)
+            #positions.append(i*3 + 0 - offset)
+            positions.append(i*3 + 1 - 1*offset)
+            positions.append(i*3 + 2 - 2*offset)
 
 
-            for j in range(4):
-                xpos = [positions[i*4 + j] for _ in range(len(boxes[i*4 + j]))]
-                ax[index].scatter(rand_jitter(xpos), boxes[i*4+j], s = s, color = cmap[3-j])
+            for j in range(3):
+                xpos = [positions[i*3 + j] for _ in range(len(boxes[i*3 + j]))]
+                ax[index].scatter(rand_jitter(xpos), boxes[i*3+j], s = s, color = box_colors[j])
         #boxplot = ax.boxplot(boxes, labels=labels, positions=positions, widths=width,patch_artist=True, flierprops={'marker': 'o', 'markersize': 5, })
         #for whisker in boxplot['whiskers']:
         #    whisker.set(color='black')
@@ -236,9 +237,9 @@ for index in range(3):
         #    boxplot['boxes'][4*i+1].set(facecolor=box_colors[1])
         #    boxplot['boxes'][4*i+2].set(facecolor=box_colors[2])
         #    boxplot['boxes'][4*i+3].set(facecolor=box_colors[3])
-        xticks = [i*4+0.5 for i in range(len(grouped_data))]
+        xticks = [i*3+0.5 for i in range(len(grouped_data))]
         ax[index].set_xticks(xticks)
-        ax[index].set_ylim([72,101])
+        #ax[index].set_ylim([72,101])
         ax[index].set_xticklabels(sorted(grouped_data.keys()))
         #ax.axhline(y=100, linestyle='--', color='gray')
         ax[index].axhline(y=100, linestyle='--', color='black')
@@ -246,18 +247,18 @@ for index in range(3):
 
         # Create dummy Line2D objects for the legend
         lines = [plt.Line2D([0], [0], color=color, linewidth=3, linestyle='-') for color in box_colors]
-        labels = ['Naive containment ANI', 'sylph c = 1000', 'sylph c = 500', 'sylph c = 100']
+        labels = ['Naive containment ANI', 'sylph c = 1000', 'sylph c = 100']
 
         # Add the legend
         ax[index].legend(lines, labels, frameon=False, loc = 'lower right')
         ax[index].spines[['right', 'top']].set_visible(False)
         plt.xlabel("True effective coverage")
         if index == 0:
-            ax[index].set_ylabel("Estimated ANI (Truth 100)")
+            ax[index].set_ylabel("Estimated ANI\n(Truth 100)")
         elif index == 1:
-            ax[index].set_ylabel("Estimated ANI (Truth 96.2)")
+            ax[index].set_ylabel("Estimated ANI\n(Truth 96.2)")
         else:
-            ax[index].set_ylabel("Estimated ANI (Truth 90.5)")
+            ax[index].set_ylabel("Estimated ANI\n(Truth 90.5)")
 
     if cov_plot:
         r = [0.008,2.4]
