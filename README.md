@@ -7,6 +7,7 @@ In the scripts/* folder you will find a set of python scripts for recreating all
 
 For example, `python scripts/chng_between_sample.py` will regenerate the figures for the skin microbiome fungi result in our paper. 
 
+3. If you want to look at the results for the 45 sample CPE K. pneumoniae tracking, look at `kang_analysis.ipynb`.
 ## Requirements
 
 1. Python 3 with the following libraries:
