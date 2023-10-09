@@ -1,0 +1,54 @@
+import pandas as pd
+import glob 
+
+f = open("./water_sra.txt",'r')
+samples_water = f.read().splitlines()
+
+f = open("./sludge_sra.txt",'r')
+samples_sludge= f.read().splitlines()
+
+f = open("./soil_sra.txt",'r')
+samples_soil = f.read().splitlines()
+
+f = open("./sediment_sra.txt",'r')
+samples_sediment = f.read().splitlines()
+
+rule all:
+  input:
+    expand("water/{sample}_1.fastq.gz", sample = samples_water),
+    expand("sludge/{sample}_1.fastq.gz", sample = samples_sludge),
+    expand("soil/{sample}_1.fastq.gz", sample = samples_soil),
+    expand("sediment/{sample}_1.fastq.gz", sample = samples_sediment),
+
+rule download_sludge:
+  params:
+    "{sample}"
+  output:
+    "sludge/{sample}_1.fastq.gz"
+  run:
+    shell("fastq-dl -a {wildcards.sample} -o sludge/")
+
+rule download_water:
+  params:
+    "{sample}"
+  output:
+    "water/{sample}_1.fastq.gz"
+  run:
+    shell("fastq-dl -a {wildcards.sample} -o water/")
+
+rule download_sediment:
+  params:
+    "{sample}"
+  output:
+    "sediment/{sample}_1.fastq.gz"
+  run:
+    shell("fastq-dl -a {wildcards.sample} -o sediment/")
+
+rule download_soil:
+  params:
+    "{sample}"
+  output:
+    "soil/{sample}_1.fastq.gz"
+  run:
+    shell("fastq-dl -a {wildcards.sample} -o soil/")
+
