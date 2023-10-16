@@ -9,7 +9,7 @@ import seaborn as sns
 from dataclasses import dataclass
 from natsort import natsorted
 cmap = sns.color_palette("muted")
-plt_diag = False
+plt_diag = True
 
 np.random.seed(0)
 def rand_jitter(arr):
@@ -44,12 +44,9 @@ results = []
 true_results = []
 
 sylph_files_gap = [
-        "gtdb-gap/gtdb-on-reads/gtdb-on-ill-c100.tsv",
-        "gtdb-gap/gtdb-on-reads/gtdb-on-ill-c1000.tsv",
-        "gtdb-gap/gtdb-on-reads/gtdb-on-nano-c100.tsv",
-        "gtdb-gap/gtdb-on-reads/gtdb-on-nano-c1000.tsv",
-        "gtdb-gap/gtdb-on-reads/gtdb-on-pac-c100.tsv",
-        "gtdb-gap/gtdb-on-reads/gtdb-on-pac-c1000.tsv",
+        "gtdb-on-reads-oct15/gtdb-on-ill-c200.tsv",
+        "gtdb-on-reads-oct15/gtdb-on-nano-c200.tsv",
+        "gtdb-on-reads-oct15/gtdb-on-pac-c200.tsv",
         ]
 
 
@@ -64,7 +61,7 @@ sylph_files = [
 
 truth_files = [
         "gtdb-on-reads/true-gtdb-on-on-mock-c100.tsv",
-        "gtdb-on-reads/true-gtdb-on-on-mock.tsv",
+        #"gtdb-on-reads/true-gtdb-on-on-mock.tsv",
         ]
 
 mash_files = [
@@ -92,7 +89,7 @@ for file in sylph_files:
         ref_file = spl[1].split('/')[-1]
         query_file = spl[0]
         final_ani = float(spl[2])
-        naive_ani = float(spl[3])
+        naive_ani = float(spl[10])
         adj_ani = None
         low = False
         if "LOW" in spl[6]:
@@ -110,8 +107,8 @@ for file in sylph_files:
         else:
             ci = spl[4].split('-')
             cis = float(ci[0]), float(ci[1])
-        mean_cov = float(spl[9])
-        median_cov = float(spl[8])
+        mean_cov = float(spl[8])
+        median_cov = float(spl[7])
         res = result(mean_cov, adj_ani, naive_ani, median_cov, ref_file, query_file, cis[0], cis[1], lam, 0, final_ani, low)
         results[-1].append(res)
 
@@ -149,11 +146,11 @@ for file in truth_files:
         true_results[-1].append(res)
 
 
-fig, ax = plt.subplots(2, 3, figsize = (16* cm , 12 * cm), sharey = True, sharex = True)
+fig, ax = plt.subplots(1, 3, figsize = (16* cm , 6 * cm), sharey = True, sharex = True)
 s = 8
 
 for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
-    for j in range(2):
+    for j in range(1):
         query_to_ani = defaultdict(list)
         query_to_err = defaultdict(list)
         query_to_anis_nn = defaultdict(list)
@@ -164,7 +161,7 @@ for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
                 query_to_anis_nn[res.ref_file].append(res.final_ani)
         for (key,res) in query_to_anis_nn.items():
             query_to_ani[key].append(np.max(res))
-        for res in results[2*i + j]:
+        for res in results[i]:
             #if not res.low and res.lam != None:
             if not res.low:
                 query_to_eff_cov[res.ref_file] = res.lam
@@ -211,56 +208,56 @@ for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
                     total += 1
         #ax[j][i].errorbar(x,y,yerr = [ymin,ymax], fmt = 'o', c = 'orange', ms = 2)
 
-        ax[j][i].spines[['right', 'top']].set_visible(False)
+        ax[i].spines[['right', 'top']].set_visible(False)
         if plt_diag:
             good_lr = stats.linregress(x,y)
             naive_lr = stats.linregress(x,z)
 
             if j == 1:
-                ax[j][i].scatter(x,y,s = s, color = cmap[2], alpha = 0.5, label = rf"c = 1000, $R^2$ = {round(good_lr.rvalue**2,3)}")
-                ax[j][i].set_xlabel("True 31-mer ANI")
+                ax[i].scatter(x,y,s = s, color = cmap[2], alpha = 0.5, label = rf"c = 1000, $R^2$ = {round(good_lr.rvalue**2,3)}")
+                ax[i].set_xlabel("True 31-mer ANI")
             else:
                 if i == 0:
-                    ax[j][i].set_title("Illumina")
+                    ax[i].set_title("Illumina")
                 elif i == 1:
-                    ax[j][i].set_title("Nanopore-old")
+                    ax[i].set_title("Nanopore-old")
                 elif i == 2:
-                    ax[j][i].set_title("PacBio")
+                    ax[i].set_title("PacBio")
 
-                ax[j][i].scatter(x,y,s = s, color = cmap[0], alpha = 0.5, label = rf"c = 100, $R^2$ = {round(good_lr.rvalue**2,3)}")
-            ax[j][i].scatter(x,z, s= s, color = cmap[3], alpha = 0.5, label = rf"Naive, $R^2$ = {round(naive_lr.rvalue**2,3)}")
-            ax[j][i].plot([90,100],[90,100],'--', c = 'black')
+                ax[i].scatter(x,y,s = s, color = cmap[0], alpha = 0.5, label = rf"c = 100, $R^2$ = {round(good_lr.rvalue**2,3)}")
+            ax[i].scatter(x,z, s= s, color = cmap[3], alpha = 0.5, label = rf"Naive, $R^2$ = {round(naive_lr.rvalue**2,3)}")
+            ax[i].plot([90,100],[90,100],'--', c = 'black')
             print('covered: ' + str(covered/total) + 'total: ' + str(total))
-            ax[j][i].set_ylim([85,100])
+            ax[i].set_ylim([85,100])
             if i == 0:
-                ax[j][i].set_ylabel("Estimated ANI")
+                ax[i].set_ylabel("Estimated ANI")
 
 
         else:
             if j == 1:
-                ax[j][i].scatter(x_lam,y_diff,s = s, color = cmap[2], alpha = 0.5, label = 'c = 1000')
-                ax[j][i].set_xlabel("Estimated lambda")
+                ax[i].scatter(x_lam,y_diff,s = s, color = cmap[2], alpha = 0.5, label = 'c = 1000')
+                ax[i].set_xlabel("Estimated lambda")
             else:
                 if i == 0:
-                    ax[j][i].set_title("Illumina")
+                    ax[i].set_title("Illumina")
                 elif i == 1:
-                    ax[j][i].set_title("Nanopore-old")
+                    ax[i].set_title("Nanopore-old")
                 elif i == 2:
-                    ax[j][i].set_title("PacBio")
+                    ax[i].set_title("PacBio")
 
-                ax[j][i].scatter(x_lam,y_diff,s = s, color = cmap[0], alpha = 0.5, label = 'c = 100')
-            ax[j][i].scatter(x_lam,z_diff, s= s, color = cmap[3], alpha = 0.5, label = 'Naive')
-            ax[j][i].set_xscale('log')
-            ax[j][i].axhline(0, c = 'black', ls = '--')
+                ax[i].scatter(x_lam,y_diff,s = s, color = cmap[0], alpha = 0.5, label = 'c = 100')
+            ax[i].scatter(x_lam,z_diff, s= s, color = cmap[3], alpha = 0.5, label = 'Naive')
+            ax[i].set_xscale('log')
+            ax[i].axhline(0, c = 'black', ls = '--')
             #ax[j][i].plot([90,100],[90,100],'--', c = 'black')
             print('covered: ' + str(covered/total) + 'total: ' + str(total))
             if i == 0:
-                ax[j][i].set_ylabel("ANI deviation from truth")
+                ax[i].set_ylabel("ANI deviation from truth")
 
         if plt_diag:
-            lg = ax[j][i].legend(frameon = False, loc='upper left' )
+            lg = ax[i].legend(frameon = False, loc='upper left' )
         else:
-            lg = ax[j][i].legend(frameon = False, loc='lower right' )
+            lg = ax[i].legend(frameon = False, loc='lower right' )
         #change the marker size manually for both lines
         lg.legendHandles[0]._sizes = [20]
         lg.legendHandles[1]._sizes = [20] 
