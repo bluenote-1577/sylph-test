@@ -8,7 +8,7 @@ import numpy as np
 #input_read_file = [x.split('/')[-1] for x in input_reads_path]
 
 iters = [str(x) for x in range(20)]
-cs = [str(x) for x in [100, 250, 500, 1000]]
+cs = [str(x) for x in [100, 200, 500, 1000]]
 ks = [str(x) for x in [21, 31]]
 
 input_genome = "./refs/MN-03.fa"

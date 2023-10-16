@@ -17,9 +17,9 @@ def rand_jitter(arr):
 
 cm = 1/2.54  # centimeters in inches\n",
     ##Change this to get a bigger figure. \n",
-cmap = sns.color_palette("muted")
+#cmap = sns.color_palette()
 #cmap = sns.color_palette("Set2")
-#cmap = sns.color_palette("hls", 4)
+cmap = sns.color_palette("husl", 4)
 
 
 plt.rcParams.update({'font.size': 7})
@@ -42,19 +42,18 @@ class result:
 
 #21-500-10-0.48621887049186563.tsv
 #files_g = [glob.glob('synthetic_simulated_results/31-*-*'), glob.glob('synthetic_simulated_results_95/31-*-*'), glob.glob('synthetic_simulated_results_85/31-*-*')]
-files_g = [glob.glob('synthetic_simulated_results_jul3/31-*-*'), glob.glob('synthetic_simulated_results_95_jul3/31-*-*'), glob.glob('synthetic_simulated_results_85_jul3/31-*-*')]
+#files_g = [glob.glob('synthetic_simulated_results_jul3/31-*-*'), glob.glob('synthetic_simulated_results_95_jul3/31-*-*'), glob.glob('synthetic_simulated_results_85_jul3/31-*-*')]
+files_g = [glob.glob('synthetic_simulated_results_oct15/31-*-*'), glob.glob('synthetic_simulated_results_95_oct15/31-*-*'), glob.glob('synthetic_simulated_results_85_oct15/31-*-*')]
 
 #files = sys.argv[2:]
 true_anis = [100, 96.2, 90.5]
 #true_ani = float(sys.argv[1])
 #re_str = "(\d+)-(\d+\.?\d+)-.+\.fastq.gz"
 re_str = "(\d+)-(\d+)-(\d+)-(\d+\.?\d+).tsv"
-cutoff = 5 
-lam_cutoff = 0.00
 cov_plot = False
 
 if not cov_plot: 
-    fig, ax = plt.subplots(3,1, figsize = (16* cm , 15 * cm * 0.6))
+    fig, ax = plt.subplots(3,1, figsize = (14* cm , 12*cm))
 else:
     fig, ax = plt.subplots(3,3, figsize = (16* cm , 16 * cm))
 
@@ -65,7 +64,8 @@ for index in range(3):
 
     files = files_g[index]
     true_ani = true_anis[index]
-    for file in files:
+    eff_covs = set()
+    for file in natsorted(files):
         x = re.findall(re_str, file)
 
         k = int(x[0][0])
@@ -75,14 +75,15 @@ for index in range(3):
         it = int(x[0][2])
         abund = round(float(x[0][3]),4)
         eff_cov = round((150 - k + 1) / 150 * abund,4)
+        eff_covs.add(eff_cov)
 
         for line in open(file,'r'):
             if 'Naive' in line:
                 continue
-            spl = line.split()
+            spl = line.split('\t')
             ref_file = spl[1]
             query_file = spl[0]
-            naive_ani = float(spl[3])
+            naive_ani = float(spl[-2])
             adj_ani = None
             if spl[5] == "NA" or "NA" in spl[4]:
                 adj_ani = None
@@ -97,162 +98,91 @@ for index in range(3):
             else:
                 ci = spl[4].split('-')
                 cis = float(ci[0]), float(ci[1])
-            mean_cov = float(spl[9])
-            median_cov = float(spl[8])
+            mean_cov = float(spl[8])
+            median_cov = float(spl[7])
             res = result(mean_cov, adj_ani, naive_ani, median_cov, ref_file, query_file, cis[0], cis[1], lam, eff_cov)
             ck_res[c][k].append(res)
 
     cs = sorted(list(cs))
     ks = sorted(list(ks))
     print(cs,ks)
-
-    mc_x = []
-    diff_y = []
-    naive_y = []
-    max_diffs = []
-    num_in = 0
-    num_out = 0
-
+    
     k = 31
-    c = 1000
+    naive_ani = []
+    xs = []
+    naive_xs = []
+    ys = []
+    ls = []
+    cov_probs = []
 
-    results = ck_res[1000][k]
-    x500 = []
-    y500 = []
-
-    x100 = []
-    y100 = []
-
-    x = []
-    y = []
-    z = []
-
-    l500 = []
-    l100 = []
-    l = []
-
-    cov_prob = []  
-    cov_prob500 = []
-    cov_prob100 = []
-    for res in results:
-        x.append(res.true_eff_cov)
-        if res.adj_ani != None:
-            y.append(res.adj_ani)
-            l.append((res.true_eff_cov, res.lam))
-            if true_ani <= res.high_ani and true_ani >= res.low_ani:
-                cov_prob.append(1)
+    for c in cs:
+        print(c)
+        results = ck_res[c][k]
+        x = [] 
+        y = []
+        l = []
+        cov_prob = []
+        for res in results:
+            x.append(res.true_eff_cov)
+            if res.adj_ani != None:
+                y.append(res.adj_ani)
+                l.append((res.true_eff_cov, res.lam))
+                if true_ani <= res.high_ani and true_ani >= res.low_ani:
+                    cov_prob.append(1)
+                else:
+                    cov_prob.append(0)
             else:
-                cov_prob.append(0)
-        else:
-            y.append(res.naive_ani)
-        z.append(res.naive_ani)
+                y.append(res.naive_ani)
+            if c == 100:
+                naive_ani.append(res.naive_ani)
+                naive_xs.append(res.true_eff_cov)
 
+        print(np.mean(cov_prob))
+        xs.append(x)
+        ys.append(y)
+        ls.append(l)
+        cov_probs.append(cov_prob)
+    
 
-    for res in ck_res[500][k]:
-        x500.append(res.true_eff_cov)
-        if res.adj_ani != None:
-            y500.append(res.adj_ani)
-            l500.append((res.true_eff_cov, res.lam))
-            if true_ani <= res.high_ani and true_ani >= res.low_ani:
-                cov_prob500.append(1)
-            else:
-                cov_prob500.append(0)
-        else:
-            y500.append(res.naive_ani)
-
-    for res in ck_res[100][k]:
-        x100.append(res.true_eff_cov)
-        if res.adj_ani != None:
-            y100.append(res.adj_ani)
-            l100.append((res.true_eff_cov, res.lam))
-            if true_ani <= res.high_ani and true_ani >= res.low_ani:
-                cov_prob100.append(1)
-            else:
-                cov_prob100.append(0)
-        else:
-            y100.append(res.naive_ani)
-
-
-    print(np.mean(cov_prob))
-    print(np.mean(cov_prob500))
-    print(np.mean(cov_prob100))
-
-    # Create a dictionary to group the data by x value
-    grouped_data = {}
-
-    for i in range(len(x)):
-        if x[i] not in grouped_data:
-            grouped_data[x[i]] = {'y': [], 'z': [], 'y500' : [], 'y100': []}
-        grouped_data[x[i]]['y'].append(y[i])
-        grouped_data[x[i]]['z'].append(z[i])
-    for i in range(len(x500)):
-        grouped_data[x500[i]]['y500'].append(y500[i])
-    for i in range(len(x100)):
-        grouped_data[x100[i]]['y100'].append(y100[i])
-
-
-    # Create the boxplot
-    box_colors = [cmap[3-i] for i in range(4)]
-    box_colors = [cmap[2], cmap[4], cmap[0]]
+    
+    xs.append(naive_xs)
+    ys.append(naive_ani)
+    #box_colors = [cmap[2], cmap[4], cmap[0]]
     boxes = []
     labels = []
     positions = []
-    offset = 0.5
+    offset = 0.15
     width = 0.9
     s = 12
 
+    
+
     if not cov_plot:
-        for i, (key, value) in enumerate(sorted(grouped_data.items())):
-            boxes.append(value['z'])
-            boxes.append(value['y'])
-            #boxes.append(value['y500'])
-            boxes.append(value['y100'])
-            labels.append(str(key) + '-z')
-            labels.append(str(key) + '-y')
-            #labels.append(str(key) + '-y500')
-            labels.append(str(key) + '-y100')
-            positions.append(i*3 - 0)
-            #positions.append(i*3 + 0 - offset)
-            positions.append(i*3 + 1 - 1*offset)
-            positions.append(i*3 + 2 - 2*offset)
 
+        xticks = []
+        xticklabs = []
+        pos_to_index = dict()
+        for i in range(len(cs) + 1):
+            xvals = sorted(list(set(xs[i])))
+            for j,x in enumerate(xvals):
+                pos_to_index[x] = j
 
-            for j in range(3):
-                xpos = [positions[i*3 + j] for _ in range(len(boxes[i*3 + j]))]
-                ax[index].scatter(rand_jitter(xpos), boxes[i*3+j], s = s, color = box_colors[j])
-        #boxplot = ax.boxplot(boxes, labels=labels, positions=positions, widths=width,patch_artist=True, flierprops={'marker': 'o', 'markersize': 5, })
-        #for whisker in boxplot['whiskers']:
-        #    whisker.set(color='black')
-        #
-        #for median in boxplot['medians']:
-        #    median.set_color('black')
-        #
-        #for (i,flier) in enumerate(boxplot['fliers']):
-        #    flier.set(markeredgecolor = cmap[i%4])
-        #
-        #
-        ## Set the colors of the boxes and whiskers
-        #for i in range(len(grouped_data)):
-        #    boxplot['boxes'][4*i].set(facecolor=box_colors[0])
-        #    boxplot['boxes'][4*i+1].set(facecolor=box_colors[1])
-        #    boxplot['boxes'][4*i+2].set(facecolor=box_colors[2])
-        #    boxplot['boxes'][4*i+3].set(facecolor=box_colors[3])
-        xticks = [i*3+0.5 for i in range(len(grouped_data))]
-        ax[index].set_xticks(xticks)
-        #ax[index].set_ylim([72,101])
-        ax[index].set_xticklabels(sorted(grouped_data.keys()))
-        #ax.axhline(y=100, linestyle='--', color='gray')
+            ypos = ys[i]
+            center = len(cs)/2 * offset - i*offset
+            xpos = np.array([pos_to_index[x] for x in xs[i]]) + center
+            if i != len(cs):
+                label = f"-c {cs[i]}"
+            else:
+                label = "Naive ANI"
+            ax[index].scatter(xpos, ypos, s = s, color = cmap[i], label = label)
+            print(xs[i])
+
+        true_ani = true_anis[index]
         ax[index].axhline(y=100, linestyle='--', color='black')
         ax[index].axhline(y=true_ani, linestyle='--', color='red')
-
-        # Create dummy Line2D objects for the legend
-        lines = [plt.Line2D([0], [0], color=color, linewidth=3, linestyle='-') for color in box_colors]
-        labels = ['Naive containment ANI', 'sylph c = 1000', 'sylph c = 100']
-
-        # Add the legend
-        ax[index].legend(lines, labels, frameon=False, loc = 'lower right')
+        #ax[index].legend(lines, labels, frameon=False, loc = 'lower right')
         ax[index].spines[['right', 'top']].set_visible(False)
-        plt.xlabel("True effective coverage")
+        ax[index].set_xlabel("True effective coverage")
         if index == 0:
             ax[index].set_ylabel("Estimated ANI\n(Truth 100)")
         elif index == 1:
@@ -260,6 +190,37 @@ for index in range(3):
         else:
             ax[index].set_ylabel("Estimated ANI\n(Truth 90.5)")
 
+        ax[index].set_xticks(sorted(list(pos_to_index.values())))
+        ax[index].set_xticklabels(sorted(list(pos_to_index.keys())))
+        if index == 0:
+            ax[index].legend(frameon=False)
+        
+
+
+
+        #xticks = [i*3+0.5 for i in range(len(grouped_data))]
+        #ax[index].set_xticks(xticks)
+        ##ax[index].set_ylim([72,101])
+        #ax[index].set_xticklabels(sorted(grouped_data.keys()))
+        ##ax.axhline(y=100, linestyle='--', color='gray')
+        #ax[index].axhline(y=100, linestyle='--', color='black')
+        #ax[index].axhline(y=true_ani, linestyle='--', color='red')
+
+        ## Create dummy Line2D objects for the legend
+        #lines = [plt.Line2D([0], [0], color=color, linewidth=3, linestyle='-') for color in box_colors]
+        #labels = ['Naive containment ANI', 'sylph c = 1000', 'sylph c = 100']
+
+        ## Add the legend
+        #ax[index].legend(lines, labels, frameon=False, loc = 'lower right')
+        #ax[index].spines[['right', 'top']].set_visible(False)
+        #plt.xlabel("True effective coverage")
+        #if index == 0:
+        #    ax[index].set_ylabel("Estimated ANI\n(Truth 100)")
+        #elif index == 1:
+        #    ax[index].set_ylabel("Estimated ANI\n(Truth 96.2)")
+        #else:
+        #    ax[index].set_ylabel("Estimated ANI\n(Truth 90.5)")
+    
     if cov_plot:
         r = [0.008,2.4]
         if index == 0:
@@ -303,4 +264,5 @@ if cov_plot:
 else:
     plt.savefig("figures/synthetic_kleb_plot.pdf")
 
+#plt.legend()
 plt.show()
