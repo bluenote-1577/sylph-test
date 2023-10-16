@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import scipy.stats as stats
-
 import statsmodels.api as sm
 import statsmodels.stats as ss
 
@@ -34,7 +33,9 @@ mag_to_effect = dict()
 #pval_file = './no-adj_ordered_pvals.txt'
 #pval_file = './ordered_pvals.txt'
 #pval_file = './98-ordered_pvals.txt'
-pval_file = './98-fixed-covs-ordered_pvals.txt'
+#pval_file = './98-fixed-covs-ordered_pvals.txt'
+#pval_file = './98-fixed'
+pval_file = '98-fixed-covs-oct15-ordered_pvals.txt'
 #pval_file = './95-fixed-covs-ordered_pvals.txt'
 order_file = './121ordered_mags_by_cluster.txt'
 metadata = './genomes-all_metadata.tsv'
@@ -76,7 +77,7 @@ for line in open(pval_file,'r'):
         mag_to_effect[spl[-1].rstrip()] = float(spl[2])
         if spl[4] not in seen_cs:
             s.append(float(spl[ind]))
-            s_and_mag_pair.append([float(spl[ind]),spl[-1][0:-3]])
+            s_and_mag_pair.append([float(spl[ind]),spl[-1]])
             seen_cs.add(spl[4])
 
 
@@ -114,7 +115,7 @@ cs = []
 mag_pval_list = []
 seen_cs = set()
 for line in open(order_file,'r'):
-    mag = line.rstrip()
+    mag = line.split('.fa')[0].rstrip()
     if mag in mag_to_pval:
         pvals.append(mag_to_pval[mag])
         seen_cs.add(mag_to_c[mag])
@@ -129,11 +130,11 @@ qvals = fdr(np.power(10,pvals), q)
 qvals = np.log10(qvals)
 seen_reps = set()
 for (i,pval) in enumerate(qvals):
-    m = mag_pval_list[i][:-3]
+    m = mag_pval_list[i]
     if pval < np.log10(q):
         rep = gn_to_rep[m]
         if rep not in seen_reps:
-            s = f"{10**pvals[i]},{10**pval},{rep},{gn_to_mag_rep[m]},{m},{mag_to_effect[mag_pval_list[i]]})"
+            s = f"{10**pvals[i]},{10**pval},{rep},{gn_to_mag_rep[m]},{m},{mag_to_effect[mag_pval_list[i]]}"
             print(s)
         seen_reps.add(rep)
     if gn_to_mag_rep[m] == agatho_rep:
@@ -160,10 +161,10 @@ plt.set_cmap(cmap)
 fig, ax = plt.subplots(figsize = (6.5* cm , 6.5 * cm))
 plt.ylabel("-log10(q-val)")
 plt.xlabel("Agathobacter rectalis")
-mag_c = mag_to_c[agatho_rep + '.fa']
+mag_c = mag_to_c[agatho_rep]
 #print(mag_c)
 it_tab20 = [plt.cm.tab20(i) for i in range(20)]
-plt.scatter(range(len(agatho_qvals)), -np.array(agatho_qvals), c = [it_tab20[mag_c+8] for x in agatho_qvals], s = size, cmap = cmap)
+plt.scatter(range(len(agatho_qvals)), -np.array(agatho_qvals), c = [it_tab20[mag_c+7] for x in agatho_qvals], s = size, cmap = cmap)
 plt.xticks([])
 ax.spines[['right', 'top']].set_visible(False)
 plt.axhline(-np.log10(q))
