@@ -1,4 +1,6 @@
 import sys
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
@@ -10,6 +12,7 @@ from natsort import natsorted
 from scipy import stats
 
 cmap = sns.color_palette("muted")
+
 
 np.random.seed(0)
 def rand_jitter(arr):
@@ -64,7 +67,8 @@ for line in open(metadata,'r'):
 
 prita_files = [
         #"/home/jshaw/projects/sylph_test/results/c100-fungi+aureus.tsv",
-        "results/c100-fungi-jul2.txt",
+        #"results/c100-fungi-jul2.txt",
+        "results_oct15/chng-fungi.tsv",
         ]
 
 for file in prita_files:
@@ -76,10 +80,10 @@ for file in prita_files:
         ref_file = spl[1].split('/')[-1]
         query_file = spl[0]
         final_ani = float(spl[2])
-        naive_ani = float(spl[3])
+        naive_ani = float(spl[10])
         adj_ani = None
         low = False
-        if "LOW" in spl[6]:
+        if "LOW" in spl[5]:
             low = True
         if spl[5] == "LOW" or spl[5] == "HIGH" or "NA" in spl[4]:
             adj_ani = None
@@ -94,10 +98,10 @@ for file in prita_files:
         else:
             ci = spl[4].split('-')
             cis = float(ci[0]), float(ci[1])
-        mean_cov = float(spl[9])
-        median_cov = float(spl[8])
+        mean_cov = float(spl[8])
+        median_cov = float(spl[7])
         contig_nam = spl[-1]
-        res = result(mean_cov, adj_ani, naive_ani, median_cov, ref_file, query_file, cis[0], cis[1], lam, float(spl[5]), final_ani, low, contig_nam)
+        res = result(mean_cov, adj_ani, naive_ani, median_cov, ref_file, query_file, cis[0], cis[1], lam, float(spl[3]), final_ani, low, contig_nam)
         results[-1].append(res)
 
 
@@ -179,7 +183,8 @@ for res in results[0]:
 
         globo_used_pairs.add(tuple(pair))
 
-print(len(globo_used_pairs))
+#print(len(globo_used_pairs))
+print(list(pair_to_res.values()))
 
 sc = np.array(list(pair_to_res.values()))
 sc2 = np.array(list(pair_to_res_naive.values()))
