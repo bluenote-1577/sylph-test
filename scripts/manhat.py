@@ -9,6 +9,7 @@ import matplotlib.cm as cm
 import numpy as np
 cmap = plt.get_cmap('tab20')
 plt.set_cmap(cmap)
+q = 0.05
 
 def fdr(p_vals, alpha ):
     not_used, pvals = ss.multitest.fdrcorrection(p_vals, alpha = alpha)
@@ -104,7 +105,6 @@ plt.show()
 s = sorted(pvals, reverse=True) 
 count = 0 
 val = 0
-q = 0.05
 for p in s:
     if  (len(pvals) - count) / len(pvals) * q > 10**p:
         val = p
@@ -160,11 +160,11 @@ plt.set_cmap(cmap)
 
 fig, ax = plt.subplots(figsize = (6.5* cm , 6.5 * cm))
 plt.ylabel("-log10(q-val)")
-plt.xlabel("Agathobacter rectalis")
+plt.xlabel("Agathobacter rectalis MAGs sorted by similarity")
 mag_c = mag_to_c[agatho_rep]
 #print(mag_c)
 it_tab20 = [plt.cm.tab20(i) for i in range(20)]
-plt.scatter(range(len(agatho_qvals)), -np.array(agatho_qvals), c = [it_tab20[mag_c+7] for x in agatho_qvals], s = size, cmap = cmap)
+plt.scatter(range(len(agatho_qvals)), -np.array(agatho_qvals), c = [it_tab20[mag_c] for x in agatho_qvals], s = size, cmap = cmap)
 plt.xticks([])
 ax.spines[['right', 'top']].set_visible(False)
 plt.axhline(-np.log10(q))

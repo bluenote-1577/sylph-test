@@ -9,6 +9,7 @@ from dataclasses import dataclass
 import glob
 from natsort import natsorted
 
+cov_plot = False
 np.random.seed(0)
 def rand_jitter(arr):
     stdev = 0.00 
@@ -50,10 +51,9 @@ true_anis = [100, 96.2, 90.5]
 #true_ani = float(sys.argv[1])
 #re_str = "(\d+)-(\d+\.?\d+)-.+\.fastq.gz"
 re_str = "(\d+)-(\d+)-(\d+)-(\d+\.?\d+).tsv"
-cov_plot = False
 
 if not cov_plot: 
-    fig, ax = plt.subplots(3,1, figsize = (14* cm , 12*cm))
+    fig, ax = plt.subplots(3,1, figsize = (10 * cm,  16*cm))
 else:
     fig, ax = plt.subplots(3,3, figsize = (16* cm , 16 * cm))
 
@@ -151,9 +151,9 @@ for index in range(3):
     boxes = []
     labels = []
     positions = []
-    offset = 0.15
+    offset = 0.18
     width = 0.9
-    s = 12
+    s = 10
 
     
 
@@ -171,7 +171,7 @@ for index in range(3):
             center = len(cs)/2 * offset - i*offset
             xpos = np.array([pos_to_index[x] for x in xs[i]]) + center
             if i != len(cs):
-                label = f"-c {cs[i]}"
+                label = f"sylph -c {cs[i]}"
             else:
                 label = "Naive ANI"
             ax[index].scatter(xpos, ypos, s = s, color = cmap[i], label = label)
@@ -194,32 +194,8 @@ for index in range(3):
         ax[index].set_xticklabels(sorted(list(pos_to_index.keys())))
         if index == 0:
             ax[index].legend(frameon=False)
+        ax[index].tick_params(axis='x', rotation=45)
         
-
-
-
-        #xticks = [i*3+0.5 for i in range(len(grouped_data))]
-        #ax[index].set_xticks(xticks)
-        ##ax[index].set_ylim([72,101])
-        #ax[index].set_xticklabels(sorted(grouped_data.keys()))
-        ##ax.axhline(y=100, linestyle='--', color='gray')
-        #ax[index].axhline(y=100, linestyle='--', color='black')
-        #ax[index].axhline(y=true_ani, linestyle='--', color='red')
-
-        ## Create dummy Line2D objects for the legend
-        #lines = [plt.Line2D([0], [0], color=color, linewidth=3, linestyle='-') for color in box_colors]
-        #labels = ['Naive containment ANI', 'sylph c = 1000', 'sylph c = 100']
-
-        ## Add the legend
-        #ax[index].legend(lines, labels, frameon=False, loc = 'lower right')
-        #ax[index].spines[['right', 'top']].set_visible(False)
-        #plt.xlabel("True effective coverage")
-        #if index == 0:
-        #    ax[index].set_ylabel("Estimated ANI\n(Truth 100)")
-        #elif index == 1:
-        #    ax[index].set_ylabel("Estimated ANI\n(Truth 96.2)")
-        #else:
-        #    ax[index].set_ylabel("Estimated ANI\n(Truth 90.5)")
     
     if cov_plot:
         r = [0.008,2.4]
@@ -229,20 +205,24 @@ for index in range(3):
             ani_label = ', ANI = 96.2'
         if index == 2:
             ani_label = ', ANI = 90.5'
-        ax[0][index].scatter(np.array(l)[:,0], np.array(l)[:,1], color = cmap[2], s = 10, alpha = 1.0, facecolors='none',label='c = 1000' + ani_label)
+        ax[0][index].scatter(np.array(ls[0])[:,0], np.array(ls[0])[:,1], color = cmap[2], s = 10, alpha = 1.0, facecolors='none',label='c = 100' + ani_label)
         ax[0][index].plot(r,r, '--', c = 'black')
 
-        ax[0][0].set_ylabel("Predicted effective coverage (lambda)")
-        ax[1][0].set_ylabel("Predicted effective coverage (lambda)")
-        ax[2][0].set_ylabel("Predicted effective coverage (lambda)")
-        ax[2][0].set_xlabel("True effective coverage")
-        ax[2][1].set_xlabel("True effective coverage")
-        ax[2][2].set_xlabel("True effective coverage")
+        for a in ax:
+            for b in a:
+                b.set_ylabel("Predicted effective coverage")
+                b.set_xlabel("True effective coverage")
+        #ax[0][0].set_ylabel("Predicted effective coverage (lambda)")
+        #ax[1][0].set_ylabel("Predicted effective coverage (lambda)")
+        #ax[2][0].set_ylabel("Predicted effective coverage (lambda)")
+        #ax[2][0].set_xlabel("True effective coverage")
+        #ax[2][1].set_xlabel("True effective coverage")
+        #ax[2][2].set_xlabel("True effective coverage")
 
-        ax[1][index].scatter(np.array(l500)[:,0], np.array(l500)[:,1], color = cmap[1], s = 10, alpha = 1.0, facecolors='none',label = 'c = 500' + ani_label)
+        ax[1][index].scatter(np.array(ls[1])[:,0], np.array(ls[1])[:,1], color = cmap[1], s = 10, alpha = 1.0, facecolors='none',label = 'c = 200' + ani_label)
         ax[1][index].plot(r,r, '--', c = 'black')
         #ax[1][index].yaxis.set_visible(False)
-        ax[2][index].scatter(np.array(l100)[:,0], np.array(l100)[:,1], color = cmap[0], s = 10, alpha = 1.0, facecolors='none',label = 'c = 100' + ani_label)
+        ax[2][index].scatter(np.array(ls[2])[:,0], np.array(ls[2])[:,1], color = cmap[0], s = 10, alpha = 1.0, facecolors='none',label = 'c = 1000' + ani_label)
         ax[2][index].plot(r,r,'--', c = 'black')
         #ax[2][index].yaxis.set_visible(False)
         for b in ax:
@@ -254,15 +234,16 @@ for index in range(3):
         ax[0][index].legend(frameon=False)
         ax[1][index].legend(frameon=False)
         ax[2][index].legend(frameon=False)
+
         #ax[0].set_xticks(sorted(grouped_data.keys()))
         #ax[0].set_xticklabels(sorted(grouped_data.keys()))
         #ax[0].get_xaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
 
 plt.tight_layout()
 if cov_plot:
-    plt.savefig("figures/coverage_est_plot.pdf")
+    plt.savefig("figures/coverage_est_plot.svg")
 else:
-    plt.savefig("figures/synthetic_kleb_plot.pdf")
+    plt.savefig("figures/synthetic_kleb_plot.svg")
 
 #plt.legend()
 plt.show()

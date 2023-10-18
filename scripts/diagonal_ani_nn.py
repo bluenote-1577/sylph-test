@@ -35,7 +35,7 @@ class result:
 cm = 1/2.54  # centimeters in inches\n",
     ##Change this to get a bigger figure. \n",
 cmap = sns.color_palette("muted")
-plt.rcParams.update({'font.size': 7})
+plt.rcParams.update({'font.size': 7.0})
 plt.rcParams.update({'figure.autolayout': True})
 plt.rcParams.update({'font.family':'arial'})
 
@@ -49,15 +49,6 @@ sylph_files_gap = [
         "gtdb-on-reads-oct15/gtdb-on-pac-c200.tsv",
         ]
 
-
-sylph_files = [
-        "gtdb-on-reads/gtdb-on-ill-c100.tsv",
-        "gtdb-on-reads/gtdb-on-ill-c1000.tsv",
-        "gtdb-on-reads/gtdb-on-nano-c100.tsv",
-        "gtdb-on-reads/gtdb-on-nano-c1000.tsv",
-        "gtdb-on-reads/gtdb-on-pac-c100.tsv",
-        "gtdb-on-reads/gtdb-on-pac-c1000.tsv",
-        ]
 
 truth_files = [
         "gtdb-on-reads/true-gtdb-on-on-mock-c100.tsv",
@@ -146,7 +137,7 @@ for file in truth_files:
         true_results[-1].append(res)
 
 
-fig, ax = plt.subplots(1, 3, figsize = (16* cm , 6 * cm), sharey = True, sharex = True)
+fig, ax = plt.subplots(1, 3, figsize = (16* cm , 7 * cm), sharey = True, sharex = True)
 s = 8
 
 for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
@@ -213,18 +204,18 @@ for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
             good_lr = stats.linregress(x,y)
             naive_lr = stats.linregress(x,z)
 
+            ax[i].set_xlabel("True containment ANI")
             if j == 1:
                 ax[i].scatter(x,y,s = s, color = cmap[2], alpha = 0.5, label = rf"c = 1000, $R^2$ = {round(good_lr.rvalue**2,3)}")
-                ax[i].set_xlabel("True 31-mer ANI")
             else:
                 if i == 0:
-                    ax[i].set_title("Illumina")
+                    ax[i].set_title("Illumina", fontsize = plt.rcParams['font.size'])
                 elif i == 1:
-                    ax[i].set_title("Nanopore-old")
+                    ax[i].set_title("Nanopore-old", fontsize = plt.rcParams['font.size'])
                 elif i == 2:
-                    ax[i].set_title("PacBio")
+                    ax[i].set_title("PacBio", fontsize = plt.rcParams['font.size'])
 
-                ax[i].scatter(x,y,s = s, color = cmap[0], alpha = 0.5, label = rf"c = 100, $R^2$ = {round(good_lr.rvalue**2,3)}")
+                ax[i].scatter(x,y,s = s, color = cmap[0], alpha = 0.5, label = rf"sylph, $R^2$ = {round(good_lr.rvalue**2,3)}")
             ax[i].scatter(x,z, s= s, color = cmap[3], alpha = 0.5, label = rf"Naive, $R^2$ = {round(naive_lr.rvalue**2,3)}")
             ax[i].plot([90,100],[90,100],'--', c = 'black')
             print('covered: ' + str(covered/total) + 'total: ' + str(total))
@@ -234,18 +225,18 @@ for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
 
 
         else:
+            ax[i].set_xlabel("Estimated lambda")
             if j == 1:
                 ax[i].scatter(x_lam,y_diff,s = s, color = cmap[2], alpha = 0.5, label = 'c = 1000')
-                ax[i].set_xlabel("Estimated lambda")
             else:
                 if i == 0:
-                    ax[i].set_title("Illumina")
+                    ax[i].set_title("Illumina", fontsize = plt.rcParams['font.size'])
                 elif i == 1:
-                    ax[i].set_title("Nanopore-old")
+                    ax[i].set_title("Nanopore-old", fontsize = plt.rcParams['font.size'])
                 elif i == 2:
-                    ax[i].set_title("PacBio")
+                    ax[i].set_title("PacBio", fontsize = plt.rcParams['font.size'])
 
-                ax[i].scatter(x_lam,y_diff,s = s, color = cmap[0], alpha = 0.5, label = 'c = 100')
+                ax[i].scatter(x_lam,y_diff,s = s, color = cmap[0], alpha = 0.5, label = 'sylph')
             ax[i].scatter(x_lam,z_diff, s= s, color = cmap[3], alpha = 0.5, label = 'Naive')
             ax[i].set_xscale('log')
             ax[i].axhline(0, c = 'black', ls = '--')
@@ -264,9 +255,9 @@ for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
 
             #ax[j][i].set_ylim([85,100])
 if plt_diag:
-    plt.savefig("figures/mock_diag.pdf")
+    plt.savefig("figures/mock_diag.svg")
 else:
-    plt.savefig("figures/mock_deviation.pdf")
+    plt.savefig("figures/mock_deviation.svg")
 plt.show()
 
     #plt.scatter(x_lam, y_diff)

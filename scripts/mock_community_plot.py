@@ -7,9 +7,8 @@ from collections import defaultdict
 import seaborn as sns
 from dataclasses import dataclass
 from natsort import natsorted
-cmap = sns.color_palette("muted")
 
-np.random.seed(0)
+np.random.seed(1)
 def rand_jitter(arr):
     stdev = .10 
     return arr + np.random.randn(len(arr)) * stdev
@@ -33,7 +32,7 @@ class result:
 cm = 1/2.54  # centimeters in inches\n",
     ##Change this to get a bigger figure. \n",
 cmap = sns.color_palette("deep")
-plt.rcParams.update({'font.size': 6.5})
+plt.rcParams.update({'font.size': 7.0})
 plt.rcParams.update({'figure.autolayout': True})
 plt.rcParams.update({'font.family':'arial'})
 results = []
@@ -127,7 +126,7 @@ num_methods = 3
 
 
 for (i,x) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
-    ax[i].set_title(x)
+    ax[i].set_title(x, fontsize = plt.rcParams['font.size'])
     positions = []
     positions.append(i*num_methods - 1)
     positions.append(i*num_methods + 0 - offset)
@@ -180,10 +179,13 @@ for (i,x) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
     #ax[i].legend(frameon = False,title="# ANI > 99, 95")
 
     labels = []
-    labels.append("sylph query\n\n" + dot_label[0])
-    #labels.append("sylph\n-c 1000\n\n" + dot_label[1])
-    labels.append("mash screen\n\n" + dot_label[1])
-    labels.append("sourmash\n\n" + dot_label[2])
+    #labels.append("sylph query\n\n" + dot_label[0])
+    #labels.append("mash screen\n\n" + dot_label[1])
+    #labels.append("sourmash\n\n" + dot_label[2])
+    labels.append("sylph query")
+    labels.append("mash screen")
+    labels.append("sourmash")
+
     bp = ax[i].boxplot(boxes, showfliers=False, positions = positions, widths = width, labels=labels)
     for median in bp['medians']:
         median.set_color('black')
@@ -191,7 +193,7 @@ for (i,x) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
     ax[i].tick_params(axis='x', labelrotation=0)
 
     if i == 0:
-        ax[i].set_ylabel('Query ANI')
+        ax[i].set_ylabel('Estimated ANI')
 
 
 
@@ -208,7 +210,7 @@ for a in ax:
     #plt.scatter(rand_jitter([positions[4*i+3]  for x in range(len(box_sour))]), box_sour, s = s)
 
 #ax.boxplot(boxes, showfliers=False, positions = positions, widths = width, vert=False)
-plt.savefig("figures/mock_community_box.pdf")
+plt.savefig("figures/mock_community_box.svg")
 plt.show()
 
  

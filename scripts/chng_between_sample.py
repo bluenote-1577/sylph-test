@@ -13,6 +13,8 @@ from scipy import stats
 
 cmap = sns.color_palette("muted")
 
+boxplot_covs = False
+other_ind = 3
 
 np.random.seed(0)
 def rand_jitter(arr):
@@ -51,7 +53,6 @@ metadata = 'atopic_controls_table.txt'
 #metadata = '/home/jshaw/projects/sylph_test/all_case_control_table_nofail.txt'
 #metadata = '/home/jshaw/projects/sylph_test/spt_case.txt'
 
-boxplot_covs = True
 
 prev_file = None
 for line in open(metadata,'r'):
@@ -64,11 +65,14 @@ for line in open(metadata,'r'):
         read_file_to_pair_dict[file] = prev_file
         prev_file = None
     read_file_to_status[file] = case_control
+print(len(read_file_to_status))
 
 prita_files = [
         #"/home/jshaw/projects/sylph_test/results/c100-fungi+aureus.tsv",
         #"results/c100-fungi-jul2.txt",
         "results_oct15/chng-fungi.tsv",
+        #"results_oct15/chng-fungi_c100.tsv",
+        #"x"
         ]
 
 for file in prita_files:
@@ -146,16 +150,16 @@ for res in results[0]:
                 case_res_n.append(res.naive_ani)
 
             else:
-                case_res.append(res.mean_cov)
-                case_res_n.append(res.mean_cov)
+                case_res.append(res.eff_cov)
+                case_res_n.append(res.eff_cov)
         else:
             if not boxplot_covs:
                 control_res.append(res.final_ani)
                 control_res_n.append(res.naive_ani)
 
             else:
-                control_res.append(res.mean_cov)
-                control_res_n.append(res.mean_cov)
+                control_res.append(res.eff_cov)
+                control_res_n.append(res.eff_cov)
 
         res_used_pairs.add(tuple(pair))
     if 'globo' in res.contig_name:
@@ -170,21 +174,23 @@ for res in results[0]:
                 case_globo_n.append(res.naive_ani)
 
             else:
-                case_globo.append(res.mean_cov)
-                case_globo_n.append(res.mean_cov)
+                case_globo.append(res.eff_cov)
+                case_globo_n.append(res.eff_cov)
 
         else:
             if not boxplot_covs:
                 control_globo.append(res.final_ani)
                 control_globo_n.append(res.naive_ani)
             else:
-                control_globo.append(res.mean_cov)
-                control_globo_n.append(res.mean_cov)
+                control_globo.append(res.eff_cov)
+                control_globo_n.append(res.eff_cov)
 
         globo_used_pairs.add(tuple(pair))
 
+print(case_res)
+print(len(globo_used_pairs))
 #print(len(globo_used_pairs))
-print(list(pair_to_res.values()))
+print(pair_to_res)
 
 sc = np.array(list(pair_to_res.values()))
 sc2 = np.array(list(pair_to_res_naive.values()))
@@ -194,9 +200,9 @@ sc2_g = np.array(list(pair_to_res_naive_globo.values()))
 
 s = 7
 ax[0][0].scatter(sc[:,0], sc[:,1], alpha = 1.00, s = s, color = cmap[0], label = 'sylph adjusted')
-ax[0][1].scatter(sc2[:,0], sc2[:,1], alpha = 1.00, s = s, color = cmap[3], label =  'naive containment')
+ax[0][1].scatter(sc2[:,0], sc2[:,1], alpha = 1.00, s = s, color = cmap[other_ind], label =  'Naive containment')
 ax[1][0].scatter(sc_g[:,0], sc_g[:,1], alpha = 1.00, s = s, color = cmap[0], label = 'sylph adjusted')
-ax[1][1].scatter(sc2_g[:,0], sc2_g[:,1], alpha = 1.00, s = s, color = cmap[3], label =  'naive containment')
+ax[1][1].scatter(sc2_g[:,0], sc2_g[:,1], alpha = 1.00, s = s, color = cmap[other_ind], label =  'Naive containment')
 ax[0][0].plot([82,100],[82,100],'--',c='black')
 ax[1][0].plot([82,100],[82,100],'--',c='black')
 ax[0][1].plot([82,100],[82,100],'--',c='black')
@@ -234,7 +240,7 @@ for a in ax:
         #b.legend(frameon=False, loc='lower right')
 #fig.tight_layout()
 fig.tight_layout(rect=(0,0,1,0.95))
-plt.savefig("figures/chng_left_right_concordance.pdf")
+plt.savefig("figures/chng_left_right_concordance.svg")
 plt.show()
 
 
@@ -291,14 +297,25 @@ def add_stat_annotation(ax, bp, pval):
 # Create the figure and axes
 fig, ax = plt.subplots(2,2, figsize=(8*cm, 8*cm))
 
+case_res = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res.items() if read_file_to_status[a[0]] == 'Case']
+case_globo = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res_globo.items() if read_file_to_status[a[0]] == 'Case']
+control_res = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res.items() if read_file_to_status[a[0]] == 'Control']
+control_globo = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res_globo.items() if read_file_to_status[a[0]] == 'Control']
+
+case_res_n = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res_naive.items() if read_file_to_status[a[0]] == 'Case']
+case_globo_n = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res_naive_globo.items() if read_file_to_status[a[0]] == 'Case']
+control_res_n = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res_naive.items() if read_file_to_status[a[0]] == 'Control']
+control_globo_n = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res_naive_globo.items() if read_file_to_status[a[0]] == 'Control']
+
+
 # Add the boxplots to the axes
-bp1 = ax[0][0].boxplot([case_res, control_res], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['case', 'control'])
-bp2 = ax[0][1].boxplot([case_res_n, control_res_n], patch_artist=True, boxprops=dict(facecolor=cmap[3]),labels = ['case', 'control'])
-bp3 = ax[1][0].boxplot([case_globo, control_globo], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['case','control'])
-bp4 = ax[1][1].boxplot([case_globo_n, control_globo_n], patch_artist=True, boxprops=dict(facecolor=cmap[3]), labels = ['case', 'control'])
+bp1 = ax[0][0].boxplot([case_res, control_res], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['Case', 'Control'])
+bp2 = ax[0][1].boxplot([case_res_n, control_res_n], patch_artist=True, boxprops=dict(facecolor=cmap[other_ind]),labels = ['Case', 'Control'])
+bp3 = ax[1][0].boxplot([case_globo, control_globo], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['Case','Control'])
+bp4 = ax[1][1].boxplot([case_globo_n, control_globo_n], patch_artist=True, boxprops=dict(facecolor=cmap[other_ind]), labels = ['Case', 'Control'])
 boxplots = [bp1, bp2, bp3, bp4]
 
-print(f"n = {len(case_res) + len(case_globo)}")
+print(f"n = {len(case_res) + len(control_globo)}")
 
 lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes[0:2]]
 lines, labels = [sum(lol, []) for lol in zip(*lines_labels)]
@@ -317,10 +334,10 @@ ax[1][0].set_ylabel('ANI')
     #for k in range(2):
         #ax[l][k].set_ylim([85,103])
 
-ax[0][0].text(.05, 1.15, rf"M. restricta ", ha='left', va='top', transform=ax[0][0].transAxes, fontsize = 8)
-ax[0][1].text(.05, 1.15, 'M. restricta', ha='left', va='top', transform=ax[0][1].transAxes, fontsize = 8)
-ax[1][1].text(.05, 1.15, 'M. globosa', ha='left', va='top', transform=ax[1][1].transAxes, fontsize = 8)
-ax[1][0].text(.05, 1.15, 'M. globosa', ha='left', va='top', transform=ax[1][0].transAxes, fontsize = 8)
+ax[0][0].text(.05, 1.15, rf"M. restricta ", ha='left', va='top', transform=ax[0][0].transAxes, fontsize = 7)
+ax[0][1].text(.05, 1.15, 'M. restricta', ha='left', va='top', transform=ax[0][1].transAxes, fontsize = 7)
+ax[1][1].text(.05, 1.15, 'M. globosa', ha='left', va='top', transform=ax[1][1].transAxes, fontsize = 7)
+ax[1][0].text(.05, 1.15, 'M. globosa', ha='left', va='top', transform=ax[1][0].transAxes, fontsize = 7)
 
 
 
@@ -347,7 +364,7 @@ for a in ax:
     for b in a:
         b.spines[['right', 'top']].set_visible(False)
 
-fig.legend([bp1["boxes"][0], bp2["boxes"][0]], ['sylph adjusted', 'naive containment'], loc='upper center', frameon=False, bbox_transform = plt.gcf().transFigure, ncol = 2)
+fig.legend([bp1["boxes"][0], bp2["boxes"][0]], ['sylph adjusted', 'Naive containment'], loc='upper center', frameon=False, bbox_transform = plt.gcf().transFigure, ncol = 2)
 fig.tight_layout(rect=(0,0,1,0.95))
-plt.savefig("figures/chng_adjusted_ani_pvalues.pdf")
+plt.savefig("figures/chng_adjusted_ani_pvalues.svg")
 plt.show()
