@@ -1,0 +1,2199 @@
+tool	rank	metric	sample	value
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_0	0.4135998548754722
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_0	0.5966984595412387
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_sample_0	1.2817066021412153
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_sample_0	0.45238619422363696
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_sample_0	1.756331224636351
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_sample_0	0.545634973262215
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_sample_0	2.841889615979529
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_sample_0	0.6758852247304503
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_sample_0	3.231671913247059
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_sample_0	0.6888578707813704
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_sample_0	3.7119191795230777
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_sample_0	0.7140369913069338
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_sample_0	3.8132784538877855
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_sample_0	0.6876747393690803
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_sample_0	4.588593292644185
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_sample_0	0.7694361101365044
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_sample_0	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_sample_0	17.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_sample_0	25.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_sample_0	67.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_sample_0	109.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_sample_0	181.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_sample_0	256.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_sample_0	389.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_0	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_0	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_sample_0	0.99914
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_sample_0	0.95905
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_sample_0	0.9546900000000007
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_sample_0	0.947540000000001
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_sample_0	0.9801900000000003
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_sample_0	0.8932200000000016
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_sample_0	0.9994100000000024
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_0	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_sample_0	17.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_sample_0	25.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_sample_0	67.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_sample_0	109.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_sample_0	181.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_sample_0	256.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_sample_0	389.0
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_1	0.3660474043641706
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_1	0.5280947750064661
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_sample_1	1.3642833814788804
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_sample_1	0.4481107987823007
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_sample_1	1.8899760769155485
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_sample_1	0.550373651493821
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_sample_1	3.094969553647288
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_sample_1	0.7236874395888908
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_sample_1	3.593246756172304
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_sample_1	0.7545391674831602
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_sample_1	4.162606876315546
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_sample_1	0.7834454174626697
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_sample_1	4.29568497974818
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_sample_1	0.7531291732872588
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_sample_1	5.062815845901605
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_sample_1	0.828713483504091
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_sample_1	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_sample_1	21.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_sample_1	31.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_sample_1	72.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_sample_1	117.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_sample_1	203.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_sample_1	300.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_sample_1	450.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_1	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_1	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9996600000000003
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9522700000000001
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9543900000000001
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_sample_1	0.94816
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9859099999999998
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9063799999999987
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_sample_1	1.000679999999997
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_1	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_sample_1	21.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_sample_1	31.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_sample_1	72.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_sample_1	117.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_sample_1	203.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_sample_1	300.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_sample_1	450.0
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_2	0.3831805720931298
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_2	0.5528127111237543
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_sample_2	1.3146688074054786
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_sample_2	0.42531567496820827
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_sample_2	1.8544585748770253
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_sample_2	0.5565260383071505
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_sample_2	2.945571193965106
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_sample_2	0.6980840893717881
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_sample_2	3.3574825640304105
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_sample_2	0.7199584890621769
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_sample_2	3.947209466970876
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_sample_2	0.7478445850106503
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_sample_2	4.048580983767203
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_sample_2	0.7212700132675895
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_sample_2	4.8173228107543435
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_sample_2	0.7947466879969673
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_sample_2	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_sample_2	22.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_sample_2	28.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_sample_2	68.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_sample_2	106.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_sample_2	196.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_sample_2	274.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_sample_2	429.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_2	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_2	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_sample_2	1.0000099999999998
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_sample_2	0.96435
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_sample_2	0.9528699999999999
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_sample_2	0.942999999999999
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_sample_2	0.9806899999999993
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_sample_2	0.8966999999999978
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_sample_2	0.9999599999999965
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_2	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_sample_2	22.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_sample_2	28.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_sample_2	68.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_sample_2	106.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_sample_2	196.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_sample_2	274.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_sample_2	429.0
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_3	0.3605812683281998
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_3	0.5202088076545466
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_sample_3	1.3524385974513327
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_sample_3	0.437534785710223
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_sample_3	1.9592207080499062
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_sample_3	0.5705381503725346
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_sample_3	3.065756596012634
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_sample_3	0.7122932691824893
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_sample_3	3.434586145640961
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_sample_3	0.7174082651566305
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_sample_3	4.126119553202818
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_sample_3	0.7575396556967684
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_sample_3	4.1827907851306385
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_sample_3	0.7038418295992805
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_sample_3	5.1103782632431205
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_sample_3	0.7978448070553604
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_sample_3	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_sample_3	22.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_sample_3	31.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_sample_3	74.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_sample_3	120.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_sample_3	232.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_sample_3	381.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_sample_3	605.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_3	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_3	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_sample_3	1.00002
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_sample_3	0.95953
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_sample_3	0.9483299999999999
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_sample_3	0.9342799999999997
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_sample_3	0.9757199999999995
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_sample_3	0.8769000000000006
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_sample_3	1.0001800000000012
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_3	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_sample_3	22.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_sample_3	31.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_sample_3	74.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_sample_3	120.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_sample_3	232.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_sample_3	381.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_sample_3	605.0
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_4	0.2975350826354672
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_4	0.42925238820867645
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_sample_4	1.281007024870912
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_sample_4	0.44319801470912784
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_sample_4	1.9592490922950385
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_sample_4	0.5944617928466563
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_sample_4	3.0060384066345818
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_sample_4	0.7227994503289121
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_sample_4	3.3038837159618053
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_sample_4	0.7158824355518871
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_sample_4	3.9526183071255905
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_sample_4	0.757154960230376
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_sample_4	3.769927846508139
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_sample_4	0.6703264778889116
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_sample_4	4.775254102192811
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_sample_4	0.7881097558265262
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_sample_4	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_sample_4	18.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_sample_4	27.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_sample_4	64.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_sample_4	101.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_sample_4	185.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_sample_4	277.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_sample_4	428.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_4	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_4	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9999999999999999
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9688799999999997
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9595000000000001
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9357300000000006
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9819500000000002
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_sample_4	0.8421199999999999
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9999600000000011
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_4	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_sample_4	18.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_sample_4	27.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_sample_4	64.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_sample_4	101.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_sample_4	185.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_sample_4	277.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_sample_4	428.0
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_5	0.309560955106587
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_5	0.4466020547851241
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_sample_5	1.3170850723677212
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_sample_5	0.43965379816975286
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_sample_5	1.916682501392024
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_sample_5	0.5692052608872571
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_sample_5	3.007048087069467
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_sample_5	0.7177317159110436
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_sample_5	3.3831064107180384
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_sample_5	0.7239953635296414
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_sample_5	4.053266856802744
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_sample_5	0.7553643261646668
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_sample_5	3.9195988490364897
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_sample_5	0.6755461704591241
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_sample_5	4.834148680466562
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_sample_5	0.776872547994476
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_sample_5	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_sample_5	20.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_sample_5	29.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_sample_5	66.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_sample_5	107.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_sample_5	214.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_sample_5	331.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_sample_5	504.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_5	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_5	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_sample_5	0.99999
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_sample_5	0.9508300000000002
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_sample_5	0.9653099999999997
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_sample_5	0.9551400000000004
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_sample_5	0.9895200000000005
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_sample_5	0.8582899999999992
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_sample_5	1.000369999999999
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_5	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_sample_5	20.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_sample_5	29.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_sample_5	66.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_sample_5	107.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_sample_5	214.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_sample_5	331.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_sample_5	504.0
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_6	0.35055225114645705
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_6	0.505739994301456
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_sample_6	1.3332960881865095
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_sample_6	0.43134188815101104
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_sample_6	1.8304104385117237
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_sample_6	0.5381664846564146
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_sample_6	3.049665206188258
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_sample_6	0.7178224365192374
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_sample_6	3.472580569012206
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_sample_6	0.7387714230834345
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_sample_6	4.092697437597264
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_sample_6	0.765403989743238
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_sample_6	4.067286601838262
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_sample_6	0.7028440861824441
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_sample_6	4.949551521648759
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_sample_6	0.7939084765831559
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_sample_6	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_sample_6	22.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_sample_6	30.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_sample_6	70.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_sample_6	110.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_sample_6	210.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_sample_6	326.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_sample_6	510.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_6	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_6	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_sample_6	1.0000099999999998
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9432300000000002
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9729099999999998
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9642099999999997
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9895899999999996
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_sample_6	0.8757499999999991
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9996699999999986
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_6	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_sample_6	22.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_sample_6	30.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_sample_6	70.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_sample_6	110.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_sample_6	210.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_sample_6	326.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_sample_6	510.0
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_7	0.3810291481388292
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_7	0.5497088624540352
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_sample_7	1.278048165778887
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_sample_7	0.4266229586206223
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_sample_7	1.7851811222513265
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_sample_7	0.5357357619558182
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_sample_7	2.989022125152272
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_sample_7	0.7134292225011747
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_sample_7	3.363961040455855
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_sample_7	0.7243061821255752
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_sample_7	3.920239862558046
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_sample_7	0.7471358638047698
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_sample_7	3.8699284144148423
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_sample_7	0.6859255861106138
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_sample_7	4.786175844057591
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_sample_7	0.7884010244719352
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_sample_7	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_sample_7	20.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_sample_7	28.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_sample_7	66.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_sample_7	104.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_sample_7	190.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_sample_7	282.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_sample_7	433.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_7	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_7	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_sample_7	0.99999
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_sample_7	0.9512100000000003
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_sample_7	0.9720600000000001
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_sample_7	0.9590999999999998
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_sample_7	0.9830299999999997
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_sample_7	0.8679799999999989
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_sample_7	0.9993999999999993
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_7	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_sample_7	20.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_sample_7	28.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_sample_7	66.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_sample_7	104.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_sample_7	190.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_sample_7	282.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_sample_7	433.0
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_8	0.368218073517096
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_8	0.5312263886288022
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_sample_8	1.2341034280242416
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_sample_8	0.3935913585024861
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_sample_8	1.7142970773004444
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_sample_8	0.5040275188212312
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_sample_8	2.916298201695472
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_sample_8	0.6819092537358126
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_sample_8	3.357562517240338
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_sample_8	0.7063214080847994
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_sample_8	3.8979735773341977
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_sample_8	0.7251668251753985
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_sample_8	3.924043912562679
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_sample_8	0.6715177694424326
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_sample_8	4.809797881884401
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_sample_8	0.7663009521015346
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_sample_8	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_sample_8	23.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_sample_8	30.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_sample_8	72.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_sample_8	116.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_sample_8	216.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_sample_8	345.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_sample_8	532.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_8	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_8	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_sample_8	0.9999900000000004
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_sample_8	0.9620500000000001
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_sample_8	0.9714100000000009
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_sample_8	0.9630100000000013
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_sample_8	0.9773500000000017
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_sample_8	0.8727900000000026
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_sample_8	0.9993100000000037
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_8	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_sample_8	23.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_sample_8	30.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_sample_8	72.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_sample_8	116.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_sample_8	216.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_sample_8	345.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_sample_8	532.0
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_9	0.28627611749274107
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_9	0.41300913503172376
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_sample_9	1.3097355328770404
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_sample_9	0.43019408122884795
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_sample_9	1.8737649866058077
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_sample_9	0.5564598660799381
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_sample_9	3.011772707552791
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_sample_9	0.729749125317102
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_sample_9	3.3892615614536536
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_sample_9	0.739211690643525
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_sample_9	3.979569940792307
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_sample_9	0.766339882086658
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_sample_9	3.812200761396495
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_sample_9	0.6804926641662814
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_sample_9	4.902422203989917
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_sample_9	0.8135631003551482
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_sample_9	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_sample_9	21.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_sample_9	29.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_sample_9	62.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_sample_9	98.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_sample_9	180.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_sample_9	271.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_sample_9	414.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_9	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_sample_9	1.0
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_sample_9	0.96173
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_sample_9	0.9743500000000002
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_sample_9	0.9610800000000005
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_sample_9	0.9763900000000005
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_sample_9	0.8183100000000016
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_sample_9	0.9995800000000031
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_9	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_sample_9	21.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_sample_9	29.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_sample_9	62.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_sample_9	98.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_sample_9	180.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_sample_9	271.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_sample_9	414.0
+Gold standard	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_average	0.0
+Gold standard	phylum	Bray-Curtis distance	marmgCAMI2_short_read_average	0.0
+Gold standard	class	Bray-Curtis distance	marmgCAMI2_short_read_average	0.0
+Gold standard	order	Bray-Curtis distance	marmgCAMI2_short_read_average	0.0
+Gold standard	family	Bray-Curtis distance	marmgCAMI2_short_read_average	0.0
+Gold standard	genus	Bray-Curtis distance	marmgCAMI2_short_read_average	0.0
+Gold standard	species	Bray-Curtis distance	marmgCAMI2_short_read_average	0.0
+Gold standard	strain	Bray-Curtis distance	marmgCAMI2_short_read_average	0.0
+Gold standard	superkingdom	Shannon diversity	marmgCAMI2_short_read_average	0.35055225114645705
+Gold standard	superkingdom	Shannon equitability	marmgCAMI2_short_read_average	0.505739994301456
+Gold standard	phylum	Shannon diversity	marmgCAMI2_short_read_average	1.3286329816427345
+Gold standard	phylum	Shannon equitability	marmgCAMI2_short_read_average	0.4127630433513652
+Gold standard	class	Shannon diversity	marmgCAMI2_short_read_average	1.8963813474779614
+Gold standard	class	Shannon equitability	marmgCAMI2_short_read_average	0.537772962872076
+Gold standard	order	Shannon diversity	marmgCAMI2_short_read_average	3.0748419381384022
+Gold standard	order	Shannon equitability	marmgCAMI2_short_read_average	0.6997104369427162
+Gold standard	family	Shannon diversity	marmgCAMI2_short_read_average	3.502187977469668
+Gold standard	family	Shannon equitability	marmgCAMI2_short_read_average	0.7128911065253758
+Gold standard	genus	Shannon diversity	marmgCAMI2_short_read_average	4.14475250515631
+Gold standard	genus	Shannon equitability	marmgCAMI2_short_read_average	0.7398544439486664
+Gold standard	species	Shannon diversity	marmgCAMI2_short_read_average	4.1626309356998075
+Gold standard	species	Shannon equitability	marmgCAMI2_short_read_average	0.6753883369667988
+Gold standard	strain	Shannon diversity	marmgCAMI2_short_read_average	5.14351006003848
+Gold standard	strain	Shannon equitability	marmgCAMI2_short_read_average	0.7729774820215356
+Gold standard	superkingdom	True positives	marmgCAMI2_short_read_average	2.0
+Gold standard	superkingdom	False negatives	marmgCAMI2_short_read_average	0.0
+Gold standard	superkingdom	False positives	marmgCAMI2_short_read_average	0.0
+Gold standard	superkingdom	Completeness	marmgCAMI2_short_read_average	1.0
+Gold standard	superkingdom	Purity	marmgCAMI2_short_read_average	1.0
+Gold standard	superkingdom	F1 score	marmgCAMI2_short_read_average	1.0
+Gold standard	superkingdom	Jaccard index	marmgCAMI2_short_read_average	1.0
+Gold standard	phylum	True positives	marmgCAMI2_short_read_average	25.0
+Gold standard	phylum	False negatives	marmgCAMI2_short_read_average	0.0
+Gold standard	phylum	False positives	marmgCAMI2_short_read_average	0.0
+Gold standard	phylum	Completeness	marmgCAMI2_short_read_average	1.0
+Gold standard	phylum	Purity	marmgCAMI2_short_read_average	1.0
+Gold standard	phylum	F1 score	marmgCAMI2_short_read_average	1.0
+Gold standard	phylum	Jaccard index	marmgCAMI2_short_read_average	1.0
+Gold standard	class	True positives	marmgCAMI2_short_read_average	34.0
+Gold standard	class	False negatives	marmgCAMI2_short_read_average	0.0
+Gold standard	class	False positives	marmgCAMI2_short_read_average	0.0
+Gold standard	class	Completeness	marmgCAMI2_short_read_average	1.0
+Gold standard	class	Purity	marmgCAMI2_short_read_average	1.0
+Gold standard	class	F1 score	marmgCAMI2_short_read_average	1.0
+Gold standard	class	Jaccard index	marmgCAMI2_short_read_average	1.0
+Gold standard	order	True positives	marmgCAMI2_short_read_average	81.0
+Gold standard	order	False negatives	marmgCAMI2_short_read_average	0.0
+Gold standard	order	False positives	marmgCAMI2_short_read_average	0.0
+Gold standard	order	Completeness	marmgCAMI2_short_read_average	1.0
+Gold standard	order	Purity	marmgCAMI2_short_read_average	1.0
+Gold standard	order	F1 score	marmgCAMI2_short_read_average	1.0
+Gold standard	order	Jaccard index	marmgCAMI2_short_read_average	1.0
+Gold standard	family	True positives	marmgCAMI2_short_read_average	136.0
+Gold standard	family	False negatives	marmgCAMI2_short_read_average	0.0
+Gold standard	family	False positives	marmgCAMI2_short_read_average	0.0
+Gold standard	family	Completeness	marmgCAMI2_short_read_average	1.0
+Gold standard	family	Purity	marmgCAMI2_short_read_average	1.0
+Gold standard	family	F1 score	marmgCAMI2_short_read_average	1.0
+Gold standard	family	Jaccard index	marmgCAMI2_short_read_average	1.0
+Gold standard	genus	True positives	marmgCAMI2_short_read_average	271.0
+Gold standard	genus	False negatives	marmgCAMI2_short_read_average	0.0
+Gold standard	genus	False positives	marmgCAMI2_short_read_average	0.0
+Gold standard	genus	Completeness	marmgCAMI2_short_read_average	1.0
+Gold standard	genus	Purity	marmgCAMI2_short_read_average	1.0
+Gold standard	genus	F1 score	marmgCAMI2_short_read_average	1.0
+Gold standard	genus	Jaccard index	marmgCAMI2_short_read_average	1.0
+Gold standard	species	True positives	marmgCAMI2_short_read_average	475.0
+Gold standard	species	False negatives	marmgCAMI2_short_read_average	0.0
+Gold standard	species	False positives	marmgCAMI2_short_read_average	0.0
+Gold standard	species	Completeness	marmgCAMI2_short_read_average	1.0
+Gold standard	species	Purity	marmgCAMI2_short_read_average	1.0
+Gold standard	species	F1 score	marmgCAMI2_short_read_average	1.0
+Gold standard	species	Jaccard index	marmgCAMI2_short_read_average	1.0
+Gold standard	strain	True positives	marmgCAMI2_short_read_average	776.0
+Gold standard	strain	False negatives	marmgCAMI2_short_read_average	0.0
+Gold standard	strain	False positives	marmgCAMI2_short_read_average	0.0
+Gold standard	strain	Completeness	marmgCAMI2_short_read_average	1.0
+Gold standard	strain	Purity	marmgCAMI2_short_read_average	1.0
+Gold standard	strain	F1 score	marmgCAMI2_short_read_average	1.0
+Gold standard	strain	Jaccard index	marmgCAMI2_short_read_average	1.0
+Gold standard	superkingdom	L1 norm error	marmgCAMI2_short_read_average	0.0
+Gold standard	phylum	L1 norm error	marmgCAMI2_short_read_average	0.0
+Gold standard	class	L1 norm error	marmgCAMI2_short_read_average	0.0
+Gold standard	order	L1 norm error	marmgCAMI2_short_read_average	0.0
+Gold standard	family	L1 norm error	marmgCAMI2_short_read_average	0.0
+Gold standard	genus	L1 norm error	marmgCAMI2_short_read_average	0.0
+Gold standard	species	L1 norm error	marmgCAMI2_short_read_average	0.0
+Gold standard	strain	L1 norm error	marmgCAMI2_short_read_average	0.0
+Gold standard	na	Weighted UniFrac error	marmgCAMI2_short_read_average	0.0
+Gold standard	na	Unweighted UniFrac error	marmgCAMI2_short_read_average	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_average	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_average	0.0
+Gold standard	superkingdom	Sum of abundances	marmgCAMI2_short_read_average	1.0
+Gold standard	phylum	Sum of abundances	marmgCAMI2_short_read_average	0.99989
+Gold standard	class	Sum of abundances	marmgCAMI2_short_read_average	0.9569599999999997
+Gold standard	order	Sum of abundances	marmgCAMI2_short_read_average	0.9630599999999998
+Gold standard	family	Sum of abundances	marmgCAMI2_short_read_average	0.9515600000000001
+Gold standard	genus	Sum of abundances	marmgCAMI2_short_read_average	0.9823400000000011
+Gold standard	species	Sum of abundances	marmgCAMI2_short_read_average	0.8696500000000011
+Gold standard	strain	Sum of abundances	marmgCAMI2_short_read_average	1.0000400000000027
+Gold standard	superkingdom	Taxon counts	marmgCAMI2_short_read_average	2.0
+Gold standard	phylum	Taxon counts	marmgCAMI2_short_read_average	25.0
+Gold standard	class	Taxon counts	marmgCAMI2_short_read_average	34.0
+Gold standard	order	Taxon counts	marmgCAMI2_short_read_average	81.0
+Gold standard	family	Taxon counts	marmgCAMI2_short_read_average	136.0
+Gold standard	genus	Taxon counts	marmgCAMI2_short_read_average	271.0
+Gold standard	species	Taxon counts	marmgCAMI2_short_read_average	475.0
+Gold standard	strain	Taxon counts	marmgCAMI2_short_read_average	776.0
+sylph.profile	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.0007564958392719566
+sylph.profile	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.027943361957150296
+sylph.profile	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.029548596183048517
+sylph.profile	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.04731125551293094
+sylph.profile	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.06320001849551589
+sylph.profile	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.06043915440860127
+sylph.profile	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_0	0.13138650275639896
+sylph.profile	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_0	0.4122545837363372
+sylph.profile	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_0	0.5947576435401576
+sylph.profile	phylum	Shannon diversity	marmgCAMI2_short_read_sample_0	1.2043493063624582
+sylph.profile	phylum	Shannon equitability	marmgCAMI2_short_read_sample_0	0.4447293133163754
+sylph.profile	class	Shannon diversity	marmgCAMI2_short_read_sample_0	1.699649493117513
+sylph.profile	class	Shannon equitability	marmgCAMI2_short_read_sample_0	0.5348082769672371
+sylph.profile	order	Shannon diversity	marmgCAMI2_short_read_sample_0	2.8274373248511178
+sylph.profile	order	Shannon equitability	marmgCAMI2_short_read_sample_0	0.6798549678311775
+sylph.profile	family	Shannon diversity	marmgCAMI2_short_read_sample_0	3.22497356746813
+sylph.profile	family	Shannon equitability	marmgCAMI2_short_read_sample_0	0.6929525231900555
+sylph.profile	genus	Shannon diversity	marmgCAMI2_short_read_sample_0	3.7282620104209454
+sylph.profile	genus	Shannon equitability	marmgCAMI2_short_read_sample_0	0.7210663477536663
+sylph.profile	species	Shannon diversity	marmgCAMI2_short_read_sample_0	4.272292629098523
+sylph.profile	species	Shannon equitability	marmgCAMI2_short_read_sample_0	0.7631244412064444
+sylph.profile	superkingdom	True positives	marmgCAMI2_short_read_sample_0	2.0
+sylph.profile	superkingdom	False negatives	marmgCAMI2_short_read_sample_0	0.0
+sylph.profile	superkingdom	False positives	marmgCAMI2_short_read_sample_0	0.0
+sylph.profile	superkingdom	Completeness	marmgCAMI2_short_read_sample_0	1.0
+sylph.profile	superkingdom	Purity	marmgCAMI2_short_read_sample_0	1.0
+sylph.profile	superkingdom	F1 score	marmgCAMI2_short_read_sample_0	1.0
+sylph.profile	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_0	1.0
+sylph.profile	phylum	True positives	marmgCAMI2_short_read_sample_0	15.0
+sylph.profile	phylum	False negatives	marmgCAMI2_short_read_sample_0	2.0
+sylph.profile	phylum	False positives	marmgCAMI2_short_read_sample_0	0.0
+sylph.profile	phylum	Completeness	marmgCAMI2_short_read_sample_0	0.8823529411764706
+sylph.profile	phylum	Purity	marmgCAMI2_short_read_sample_0	1.0
+sylph.profile	phylum	F1 score	marmgCAMI2_short_read_sample_0	0.9375
+sylph.profile	phylum	Jaccard index	marmgCAMI2_short_read_sample_0	0.8823529411764706
+sylph.profile	class	True positives	marmgCAMI2_short_read_sample_0	23.0
+sylph.profile	class	False negatives	marmgCAMI2_short_read_sample_0	2.0
+sylph.profile	class	False positives	marmgCAMI2_short_read_sample_0	1.0
+sylph.profile	class	Completeness	marmgCAMI2_short_read_sample_0	0.92
+sylph.profile	class	Purity	marmgCAMI2_short_read_sample_0	0.9583333333333334
+sylph.profile	class	F1 score	marmgCAMI2_short_read_sample_0	0.9387755102040817
+sylph.profile	class	Jaccard index	marmgCAMI2_short_read_sample_0	0.8846153846153846
+sylph.profile	order	True positives	marmgCAMI2_short_read_sample_0	63.0
+sylph.profile	order	False negatives	marmgCAMI2_short_read_sample_0	4.0
+sylph.profile	order	False positives	marmgCAMI2_short_read_sample_0	1.0
+sylph.profile	order	Completeness	marmgCAMI2_short_read_sample_0	0.9402985074626866
+sylph.profile	order	Purity	marmgCAMI2_short_read_sample_0	0.984375
+sylph.profile	order	F1 score	marmgCAMI2_short_read_sample_0	0.9618320610687023
+sylph.profile	order	Jaccard index	marmgCAMI2_short_read_sample_0	0.9264705882352942
+sylph.profile	family	True positives	marmgCAMI2_short_read_sample_0	102.0
+sylph.profile	family	False negatives	marmgCAMI2_short_read_sample_0	7.0
+sylph.profile	family	False positives	marmgCAMI2_short_read_sample_0	3.0
+sylph.profile	family	Completeness	marmgCAMI2_short_read_sample_0	0.9357798165137615
+sylph.profile	family	Purity	marmgCAMI2_short_read_sample_0	0.9714285714285714
+sylph.profile	family	F1 score	marmgCAMI2_short_read_sample_0	0.9532710280373832
+sylph.profile	family	Jaccard index	marmgCAMI2_short_read_sample_0	0.9107142857142857
+sylph.profile	genus	True positives	marmgCAMI2_short_read_sample_0	167.0
+sylph.profile	genus	False negatives	marmgCAMI2_short_read_sample_0	14.0
+sylph.profile	genus	False positives	marmgCAMI2_short_read_sample_0	9.0
+sylph.profile	genus	Completeness	marmgCAMI2_short_read_sample_0	0.9226519337016574
+sylph.profile	genus	Purity	marmgCAMI2_short_read_sample_0	0.9488636363636364
+sylph.profile	genus	F1 score	marmgCAMI2_short_read_sample_0	0.9355742296918768
+sylph.profile	genus	Jaccard index	marmgCAMI2_short_read_sample_0	0.8789473684210526
+sylph.profile	species	True positives	marmgCAMI2_short_read_sample_0	234.0
+sylph.profile	species	False negatives	marmgCAMI2_short_read_sample_0	22.0
+sylph.profile	species	False positives	marmgCAMI2_short_read_sample_0	36.0
+sylph.profile	species	Completeness	marmgCAMI2_short_read_sample_0	0.9140625
+sylph.profile	species	Purity	marmgCAMI2_short_read_sample_0	0.8666666666666667
+sylph.profile	species	F1 score	marmgCAMI2_short_read_sample_0	0.8897338403041826
+sylph.profile	species	Jaccard index	marmgCAMI2_short_read_sample_0	0.8013698630136986
+sylph.profile	strain	True positives	marmgCAMI2_short_read_sample_0	0.0
+sylph.profile	strain	False negatives	marmgCAMI2_short_read_sample_0	389.0
+sylph.profile	strain	False positives	marmgCAMI2_short_read_sample_0	0.0
+sylph.profile	strain	Completeness	marmgCAMI2_short_read_sample_0	0.0
+sylph.profile	strain	Purity	marmgCAMI2_short_read_sample_0	0.0
+sylph.profile	strain	Jaccard index	marmgCAMI2_short_read_sample_0	0.0
+sylph.profile	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_0	0.0015129999999981437
+sylph.profile	phylum	L1 norm error	marmgCAMI2_short_read_sample_0	0.05586299999999894
+sylph.profile	class	L1 norm error	marmgCAMI2_short_read_sample_0	0.056838999999999924
+sylph.profile	order	L1 norm error	marmgCAMI2_short_read_sample_0	0.09064600000000002
+sylph.profile	family	L1 norm error	marmgCAMI2_short_read_sample_0	0.12028000000000004
+sylph.profile	genus	L1 norm error	marmgCAMI2_short_read_sample_0	0.11941000000000006
+sylph.profile	species	L1 norm error	marmgCAMI2_short_read_sample_0	0.24874499999999997
+sylph.profile	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_0	0.010903953047618946
+sylph.profile	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_0	0.36183516115397124
+sylph.profile	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_0	1.8310157317169724
+sylph.profile	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_0	1565.9997100000003
+sylph.profile	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_0	1.0000109999999982
+sylph.profile	phylum	Sum of abundances	marmgCAMI2_short_read_sample_0	1.0000109999999987
+sylph.profile	class	Sum of abundances	marmgCAMI2_short_read_sample_0	0.964527
+sylph.profile	order	Sum of abundances	marmgCAMI2_short_read_sample_0	0.9612600000000002
+sylph.profile	family	Sum of abundances	marmgCAMI2_short_read_sample_0	0.9556239999999999
+sylph.profile	genus	Sum of abundances	marmgCAMI2_short_read_sample_0	0.9955159999999985
+sylph.profile	species	Sum of abundances	marmgCAMI2_short_read_sample_0	1.0000109999999984
+sylph.profile	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_0	2.0
+sylph.profile	phylum	Taxon counts	marmgCAMI2_short_read_sample_0	15.0
+sylph.profile	class	Taxon counts	marmgCAMI2_short_read_sample_0	24.0
+sylph.profile	order	Taxon counts	marmgCAMI2_short_read_sample_0	64.0
+sylph.profile	family	Taxon counts	marmgCAMI2_short_read_sample_0	105.0
+sylph.profile	genus	Taxon counts	marmgCAMI2_short_read_sample_0	176.0
+sylph.profile	species	Taxon counts	marmgCAMI2_short_read_sample_0	270.0
+sylph.profile	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.005689508534263464
+sylph.profile	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.023693563446131133
+sylph.profile	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.02467263695977039
+sylph.profile	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.036605761461223824
+sylph.profile	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.04027862363372004
+sylph.profile	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.053618156250441355
+sylph.profile	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_1	0.10112323008513006
+sylph.profile	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_1	0.35453137204829155
+sylph.profile	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_1	0.5114806522936303
+sylph.profile	phylum	Shannon diversity	marmgCAMI2_short_read_sample_1	1.2905426507693833
+sylph.profile	phylum	Shannon equitability	marmgCAMI2_short_read_sample_1	0.4382983175744845
+sylph.profile	class	Shannon diversity	marmgCAMI2_short_read_sample_1	1.8381406385101637
+sylph.profile	class	Shannon equitability	marmgCAMI2_short_read_sample_1	0.5404392724811136
+sylph.profile	order	Shannon diversity	marmgCAMI2_short_read_sample_1	3.068760307096111
+sylph.profile	order	Shannon equitability	marmgCAMI2_short_read_sample_1	0.7247716380691293
+sylph.profile	family	Shannon diversity	marmgCAMI2_short_read_sample_1	3.5771290944076264
+sylph.profile	family	Shannon equitability	marmgCAMI2_short_read_sample_1	0.7552743267377706
+sylph.profile	genus	Shannon diversity	marmgCAMI2_short_read_sample_1	4.154312926817719
+sylph.profile	genus	Shannon equitability	marmgCAMI2_short_read_sample_1	0.7870827359827317
+sylph.profile	species	Shannon diversity	marmgCAMI2_short_read_sample_1	4.71230496035125
+sylph.profile	species	Shannon equitability	marmgCAMI2_short_read_sample_1	0.821449589752746
+sylph.profile	superkingdom	True positives	marmgCAMI2_short_read_sample_1	2.0
+sylph.profile	superkingdom	False negatives	marmgCAMI2_short_read_sample_1	0.0
+sylph.profile	superkingdom	False positives	marmgCAMI2_short_read_sample_1	0.0
+sylph.profile	superkingdom	Completeness	marmgCAMI2_short_read_sample_1	1.0
+sylph.profile	superkingdom	Purity	marmgCAMI2_short_read_sample_1	1.0
+sylph.profile	superkingdom	F1 score	marmgCAMI2_short_read_sample_1	1.0
+sylph.profile	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_1	1.0
+sylph.profile	phylum	True positives	marmgCAMI2_short_read_sample_1	19.0
+sylph.profile	phylum	False negatives	marmgCAMI2_short_read_sample_1	2.0
+sylph.profile	phylum	False positives	marmgCAMI2_short_read_sample_1	0.0
+sylph.profile	phylum	Completeness	marmgCAMI2_short_read_sample_1	0.9047619047619048
+sylph.profile	phylum	Purity	marmgCAMI2_short_read_sample_1	1.0
+sylph.profile	phylum	F1 score	marmgCAMI2_short_read_sample_1	0.9500000000000001
+sylph.profile	phylum	Jaccard index	marmgCAMI2_short_read_sample_1	0.9047619047619048
+sylph.profile	class	True positives	marmgCAMI2_short_read_sample_1	28.0
+sylph.profile	class	False negatives	marmgCAMI2_short_read_sample_1	3.0
+sylph.profile	class	False positives	marmgCAMI2_short_read_sample_1	2.0
+sylph.profile	class	Completeness	marmgCAMI2_short_read_sample_1	0.9032258064516129
+sylph.profile	class	Purity	marmgCAMI2_short_read_sample_1	0.9333333333333333
+sylph.profile	class	F1 score	marmgCAMI2_short_read_sample_1	0.9180327868852459
+sylph.profile	class	Jaccard index	marmgCAMI2_short_read_sample_1	0.8484848484848485
+sylph.profile	order	True positives	marmgCAMI2_short_read_sample_1	66.0
+sylph.profile	order	False negatives	marmgCAMI2_short_read_sample_1	6.0
+sylph.profile	order	False positives	marmgCAMI2_short_read_sample_1	3.0
+sylph.profile	order	Completeness	marmgCAMI2_short_read_sample_1	0.9166666666666666
+sylph.profile	order	Purity	marmgCAMI2_short_read_sample_1	0.9565217391304348
+sylph.profile	order	F1 score	marmgCAMI2_short_read_sample_1	0.9361702127659574
+sylph.profile	order	Jaccard index	marmgCAMI2_short_read_sample_1	0.88
+sylph.profile	family	True positives	marmgCAMI2_short_read_sample_1	110.0
+sylph.profile	family	False negatives	marmgCAMI2_short_read_sample_1	7.0
+sylph.profile	family	False positives	marmgCAMI2_short_read_sample_1	4.0
+sylph.profile	family	Completeness	marmgCAMI2_short_read_sample_1	0.9401709401709402
+sylph.profile	family	Purity	marmgCAMI2_short_read_sample_1	0.9649122807017544
+sylph.profile	family	F1 score	marmgCAMI2_short_read_sample_1	0.9523809523809523
+sylph.profile	family	Jaccard index	marmgCAMI2_short_read_sample_1	0.9090909090909091
+sylph.profile	genus	True positives	marmgCAMI2_short_read_sample_1	188.0
+sylph.profile	genus	False negatives	marmgCAMI2_short_read_sample_1	15.0
+sylph.profile	genus	False positives	marmgCAMI2_short_read_sample_1	8.0
+sylph.profile	genus	Completeness	marmgCAMI2_short_read_sample_1	0.9261083743842364
+sylph.profile	genus	Purity	marmgCAMI2_short_read_sample_1	0.9591836734693877
+sylph.profile	genus	F1 score	marmgCAMI2_short_read_sample_1	0.9423558897243107
+sylph.profile	genus	Jaccard index	marmgCAMI2_short_read_sample_1	0.8909952606635071
+sylph.profile	species	True positives	marmgCAMI2_short_read_sample_1	276.0
+sylph.profile	species	False negatives	marmgCAMI2_short_read_sample_1	24.0
+sylph.profile	species	False positives	marmgCAMI2_short_read_sample_1	34.0
+sylph.profile	species	Completeness	marmgCAMI2_short_read_sample_1	0.92
+sylph.profile	species	Purity	marmgCAMI2_short_read_sample_1	0.8903225806451613
+sylph.profile	species	F1 score	marmgCAMI2_short_read_sample_1	0.9049180327868852
+sylph.profile	species	Jaccard index	marmgCAMI2_short_read_sample_1	0.8263473053892215
+sylph.profile	strain	True positives	marmgCAMI2_short_read_sample_1	0.0
+sylph.profile	strain	False negatives	marmgCAMI2_short_read_sample_1	450.0
+sylph.profile	strain	False positives	marmgCAMI2_short_read_sample_1	0.0
+sylph.profile	strain	Completeness	marmgCAMI2_short_read_sample_1	0.0
+sylph.profile	strain	Purity	marmgCAMI2_short_read_sample_1	0.0
+sylph.profile	strain	Jaccard index	marmgCAMI2_short_read_sample_1	0.0
+sylph.profile	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_1	0.011379000000001334
+sylph.profile	phylum	L1 norm error	marmgCAMI2_short_read_sample_1	0.04737900000000025
+sylph.profile	class	L1 norm error	marmgCAMI2_short_read_sample_1	0.04710299999999989
+sylph.profile	order	L1 norm error	marmgCAMI2_short_read_sample_1	0.07012800000000001
+sylph.profile	family	L1 norm error	marmgCAMI2_short_read_sample_1	0.07665299999999994
+sylph.profile	genus	L1 norm error	marmgCAMI2_short_read_sample_1	0.106304
+sylph.profile	species	L1 norm error	marmgCAMI2_short_read_sample_1	0.19277900000000003
+sylph.profile	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_1	0.010003745333333368
+sylph.profile	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_1	0.2995216209806135
+sylph.profile	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_1	1.6586782849048285
+sylph.profile	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_1	1486.9974200000006
+sylph.profile	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9999970000000014
+sylph.profile	phylum	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9999970000000006
+sylph.profile	class	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9568490000000002
+sylph.profile	order	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9613740000000002
+sylph.profile	family	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9549090000000007
+sylph.profile	genus	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9967020000000006
+sylph.profile	species	Sum of abundances	marmgCAMI2_short_read_sample_1	0.9999970000000016
+sylph.profile	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_1	2.0
+sylph.profile	phylum	Taxon counts	marmgCAMI2_short_read_sample_1	19.0
+sylph.profile	class	Taxon counts	marmgCAMI2_short_read_sample_1	30.0
+sylph.profile	order	Taxon counts	marmgCAMI2_short_read_sample_1	69.0
+sylph.profile	family	Taxon counts	marmgCAMI2_short_read_sample_1	114.0
+sylph.profile	genus	Taxon counts	marmgCAMI2_short_read_sample_1	196.0
+sylph.profile	species	Taxon counts	marmgCAMI2_short_read_sample_1	310.0
+sylph.profile	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.0032685049027575963
+sylph.profile	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.01787443743946904
+sylph.profile	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.01791477279487101
+sylph.profile	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.03227552813905625
+sylph.profile	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.04052180089376691
+sylph.profile	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.04455428265313401
+sylph.profile	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_2	0.10304070708183753
+sylph.profile	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_2	0.37687004456586903
+sylph.profile	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_2	0.5437085443547819
+sylph.profile	phylum	Shannon diversity	marmgCAMI2_short_read_sample_2	1.267147349719388
+sylph.profile	phylum	Shannon equitability	marmgCAMI2_short_read_sample_2	0.430352728884914
+sylph.profile	class	Shannon diversity	marmgCAMI2_short_read_sample_2	1.840279803039785
+sylph.profile	class	Shannon equitability	marmgCAMI2_short_read_sample_2	0.5522709657886589
+sylph.profile	order	Shannon diversity	marmgCAMI2_short_read_sample_2	2.933049627398927
+sylph.profile	order	Shannon equitability	marmgCAMI2_short_read_sample_2	0.7000695303069981
+sylph.profile	family	Shannon diversity	marmgCAMI2_short_read_sample_2	3.354536317279872
+sylph.profile	family	Shannon equitability	marmgCAMI2_short_read_sample_2	0.7222769121135
+sylph.profile	genus	Shannon diversity	marmgCAMI2_short_read_sample_2	3.9773586050909087
+sylph.profile	genus	Shannon equitability	marmgCAMI2_short_read_sample_2	0.7542876802694549
+sylph.profile	species	Shannon diversity	marmgCAMI2_short_read_sample_2	4.5025557088832375
+sylph.profile	species	Shannon equitability	marmgCAMI2_short_read_sample_2	0.7912603316231245
+sylph.profile	superkingdom	True positives	marmgCAMI2_short_read_sample_2	2.0
+sylph.profile	superkingdom	False negatives	marmgCAMI2_short_read_sample_2	0.0
+sylph.profile	superkingdom	False positives	marmgCAMI2_short_read_sample_2	0.0
+sylph.profile	superkingdom	Completeness	marmgCAMI2_short_read_sample_2	1.0
+sylph.profile	superkingdom	Purity	marmgCAMI2_short_read_sample_2	1.0
+sylph.profile	superkingdom	F1 score	marmgCAMI2_short_read_sample_2	1.0
+sylph.profile	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_2	1.0
+sylph.profile	phylum	True positives	marmgCAMI2_short_read_sample_2	19.0
+sylph.profile	phylum	False negatives	marmgCAMI2_short_read_sample_2	3.0
+sylph.profile	phylum	False positives	marmgCAMI2_short_read_sample_2	0.0
+sylph.profile	phylum	Completeness	marmgCAMI2_short_read_sample_2	0.8636363636363636
+sylph.profile	phylum	Purity	marmgCAMI2_short_read_sample_2	1.0
+sylph.profile	phylum	F1 score	marmgCAMI2_short_read_sample_2	0.9268292682926829
+sylph.profile	phylum	Jaccard index	marmgCAMI2_short_read_sample_2	0.8636363636363636
+sylph.profile	class	True positives	marmgCAMI2_short_read_sample_2	26.0
+sylph.profile	class	False negatives	marmgCAMI2_short_read_sample_2	2.0
+sylph.profile	class	False positives	marmgCAMI2_short_read_sample_2	2.0
+sylph.profile	class	Completeness	marmgCAMI2_short_read_sample_2	0.9285714285714286
+sylph.profile	class	Purity	marmgCAMI2_short_read_sample_2	0.9285714285714286
+sylph.profile	class	F1 score	marmgCAMI2_short_read_sample_2	0.9285714285714286
+sylph.profile	class	Jaccard index	marmgCAMI2_short_read_sample_2	0.8666666666666667
+sylph.profile	order	True positives	marmgCAMI2_short_read_sample_2	65.0
+sylph.profile	order	False negatives	marmgCAMI2_short_read_sample_2	3.0
+sylph.profile	order	False positives	marmgCAMI2_short_read_sample_2	1.0
+sylph.profile	order	Completeness	marmgCAMI2_short_read_sample_2	0.9558823529411765
+sylph.profile	order	Purity	marmgCAMI2_short_read_sample_2	0.9848484848484849
+sylph.profile	order	F1 score	marmgCAMI2_short_read_sample_2	0.9701492537313432
+sylph.profile	order	Jaccard index	marmgCAMI2_short_read_sample_2	0.9420289855072463
+sylph.profile	family	True positives	marmgCAMI2_short_read_sample_2	100.0
+sylph.profile	family	False negatives	marmgCAMI2_short_read_sample_2	6.0
+sylph.profile	family	False positives	marmgCAMI2_short_read_sample_2	4.0
+sylph.profile	family	Completeness	marmgCAMI2_short_read_sample_2	0.9433962264150944
+sylph.profile	family	Purity	marmgCAMI2_short_read_sample_2	0.9615384615384616
+sylph.profile	family	F1 score	marmgCAMI2_short_read_sample_2	0.9523809523809524
+sylph.profile	family	Jaccard index	marmgCAMI2_short_read_sample_2	0.9090909090909091
+sylph.profile	genus	True positives	marmgCAMI2_short_read_sample_2	185.0
+sylph.profile	genus	False negatives	marmgCAMI2_short_read_sample_2	11.0
+sylph.profile	genus	False positives	marmgCAMI2_short_read_sample_2	10.0
+sylph.profile	genus	Completeness	marmgCAMI2_short_read_sample_2	0.9438775510204082
+sylph.profile	genus	Purity	marmgCAMI2_short_read_sample_2	0.9487179487179487
+sylph.profile	genus	F1 score	marmgCAMI2_short_read_sample_2	0.9462915601023018
+sylph.profile	genus	Jaccard index	marmgCAMI2_short_read_sample_2	0.8980582524271845
+sylph.profile	species	True positives	marmgCAMI2_short_read_sample_2	255.0
+sylph.profile	species	False negatives	marmgCAMI2_short_read_sample_2	19.0
+sylph.profile	species	False positives	marmgCAMI2_short_read_sample_2	41.0
+sylph.profile	species	Completeness	marmgCAMI2_short_read_sample_2	0.9306569343065694
+sylph.profile	species	Purity	marmgCAMI2_short_read_sample_2	0.8614864864864865
+sylph.profile	species	F1 score	marmgCAMI2_short_read_sample_2	0.8947368421052633
+sylph.profile	species	Jaccard index	marmgCAMI2_short_read_sample_2	0.8095238095238095
+sylph.profile	strain	True positives	marmgCAMI2_short_read_sample_2	0.0
+sylph.profile	strain	False negatives	marmgCAMI2_short_read_sample_2	429.0
+sylph.profile	strain	False positives	marmgCAMI2_short_read_sample_2	0.0
+sylph.profile	strain	Completeness	marmgCAMI2_short_read_sample_2	0.0
+sylph.profile	strain	Purity	marmgCAMI2_short_read_sample_2	0.0
+sylph.profile	strain	Jaccard index	marmgCAMI2_short_read_sample_2	0.0
+sylph.profile	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_2	0.006537000000000486
+sylph.profile	phylum	L1 norm error	marmgCAMI2_short_read_sample_2	0.03574900000000016
+sylph.profile	class	L1 norm error	marmgCAMI2_short_read_sample_2	0.03463299999999978
+sylph.profile	order	L1 norm error	marmgCAMI2_short_read_sample_2	0.06164500000000003
+sylph.profile	family	L1 norm error	marmgCAMI2_short_read_sample_2	0.076676
+sylph.profile	genus	L1 norm error	marmgCAMI2_short_read_sample_2	0.08807700000000002
+sylph.profile	species	L1 norm error	marmgCAMI2_short_read_sample_2	0.19543700000000008
+sylph.profile	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_2	0.009245576190476225
+sylph.profile	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_2	0.3353639863396895
+sylph.profile	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_2	1.6211668630505767
+sylph.profile	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_2	1572.9996700000002
+sylph.profile	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_2	0.9999970000000005
+sylph.profile	phylum	Sum of abundances	marmgCAMI2_short_read_sample_2	0.999997
+sylph.profile	class	Sum of abundances	marmgCAMI2_short_read_sample_2	0.9688589999999998
+sylph.profile	order	Sum of abundances	marmgCAMI2_short_read_sample_2	0.9570910000000009
+sylph.profile	family	Sum of abundances	marmgCAMI2_short_read_sample_2	0.9492160000000007
+sylph.profile	genus	Sum of abundances	marmgCAMI2_short_read_sample_2	0.9961570000000005
+sylph.profile	species	Sum of abundances	marmgCAMI2_short_read_sample_2	0.9999970000000001
+sylph.profile	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_2	2.0
+sylph.profile	phylum	Taxon counts	marmgCAMI2_short_read_sample_2	19.0
+sylph.profile	class	Taxon counts	marmgCAMI2_short_read_sample_2	28.0
+sylph.profile	order	Taxon counts	marmgCAMI2_short_read_sample_2	66.0
+sylph.profile	family	Taxon counts	marmgCAMI2_short_read_sample_2	104.0
+sylph.profile	genus	Taxon counts	marmgCAMI2_short_read_sample_2	195.0
+sylph.profile	species	Taxon counts	marmgCAMI2_short_read_sample_2	296.0
+sylph.profile	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.004980497509750884
+sylph.profile	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.029173193681466394
+sylph.profile	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.02721131187806406
+sylph.profile	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.04608924293231286
+sylph.profile	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.05530213971628329
+sylph.profile	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.05848584383609139
+sylph.profile	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_3	0.11894234165787117
+sylph.profile	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_3	0.35038565147139294
+sylph.profile	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_3	0.5054996417764274
+sylph.profile	phylum	Shannon diversity	marmgCAMI2_short_read_sample_3	1.280778435921671
+sylph.profile	phylum	Shannon equitability	marmgCAMI2_short_read_sample_3	0.4275343451843972
+sylph.profile	class	Shannon diversity	marmgCAMI2_short_read_sample_3	1.9404704467236091
+sylph.profile	class	Shannon equitability	marmgCAMI2_short_read_sample_3	0.565077949093448
+sylph.profile	order	Shannon diversity	marmgCAMI2_short_read_sample_3	3.057817415400941
+sylph.profile	order	Shannon equitability	marmgCAMI2_short_read_sample_3	0.7150002666339691
+sylph.profile	family	Shannon diversity	marmgCAMI2_short_read_sample_3	3.446420080673652
+sylph.profile	family	Shannon equitability	marmgCAMI2_short_read_sample_3	0.7211406203755161
+sylph.profile	genus	Shannon diversity	marmgCAMI2_short_read_sample_3	4.158050475851228
+sylph.profile	genus	Shannon equitability	marmgCAMI2_short_read_sample_3	0.7652306233427869
+sylph.profile	species	Shannon diversity	marmgCAMI2_short_read_sample_3	4.737638645682766
+sylph.profile	species	Shannon equitability	marmgCAMI2_short_read_sample_3	0.79172611863753
+sylph.profile	superkingdom	True positives	marmgCAMI2_short_read_sample_3	2.0
+sylph.profile	superkingdom	False negatives	marmgCAMI2_short_read_sample_3	0.0
+sylph.profile	superkingdom	False positives	marmgCAMI2_short_read_sample_3	0.0
+sylph.profile	superkingdom	Completeness	marmgCAMI2_short_read_sample_3	1.0
+sylph.profile	superkingdom	Purity	marmgCAMI2_short_read_sample_3	1.0
+sylph.profile	superkingdom	F1 score	marmgCAMI2_short_read_sample_3	1.0
+sylph.profile	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_3	1.0
+sylph.profile	phylum	True positives	marmgCAMI2_short_read_sample_3	20.0
+sylph.profile	phylum	False negatives	marmgCAMI2_short_read_sample_3	2.0
+sylph.profile	phylum	False positives	marmgCAMI2_short_read_sample_3	0.0
+sylph.profile	phylum	Completeness	marmgCAMI2_short_read_sample_3	0.9090909090909091
+sylph.profile	phylum	Purity	marmgCAMI2_short_read_sample_3	1.0
+sylph.profile	phylum	F1 score	marmgCAMI2_short_read_sample_3	0.9523809523809523
+sylph.profile	phylum	Jaccard index	marmgCAMI2_short_read_sample_3	0.9090909090909091
+sylph.profile	class	True positives	marmgCAMI2_short_read_sample_3	29.0
+sylph.profile	class	False negatives	marmgCAMI2_short_read_sample_3	2.0
+sylph.profile	class	False positives	marmgCAMI2_short_read_sample_3	2.0
+sylph.profile	class	Completeness	marmgCAMI2_short_read_sample_3	0.9354838709677419
+sylph.profile	class	Purity	marmgCAMI2_short_read_sample_3	0.9354838709677419
+sylph.profile	class	F1 score	marmgCAMI2_short_read_sample_3	0.9354838709677419
+sylph.profile	class	Jaccard index	marmgCAMI2_short_read_sample_3	0.8787878787878788
+sylph.profile	order	True positives	marmgCAMI2_short_read_sample_3	69.0
+sylph.profile	order	False negatives	marmgCAMI2_short_read_sample_3	5.0
+sylph.profile	order	False positives	marmgCAMI2_short_read_sample_3	3.0
+sylph.profile	order	Completeness	marmgCAMI2_short_read_sample_3	0.9324324324324325
+sylph.profile	order	Purity	marmgCAMI2_short_read_sample_3	0.9583333333333334
+sylph.profile	order	F1 score	marmgCAMI2_short_read_sample_3	0.9452054794520548
+sylph.profile	order	Jaccard index	marmgCAMI2_short_read_sample_3	0.8961038961038961
+sylph.profile	family	True positives	marmgCAMI2_short_read_sample_3	115.0
+sylph.profile	family	False negatives	marmgCAMI2_short_read_sample_3	5.0
+sylph.profile	family	False positives	marmgCAMI2_short_read_sample_3	4.0
+sylph.profile	family	Completeness	marmgCAMI2_short_read_sample_3	0.9583333333333334
+sylph.profile	family	Purity	marmgCAMI2_short_read_sample_3	0.9663865546218487
+sylph.profile	family	F1 score	marmgCAMI2_short_read_sample_3	0.9623430962343097
+sylph.profile	family	Jaccard index	marmgCAMI2_short_read_sample_3	0.9274193548387096
+sylph.profile	genus	True positives	marmgCAMI2_short_read_sample_3	217.0
+sylph.profile	genus	False negatives	marmgCAMI2_short_read_sample_3	15.0
+sylph.profile	genus	False positives	marmgCAMI2_short_read_sample_3	12.0
+sylph.profile	genus	Completeness	marmgCAMI2_short_read_sample_3	0.9353448275862069
+sylph.profile	genus	Purity	marmgCAMI2_short_read_sample_3	0.9475982532751092
+sylph.profile	genus	F1 score	marmgCAMI2_short_read_sample_3	0.9414316702819957
+sylph.profile	genus	Jaccard index	marmgCAMI2_short_read_sample_3	0.889344262295082
+sylph.profile	species	True positives	marmgCAMI2_short_read_sample_3	348.0
+sylph.profile	species	False negatives	marmgCAMI2_short_read_sample_3	33.0
+sylph.profile	species	False positives	marmgCAMI2_short_read_sample_3	49.0
+sylph.profile	species	Completeness	marmgCAMI2_short_read_sample_3	0.9133858267716536
+sylph.profile	species	Purity	marmgCAMI2_short_read_sample_3	0.8765743073047859
+sylph.profile	species	F1 score	marmgCAMI2_short_read_sample_3	0.8946015424164525
+sylph.profile	species	Jaccard index	marmgCAMI2_short_read_sample_3	0.8093023255813954
+sylph.profile	strain	True positives	marmgCAMI2_short_read_sample_3	0.0
+sylph.profile	strain	False negatives	marmgCAMI2_short_read_sample_3	605.0
+sylph.profile	strain	False positives	marmgCAMI2_short_read_sample_3	0.0
+sylph.profile	strain	Completeness	marmgCAMI2_short_read_sample_3	0.0
+sylph.profile	strain	Purity	marmgCAMI2_short_read_sample_3	0.0
+sylph.profile	strain	Jaccard index	marmgCAMI2_short_read_sample_3	0.0
+sylph.profile	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_3	0.009960999999999274
+sylph.profile	phylum	L1 norm error	marmgCAMI2_short_read_sample_3	0.05834700000000012
+sylph.profile	class	L1 norm error	marmgCAMI2_short_read_sample_3	0.05239099999999998
+sylph.profile	order	L1 norm error	marmgCAMI2_short_read_sample_3	0.08760800000000002
+sylph.profile	family	L1 norm error	marmgCAMI2_short_read_sample_3	0.10368199999999997
+sylph.profile	genus	L1 norm error	marmgCAMI2_short_read_sample_3	0.11504299999999992
+sylph.profile	species	L1 norm error	marmgCAMI2_short_read_sample_3	0.22324299999999983
+sylph.profile	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_3	0.010895430095238037
+sylph.profile	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_3	0.36421382744569464
+sylph.profile	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_3	1.8071502886797268
+sylph.profile	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_3	2340.99773
+sylph.profile	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_3	1.0000009999999993
+sylph.profile	phylum	Sum of abundances	marmgCAMI2_short_read_sample_3	1.0000010000000001
+sylph.profile	class	Sum of abundances	marmgCAMI2_short_read_sample_3	0.9658090000000003
+sylph.profile	order	Sum of abundances	marmgCAMI2_short_read_sample_3	0.9525040000000007
+sylph.profile	family	Sum of abundances	marmgCAMI2_short_read_sample_3	0.9405480000000003
+sylph.profile	genus	Sum of abundances	marmgCAMI2_short_read_sample_3	0.9913029999999999
+sylph.profile	species	Sum of abundances	marmgCAMI2_short_read_sample_3	1.0000009999999986
+sylph.profile	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_3	2.0
+sylph.profile	phylum	Taxon counts	marmgCAMI2_short_read_sample_3	20.0
+sylph.profile	class	Taxon counts	marmgCAMI2_short_read_sample_3	31.0
+sylph.profile	order	Taxon counts	marmgCAMI2_short_read_sample_3	72.0
+sylph.profile	family	Taxon counts	marmgCAMI2_short_read_sample_3	119.0
+sylph.profile	genus	Taxon counts	marmgCAMI2_short_read_sample_3	229.0
+sylph.profile	species	Taxon counts	marmgCAMI2_short_read_sample_3	397.0
+sylph.profile	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.006400999999999597
+sylph.profile	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.03393799999999994
+sylph.profile	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.03263961640123254
+sylph.profile	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.047180327134844637
+sylph.profile	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.06099240541979286
+sylph.profile	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.05815327669632306
+sylph.profile	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_4	0.13792695372722732
+sylph.profile	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_4	0.28229414694688015
+sylph.profile	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_4	0.4072643658722443
+sylph.profile	phylum	Shannon diversity	marmgCAMI2_short_read_sample_4	1.1956607818808018
+sylph.profile	phylum	Shannon equitability	marmgCAMI2_short_read_sample_4	0.42201579502975745
+sylph.profile	class	Shannon diversity	marmgCAMI2_short_read_sample_4	1.8991519627930435
+sylph.profile	class	Shannon equitability	marmgCAMI2_short_read_sample_4	0.5762275379531934
+sylph.profile	order	Shannon diversity	marmgCAMI2_short_read_sample_4	2.9600483953541468
+sylph.profile	order	Shannon equitability	marmgCAMI2_short_read_sample_4	0.7259402117271124
+sylph.profile	family	Shannon diversity	marmgCAMI2_short_read_sample_4	3.2622336886476093
+sylph.profile	family	Shannon equitability	marmgCAMI2_short_read_sample_4	0.7083850448292738
+sylph.profile	genus	Shannon diversity	marmgCAMI2_short_read_sample_4	3.9028095315015
+sylph.profile	genus	Shannon equitability	marmgCAMI2_short_read_sample_4	0.7507572877369081
+sylph.profile	species	Shannon diversity	marmgCAMI2_short_read_sample_4	4.404113727351743
+sylph.profile	species	Shannon equitability	marmgCAMI2_short_read_sample_4	0.7748837717841964
+sylph.profile	superkingdom	True positives	marmgCAMI2_short_read_sample_4	2.0
+sylph.profile	superkingdom	False negatives	marmgCAMI2_short_read_sample_4	0.0
+sylph.profile	superkingdom	False positives	marmgCAMI2_short_read_sample_4	0.0
+sylph.profile	superkingdom	Completeness	marmgCAMI2_short_read_sample_4	1.0
+sylph.profile	superkingdom	Purity	marmgCAMI2_short_read_sample_4	1.0
+sylph.profile	superkingdom	F1 score	marmgCAMI2_short_read_sample_4	1.0
+sylph.profile	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_4	1.0
+sylph.profile	phylum	True positives	marmgCAMI2_short_read_sample_4	17.0
+sylph.profile	phylum	False negatives	marmgCAMI2_short_read_sample_4	1.0
+sylph.profile	phylum	False positives	marmgCAMI2_short_read_sample_4	0.0
+sylph.profile	phylum	Completeness	marmgCAMI2_short_read_sample_4	0.9444444444444444
+sylph.profile	phylum	Purity	marmgCAMI2_short_read_sample_4	1.0
+sylph.profile	phylum	F1 score	marmgCAMI2_short_read_sample_4	0.9714285714285714
+sylph.profile	phylum	Jaccard index	marmgCAMI2_short_read_sample_4	0.9444444444444444
+sylph.profile	class	True positives	marmgCAMI2_short_read_sample_4	26.0
+sylph.profile	class	False negatives	marmgCAMI2_short_read_sample_4	1.0
+sylph.profile	class	False positives	marmgCAMI2_short_read_sample_4	1.0
+sylph.profile	class	Completeness	marmgCAMI2_short_read_sample_4	0.9629629629629629
+sylph.profile	class	Purity	marmgCAMI2_short_read_sample_4	0.9629629629629629
+sylph.profile	class	F1 score	marmgCAMI2_short_read_sample_4	0.9629629629629629
+sylph.profile	class	Jaccard index	marmgCAMI2_short_read_sample_4	0.9285714285714286
+sylph.profile	order	True positives	marmgCAMI2_short_read_sample_4	58.0
+sylph.profile	order	False negatives	marmgCAMI2_short_read_sample_4	6.0
+sylph.profile	order	False positives	marmgCAMI2_short_read_sample_4	1.0
+sylph.profile	order	Completeness	marmgCAMI2_short_read_sample_4	0.90625
+sylph.profile	order	Purity	marmgCAMI2_short_read_sample_4	0.9830508474576272
+sylph.profile	order	F1 score	marmgCAMI2_short_read_sample_4	0.943089430894309
+sylph.profile	order	Jaccard index	marmgCAMI2_short_read_sample_4	0.8923076923076924
+sylph.profile	family	True positives	marmgCAMI2_short_read_sample_4	95.0
+sylph.profile	family	False negatives	marmgCAMI2_short_read_sample_4	6.0
+sylph.profile	family	False positives	marmgCAMI2_short_read_sample_4	5.0
+sylph.profile	family	Completeness	marmgCAMI2_short_read_sample_4	0.9405940594059405
+sylph.profile	family	Purity	marmgCAMI2_short_read_sample_4	0.95
+sylph.profile	family	F1 score	marmgCAMI2_short_read_sample_4	0.9452736318407959
+sylph.profile	family	Jaccard index	marmgCAMI2_short_read_sample_4	0.8962264150943396
+sylph.profile	genus	True positives	marmgCAMI2_short_read_sample_4	171.0
+sylph.profile	genus	False negatives	marmgCAMI2_short_read_sample_4	14.0
+sylph.profile	genus	False positives	marmgCAMI2_short_read_sample_4	10.0
+sylph.profile	genus	Completeness	marmgCAMI2_short_read_sample_4	0.9243243243243243
+sylph.profile	genus	Purity	marmgCAMI2_short_read_sample_4	0.9447513812154696
+sylph.profile	genus	F1 score	marmgCAMI2_short_read_sample_4	0.9344262295081968
+sylph.profile	genus	Jaccard index	marmgCAMI2_short_read_sample_4	0.8769230769230769
+sylph.profile	species	True positives	marmgCAMI2_short_read_sample_4	253.0
+sylph.profile	species	False negatives	marmgCAMI2_short_read_sample_4	24.0
+sylph.profile	species	False positives	marmgCAMI2_short_read_sample_4	41.0
+sylph.profile	species	Completeness	marmgCAMI2_short_read_sample_4	0.9133574007220217
+sylph.profile	species	Purity	marmgCAMI2_short_read_sample_4	0.8605442176870748
+sylph.profile	species	F1 score	marmgCAMI2_short_read_sample_4	0.8861646234676007
+sylph.profile	species	Jaccard index	marmgCAMI2_short_read_sample_4	0.7955974842767296
+sylph.profile	strain	True positives	marmgCAMI2_short_read_sample_4	0.0
+sylph.profile	strain	False negatives	marmgCAMI2_short_read_sample_4	428.0
+sylph.profile	strain	False positives	marmgCAMI2_short_read_sample_4	0.0
+sylph.profile	strain	Completeness	marmgCAMI2_short_read_sample_4	0.0
+sylph.profile	strain	Purity	marmgCAMI2_short_read_sample_4	0.0
+sylph.profile	strain	Jaccard index	marmgCAMI2_short_read_sample_4	0.0
+sylph.profile	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_4	0.012801999999999189
+sylph.profile	phylum	L1 norm error	marmgCAMI2_short_read_sample_4	0.06787599999999987
+sylph.profile	class	L1 norm error	marmgCAMI2_short_read_sample_4	0.06349600000000014
+sylph.profile	order	L1 norm error	marmgCAMI2_short_read_sample_4	0.0906210000000001
+sylph.profile	family	L1 norm error	marmgCAMI2_short_read_sample_4	0.11434600000000003
+sylph.profile	genus	L1 norm error	marmgCAMI2_short_read_sample_4	0.11475200000000005
+sylph.profile	species	L1 norm error	marmgCAMI2_short_read_sample_4	0.254078
+sylph.profile	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_4	0.011672512761904716
+sylph.profile	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_4	0.3584009754524677
+sylph.profile	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_4	1.9030560000000019
+sylph.profile	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_4	1664.999130000001
+sylph.profile	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9999999999999991
+sylph.profile	phylum	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9999999999999996
+sylph.profile	class	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9764860000000002
+sylph.profile	order	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9612369999999999
+sylph.profile	family	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9390279999999998
+sylph.profile	genus	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9913179999999993
+sylph.profile	species	Sum of abundances	marmgCAMI2_short_read_sample_4	0.9999999999999999
+sylph.profile	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_4	2.0
+sylph.profile	phylum	Taxon counts	marmgCAMI2_short_read_sample_4	17.0
+sylph.profile	class	Taxon counts	marmgCAMI2_short_read_sample_4	27.0
+sylph.profile	order	Taxon counts	marmgCAMI2_short_read_sample_4	59.0
+sylph.profile	family	Taxon counts	marmgCAMI2_short_read_sample_4	100.0
+sylph.profile	genus	Taxon counts	marmgCAMI2_short_read_sample_4	181.0
+sylph.profile	species	Taxon counts	marmgCAMI2_short_read_sample_4	294.0
+sylph.profile	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.015282477076284615
+sylph.profile	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.03577062519718824
+sylph.profile	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.030091820743235263
+sylph.profile	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.05221218256684734
+sylph.profile	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.0521478529828288
+sylph.profile	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.056789839861245674
+sylph.profile	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_5	0.13883655591448713
+sylph.profile	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_5	0.273308363579976
+sylph.profile	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_5	0.3943006207703092
+sylph.profile	phylum	Shannon diversity	marmgCAMI2_short_read_sample_5	1.2048577075742029
+sylph.profile	phylum	Shannon equitability	marmgCAMI2_short_read_sample_5	0.41685215899396666
+sylph.profile	class	Shannon diversity	marmgCAMI2_short_read_sample_5	1.8895566050163097
+sylph.profile	class	Shannon equitability	marmgCAMI2_short_read_sample_5	0.5611495693931648
+sylph.profile	order	Shannon diversity	marmgCAMI2_short_read_sample_5	2.9651406213151668
+sylph.profile	order	Shannon equitability	marmgCAMI2_short_read_sample_5	0.7129656116516352
+sylph.profile	family	Shannon diversity	marmgCAMI2_short_read_sample_5	3.34834618236741
+sylph.profile	family	Shannon equitability	marmgCAMI2_short_read_sample_5	0.7165565658372729
+sylph.profile	genus	Shannon diversity	marmgCAMI2_short_read_sample_5	4.0079343198240895
+sylph.profile	genus	Shannon equitability	marmgCAMI2_short_read_sample_5	0.7495518458904659
+sylph.profile	species	Shannon diversity	marmgCAMI2_short_read_sample_5	4.472792004698084
+sylph.profile	species	Shannon equitability	marmgCAMI2_short_read_sample_5	0.7654244899143512
+sylph.profile	superkingdom	True positives	marmgCAMI2_short_read_sample_5	2.0
+sylph.profile	superkingdom	False negatives	marmgCAMI2_short_read_sample_5	0.0
+sylph.profile	superkingdom	False positives	marmgCAMI2_short_read_sample_5	0.0
+sylph.profile	superkingdom	Completeness	marmgCAMI2_short_read_sample_5	1.0
+sylph.profile	superkingdom	Purity	marmgCAMI2_short_read_sample_5	1.0
+sylph.profile	superkingdom	F1 score	marmgCAMI2_short_read_sample_5	1.0
+sylph.profile	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_5	1.0
+sylph.profile	phylum	True positives	marmgCAMI2_short_read_sample_5	18.0
+sylph.profile	phylum	False negatives	marmgCAMI2_short_read_sample_5	2.0
+sylph.profile	phylum	False positives	marmgCAMI2_short_read_sample_5	0.0
+sylph.profile	phylum	Completeness	marmgCAMI2_short_read_sample_5	0.9
+sylph.profile	phylum	Purity	marmgCAMI2_short_read_sample_5	1.0
+sylph.profile	phylum	F1 score	marmgCAMI2_short_read_sample_5	0.9473684210526316
+sylph.profile	phylum	Jaccard index	marmgCAMI2_short_read_sample_5	0.9
+sylph.profile	class	True positives	marmgCAMI2_short_read_sample_5	27.0
+sylph.profile	class	False negatives	marmgCAMI2_short_read_sample_5	2.0
+sylph.profile	class	False positives	marmgCAMI2_short_read_sample_5	2.0
+sylph.profile	class	Completeness	marmgCAMI2_short_read_sample_5	0.9310344827586207
+sylph.profile	class	Purity	marmgCAMI2_short_read_sample_5	0.9310344827586207
+sylph.profile	class	F1 score	marmgCAMI2_short_read_sample_5	0.9310344827586207
+sylph.profile	class	Jaccard index	marmgCAMI2_short_read_sample_5	0.8709677419354839
+sylph.profile	order	True positives	marmgCAMI2_short_read_sample_5	61.0
+sylph.profile	order	False negatives	marmgCAMI2_short_read_sample_5	5.0
+sylph.profile	order	False positives	marmgCAMI2_short_read_sample_5	3.0
+sylph.profile	order	Completeness	marmgCAMI2_short_read_sample_5	0.9242424242424242
+sylph.profile	order	Purity	marmgCAMI2_short_read_sample_5	0.953125
+sylph.profile	order	F1 score	marmgCAMI2_short_read_sample_5	0.9384615384615383
+sylph.profile	order	Jaccard index	marmgCAMI2_short_read_sample_5	0.8840579710144928
+sylph.profile	family	True positives	marmgCAMI2_short_read_sample_5	102.0
+sylph.profile	family	False negatives	marmgCAMI2_short_read_sample_5	5.0
+sylph.profile	family	False positives	marmgCAMI2_short_read_sample_5	5.0
+sylph.profile	family	Completeness	marmgCAMI2_short_read_sample_5	0.9532710280373832
+sylph.profile	family	Purity	marmgCAMI2_short_read_sample_5	0.9532710280373832
+sylph.profile	family	F1 score	marmgCAMI2_short_read_sample_5	0.9532710280373832
+sylph.profile	family	Jaccard index	marmgCAMI2_short_read_sample_5	0.9107142857142857
+sylph.profile	genus	True positives	marmgCAMI2_short_read_sample_5	202.0
+sylph.profile	genus	False negatives	marmgCAMI2_short_read_sample_5	12.0
+sylph.profile	genus	False positives	marmgCAMI2_short_read_sample_5	8.0
+sylph.profile	genus	Completeness	marmgCAMI2_short_read_sample_5	0.9439252336448598
+sylph.profile	genus	Purity	marmgCAMI2_short_read_sample_5	0.9619047619047619
+sylph.profile	genus	F1 score	marmgCAMI2_short_read_sample_5	0.9528301886792454
+sylph.profile	genus	Jaccard index	marmgCAMI2_short_read_sample_5	0.9099099099099099
+sylph.profile	species	True positives	marmgCAMI2_short_read_sample_5	310.0
+sylph.profile	species	False negatives	marmgCAMI2_short_read_sample_5	21.0
+sylph.profile	species	False positives	marmgCAMI2_short_read_sample_5	35.0
+sylph.profile	species	Completeness	marmgCAMI2_short_read_sample_5	0.9365558912386707
+sylph.profile	species	Purity	marmgCAMI2_short_read_sample_5	0.8985507246376812
+sylph.profile	species	F1 score	marmgCAMI2_short_read_sample_5	0.9171597633136095
+sylph.profile	species	Jaccard index	marmgCAMI2_short_read_sample_5	0.8469945355191257
+sylph.profile	strain	True positives	marmgCAMI2_short_read_sample_5	0.0
+sylph.profile	strain	False negatives	marmgCAMI2_short_read_sample_5	504.0
+sylph.profile	strain	False positives	marmgCAMI2_short_read_sample_5	0.0
+sylph.profile	strain	Completeness	marmgCAMI2_short_read_sample_5	0.0
+sylph.profile	strain	Purity	marmgCAMI2_short_read_sample_5	0.0
+sylph.profile	strain	Jaccard index	marmgCAMI2_short_read_sample_5	0.0
+sylph.profile	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_5	0.030565000000000467
+sylph.profile	phylum	L1 norm error	marmgCAMI2_short_read_sample_5	0.0715410000000001
+sylph.profile	class	L1 norm error	marmgCAMI2_short_read_sample_5	0.05775799999999981
+sylph.profile	order	L1 norm error	marmgCAMI2_short_read_sample_5	0.10098399999999998
+sylph.profile	family	L1 norm error	marmgCAMI2_short_read_sample_5	0.09982700000000007
+sylph.profile	genus	L1 norm error	marmgCAMI2_short_read_sample_5	0.11273300000000008
+sylph.profile	species	L1 norm error	marmgCAMI2_short_read_sample_5	0.2579989999999997
+sylph.profile	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_5	0.0122195338095238
+sylph.profile	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_5	0.341361243777129
+sylph.profile	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_5	1.8809729455711546
+sylph.profile	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_5	1862.99826
+sylph.profile	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_5	1.0000030000000004
+sylph.profile	phylum	Sum of abundances	marmgCAMI2_short_read_sample_5	1.0000029999999998
+sylph.profile	class	Sum of abundances	marmgCAMI2_short_read_sample_5	0.968562
+sylph.profile	order	Sum of abundances	marmgCAMI2_short_read_sample_5	0.968798
+sylph.profile	family	Sum of abundances	marmgCAMI2_short_read_sample_5	0.9591670000000004
+sylph.profile	genus	Sum of abundances	marmgCAMI2_short_read_sample_5	0.9955710000000008
+sylph.profile	species	Sum of abundances	marmgCAMI2_short_read_sample_5	1.0000030000000006
+sylph.profile	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_5	2.0
+sylph.profile	phylum	Taxon counts	marmgCAMI2_short_read_sample_5	18.0
+sylph.profile	class	Taxon counts	marmgCAMI2_short_read_sample_5	29.0
+sylph.profile	order	Taxon counts	marmgCAMI2_short_read_sample_5	64.0
+sylph.profile	family	Taxon counts	marmgCAMI2_short_read_sample_5	107.0
+sylph.profile	genus	Taxon counts	marmgCAMI2_short_read_sample_5	210.0
+sylph.profile	species	Taxon counts	marmgCAMI2_short_read_sample_5	345.0
+sylph.profile	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.02560905121810244
+sylph.profile	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.04293087120738623
+sylph.profile	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.030998091886995826
+sylph.profile	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.054108812927488176
+sylph.profile	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.061824827154198396
+sylph.profile	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.07034646968352497
+sylph.profile	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_6	0.15427461927147915
+sylph.profile	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_6	0.2939648063180252
+sylph.profile	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_6	0.42410156827089956
+sylph.profile	phylum	Shannon diversity	marmgCAMI2_short_read_sample_6	1.1911641331918286
+sylph.profile	phylum	Shannon equitability	marmgCAMI2_short_read_sample_6	0.4045470602787098
+sylph.profile	class	Shannon diversity	marmgCAMI2_short_read_sample_6	1.8228652572213382
+sylph.profile	class	Shannon equitability	marmgCAMI2_short_read_sample_6	0.5359480949413495
+sylph.profile	order	Shannon diversity	marmgCAMI2_short_read_sample_6	3.0047136770116847
+sylph.profile	order	Shannon equitability	marmgCAMI2_short_read_sample_6	0.7072418599584666
+sylph.profile	family	Shannon diversity	marmgCAMI2_short_read_sample_6	3.4274733816852447
+sylph.profile	family	Shannon equitability	marmgCAMI2_short_read_sample_6	0.7277739466943353
+sylph.profile	genus	Shannon diversity	marmgCAMI2_short_read_sample_6	4.050581283426682
+sylph.profile	genus	Shannon equitability	marmgCAMI2_short_read_sample_6	0.7616566170216685
+sylph.profile	species	Shannon diversity	marmgCAMI2_short_read_sample_6	4.598102549772598
+sylph.profile	species	Shannon equitability	marmgCAMI2_short_read_sample_6	0.7884422513113447
+sylph.profile	superkingdom	True positives	marmgCAMI2_short_read_sample_6	2.0
+sylph.profile	superkingdom	False negatives	marmgCAMI2_short_read_sample_6	0.0
+sylph.profile	superkingdom	False positives	marmgCAMI2_short_read_sample_6	0.0
+sylph.profile	superkingdom	Completeness	marmgCAMI2_short_read_sample_6	1.0
+sylph.profile	superkingdom	Purity	marmgCAMI2_short_read_sample_6	1.0
+sylph.profile	superkingdom	F1 score	marmgCAMI2_short_read_sample_6	1.0
+sylph.profile	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_6	1.0
+sylph.profile	phylum	True positives	marmgCAMI2_short_read_sample_6	19.0
+sylph.profile	phylum	False negatives	marmgCAMI2_short_read_sample_6	3.0
+sylph.profile	phylum	False positives	marmgCAMI2_short_read_sample_6	0.0
+sylph.profile	phylum	Completeness	marmgCAMI2_short_read_sample_6	0.8636363636363636
+sylph.profile	phylum	Purity	marmgCAMI2_short_read_sample_6	1.0
+sylph.profile	phylum	F1 score	marmgCAMI2_short_read_sample_6	0.9268292682926829
+sylph.profile	phylum	Jaccard index	marmgCAMI2_short_read_sample_6	0.8636363636363636
+sylph.profile	class	True positives	marmgCAMI2_short_read_sample_6	28.0
+sylph.profile	class	False negatives	marmgCAMI2_short_read_sample_6	2.0
+sylph.profile	class	False positives	marmgCAMI2_short_read_sample_6	2.0
+sylph.profile	class	Completeness	marmgCAMI2_short_read_sample_6	0.9333333333333333
+sylph.profile	class	Purity	marmgCAMI2_short_read_sample_6	0.9333333333333333
+sylph.profile	class	F1 score	marmgCAMI2_short_read_sample_6	0.9333333333333333
+sylph.profile	class	Jaccard index	marmgCAMI2_short_read_sample_6	0.875
+sylph.profile	order	True positives	marmgCAMI2_short_read_sample_6	67.0
+sylph.profile	order	False negatives	marmgCAMI2_short_read_sample_6	3.0
+sylph.profile	order	False positives	marmgCAMI2_short_read_sample_6	3.0
+sylph.profile	order	Completeness	marmgCAMI2_short_read_sample_6	0.9571428571428572
+sylph.profile	order	Purity	marmgCAMI2_short_read_sample_6	0.9571428571428572
+sylph.profile	order	F1 score	marmgCAMI2_short_read_sample_6	0.9571428571428572
+sylph.profile	order	Jaccard index	marmgCAMI2_short_read_sample_6	0.9178082191780822
+sylph.profile	family	True positives	marmgCAMI2_short_read_sample_6	107.0
+sylph.profile	family	False negatives	marmgCAMI2_short_read_sample_6	3.0
+sylph.profile	family	False positives	marmgCAMI2_short_read_sample_6	4.0
+sylph.profile	family	Completeness	marmgCAMI2_short_read_sample_6	0.9727272727272728
+sylph.profile	family	Purity	marmgCAMI2_short_read_sample_6	0.963963963963964
+sylph.profile	family	F1 score	marmgCAMI2_short_read_sample_6	0.9683257918552037
+sylph.profile	family	Jaccard index	marmgCAMI2_short_read_sample_6	0.9385964912280702
+sylph.profile	genus	True positives	marmgCAMI2_short_read_sample_6	199.0
+sylph.profile	genus	False negatives	marmgCAMI2_short_read_sample_6	11.0
+sylph.profile	genus	False positives	marmgCAMI2_short_read_sample_6	5.0
+sylph.profile	genus	Completeness	marmgCAMI2_short_read_sample_6	0.9476190476190476
+sylph.profile	genus	Purity	marmgCAMI2_short_read_sample_6	0.9754901960784313
+sylph.profile	genus	F1 score	marmgCAMI2_short_read_sample_6	0.961352657004831
+sylph.profile	genus	Jaccard index	marmgCAMI2_short_read_sample_6	0.9255813953488372
+sylph.profile	species	True positives	marmgCAMI2_short_read_sample_6	300.0
+sylph.profile	species	False negatives	marmgCAMI2_short_read_sample_6	26.0
+sylph.profile	species	False positives	marmgCAMI2_short_read_sample_6	41.0
+sylph.profile	species	Completeness	marmgCAMI2_short_read_sample_6	0.9202453987730062
+sylph.profile	species	Purity	marmgCAMI2_short_read_sample_6	0.8797653958944281
+sylph.profile	species	F1 score	marmgCAMI2_short_read_sample_6	0.8995502248875561
+sylph.profile	species	Jaccard index	marmgCAMI2_short_read_sample_6	0.8174386920980926
+sylph.profile	strain	True positives	marmgCAMI2_short_read_sample_6	0.0
+sylph.profile	strain	False negatives	marmgCAMI2_short_read_sample_6	510.0
+sylph.profile	strain	False positives	marmgCAMI2_short_read_sample_6	0.0
+sylph.profile	strain	Completeness	marmgCAMI2_short_read_sample_6	0.0
+sylph.profile	strain	Purity	marmgCAMI2_short_read_sample_6	0.0
+sylph.profile	strain	Jaccard index	marmgCAMI2_short_read_sample_6	0.0
+sylph.profile	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_6	0.05121800000000001
+sylph.profile	phylum	L1 norm error	marmgCAMI2_short_read_sample_6	0.08586199999999967
+sylph.profile	class	L1 norm error	marmgCAMI2_short_read_sample_6	0.05937699999999993
+sylph.profile	order	L1 norm error	marmgCAMI2_short_read_sample_6	0.10543600000000004
+sylph.profile	family	L1 norm error	marmgCAMI2_short_read_sample_6	0.11942299999999996
+sylph.profile	genus	L1 norm error	marmgCAMI2_short_read_sample_6	0.13968599999999998
+sylph.profile	species	L1 norm error	marmgCAMI2_short_read_sample_6	0.28937999999999986
+sylph.profile	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_6	0.013912765714285694
+sylph.profile	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_6	0.38900349314162064
+sylph.profile	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_6	1.9943220230080856
+sylph.profile	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_6	2107.9993600000003
+sylph.profile	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9999959999999999
+sylph.profile	phylum	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9999959999999994
+sylph.profile	class	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9722749999999998
+sylph.profile	order	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9756820000000002
+sylph.profile	family	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9674250000000003
+sylph.profile	genus	Sum of abundances	marmgCAMI2_short_read_sample_6	0.996096
+sylph.profile	species	Sum of abundances	marmgCAMI2_short_read_sample_6	0.9999959999999996
+sylph.profile	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_6	2.0
+sylph.profile	phylum	Taxon counts	marmgCAMI2_short_read_sample_6	19.0
+sylph.profile	class	Taxon counts	marmgCAMI2_short_read_sample_6	30.0
+sylph.profile	order	Taxon counts	marmgCAMI2_short_read_sample_6	70.0
+sylph.profile	family	Taxon counts	marmgCAMI2_short_read_sample_6	111.0
+sylph.profile	genus	Taxon counts	marmgCAMI2_short_read_sample_6	204.0
+sylph.profile	species	Taxon counts	marmgCAMI2_short_read_sample_6	341.0
+sylph.profile	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.024173487913256044
+sylph.profile	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.047228712529206664
+sylph.profile	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.03560215989234733
+sylph.profile	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.05713289812319485
+sylph.profile	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.06241562975538422
+sylph.profile	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.07323130567193073
+sylph.profile	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_7	0.13708330009780614
+sylph.profile	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_7	0.33168262653741376
+sylph.profile	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_7	0.47851688045455293
+sylph.profile	phylum	Shannon diversity	marmgCAMI2_short_read_sample_7	1.1217010014669206
+sylph.profile	phylum	Shannon equitability	marmgCAMI2_short_read_sample_7	0.38808191313195683
+sylph.profile	class	Shannon diversity	marmgCAMI2_short_read_sample_7	1.738398519134503
+sylph.profile	class	Shannon equitability	marmgCAMI2_short_read_sample_7	0.5274528412087431
+sylph.profile	order	Shannon diversity	marmgCAMI2_short_read_sample_7	2.925434624619603
+sylph.profile	order	Shannon equitability	marmgCAMI2_short_read_sample_7	0.7008057555457093
+sylph.profile	family	Shannon diversity	marmgCAMI2_short_read_sample_7	3.3186794961759194
+sylph.profile	family	Shannon equitability	marmgCAMI2_short_read_sample_7	0.7175565414446771
+sylph.profile	genus	Shannon diversity	marmgCAMI2_short_read_sample_7	3.8746737515546226
+sylph.profile	genus	Shannon equitability	marmgCAMI2_short_read_sample_7	0.7414583969493183
+sylph.profile	species	Shannon diversity	marmgCAMI2_short_read_sample_7	4.427458052756383
+sylph.profile	species	Shannon equitability	marmgCAMI2_short_read_sample_7	0.7780629832429992
+sylph.profile	superkingdom	True positives	marmgCAMI2_short_read_sample_7	2.0
+sylph.profile	superkingdom	False negatives	marmgCAMI2_short_read_sample_7	0.0
+sylph.profile	superkingdom	False positives	marmgCAMI2_short_read_sample_7	0.0
+sylph.profile	superkingdom	Completeness	marmgCAMI2_short_read_sample_7	1.0
+sylph.profile	superkingdom	Purity	marmgCAMI2_short_read_sample_7	1.0
+sylph.profile	superkingdom	F1 score	marmgCAMI2_short_read_sample_7	1.0
+sylph.profile	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_7	1.0
+sylph.profile	phylum	True positives	marmgCAMI2_short_read_sample_7	18.0
+sylph.profile	phylum	False negatives	marmgCAMI2_short_read_sample_7	2.0
+sylph.profile	phylum	False positives	marmgCAMI2_short_read_sample_7	0.0
+sylph.profile	phylum	Completeness	marmgCAMI2_short_read_sample_7	0.9
+sylph.profile	phylum	Purity	marmgCAMI2_short_read_sample_7	1.0
+sylph.profile	phylum	F1 score	marmgCAMI2_short_read_sample_7	0.9473684210526316
+sylph.profile	phylum	Jaccard index	marmgCAMI2_short_read_sample_7	0.9
+sylph.profile	class	True positives	marmgCAMI2_short_read_sample_7	26.0
+sylph.profile	class	False negatives	marmgCAMI2_short_read_sample_7	2.0
+sylph.profile	class	False positives	marmgCAMI2_short_read_sample_7	1.0
+sylph.profile	class	Completeness	marmgCAMI2_short_read_sample_7	0.9285714285714286
+sylph.profile	class	Purity	marmgCAMI2_short_read_sample_7	0.9629629629629629
+sylph.profile	class	F1 score	marmgCAMI2_short_read_sample_7	0.9454545454545454
+sylph.profile	class	Jaccard index	marmgCAMI2_short_read_sample_7	0.896551724137931
+sylph.profile	order	True positives	marmgCAMI2_short_read_sample_7	63.0
+sylph.profile	order	False negatives	marmgCAMI2_short_read_sample_7	3.0
+sylph.profile	order	False positives	marmgCAMI2_short_read_sample_7	2.0
+sylph.profile	order	Completeness	marmgCAMI2_short_read_sample_7	0.9545454545454546
+sylph.profile	order	Purity	marmgCAMI2_short_read_sample_7	0.9692307692307692
+sylph.profile	order	F1 score	marmgCAMI2_short_read_sample_7	0.9618320610687022
+sylph.profile	order	Jaccard index	marmgCAMI2_short_read_sample_7	0.9264705882352942
+sylph.profile	family	True positives	marmgCAMI2_short_read_sample_7	99.0
+sylph.profile	family	False negatives	marmgCAMI2_short_read_sample_7	5.0
+sylph.profile	family	False positives	marmgCAMI2_short_read_sample_7	3.0
+sylph.profile	family	Completeness	marmgCAMI2_short_read_sample_7	0.9519230769230769
+sylph.profile	family	Purity	marmgCAMI2_short_read_sample_7	0.9705882352941176
+sylph.profile	family	F1 score	marmgCAMI2_short_read_sample_7	0.9611650485436893
+sylph.profile	family	Jaccard index	marmgCAMI2_short_read_sample_7	0.9252336448598131
+sylph.profile	genus	True positives	marmgCAMI2_short_read_sample_7	179.0
+sylph.profile	genus	False negatives	marmgCAMI2_short_read_sample_7	11.0
+sylph.profile	genus	False positives	marmgCAMI2_short_read_sample_7	7.0
+sylph.profile	genus	Completeness	marmgCAMI2_short_read_sample_7	0.9421052631578948
+sylph.profile	genus	Purity	marmgCAMI2_short_read_sample_7	0.9623655913978495
+sylph.profile	genus	F1 score	marmgCAMI2_short_read_sample_7	0.9521276595744681
+sylph.profile	genus	Jaccard index	marmgCAMI2_short_read_sample_7	0.9086294416243654
+sylph.profile	species	True positives	marmgCAMI2_short_read_sample_7	260.0
+sylph.profile	species	False negatives	marmgCAMI2_short_read_sample_7	22.0
+sylph.profile	species	False positives	marmgCAMI2_short_read_sample_7	36.0
+sylph.profile	species	Completeness	marmgCAMI2_short_read_sample_7	0.9219858156028369
+sylph.profile	species	Purity	marmgCAMI2_short_read_sample_7	0.8783783783783784
+sylph.profile	species	F1 score	marmgCAMI2_short_read_sample_7	0.8996539792387545
+sylph.profile	species	Jaccard index	marmgCAMI2_short_read_sample_7	0.8176100628930818
+sylph.profile	strain	True positives	marmgCAMI2_short_read_sample_7	0.0
+sylph.profile	strain	False negatives	marmgCAMI2_short_read_sample_7	433.0
+sylph.profile	strain	False positives	marmgCAMI2_short_read_sample_7	0.0
+sylph.profile	strain	Completeness	marmgCAMI2_short_read_sample_7	0.0
+sylph.profile	strain	Purity	marmgCAMI2_short_read_sample_7	0.0
+sylph.profile	strain	Jaccard index	marmgCAMI2_short_read_sample_7	0.0
+sylph.profile	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_7	0.048347
+sylph.profile	phylum	L1 norm error	marmgCAMI2_short_read_sample_7	0.0944570000000006
+sylph.profile	class	L1 norm error	marmgCAMI2_short_read_sample_7	0.06870899999999992
+sylph.profile	order	L1 norm error	marmgCAMI2_short_read_sample_7	0.11113
+sylph.profile	family	L1 norm error	marmgCAMI2_short_read_sample_7	0.11989099999999998
+sylph.profile	genus	L1 norm error	marmgCAMI2_short_read_sample_7	0.1446619999999999
+sylph.profile	species	L1 norm error	marmgCAMI2_short_read_sample_7	0.25606899999999977
+sylph.profile	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_7	0.014075738095238101
+sylph.profile	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_7	0.3829796341646111
+sylph.profile	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_7	2.01759175081825
+sylph.profile	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_7	1766.9994100000008
+sylph.profile	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_7	1.0000010000000001
+sylph.profile	phylum	Sum of abundances	marmgCAMI2_short_read_sample_7	1.0000010000000004
+sylph.profile	class	Sum of abundances	marmgCAMI2_short_read_sample_7	0.9787009999999999
+sylph.profile	order	Sum of abundances	marmgCAMI2_short_read_sample_7	0.9730539999999998
+sylph.profile	family	Sum of abundances	marmgCAMI2_short_read_sample_7	0.9617490000000004
+sylph.profile	genus	Sum of abundances	marmgCAMI2_short_read_sample_7	0.9923819999999995
+sylph.profile	species	Sum of abundances	marmgCAMI2_short_read_sample_7	1.0000009999999997
+sylph.profile	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_7	2.0
+sylph.profile	phylum	Taxon counts	marmgCAMI2_short_read_sample_7	18.0
+sylph.profile	class	Taxon counts	marmgCAMI2_short_read_sample_7	27.0
+sylph.profile	order	Taxon counts	marmgCAMI2_short_read_sample_7	65.0
+sylph.profile	family	Taxon counts	marmgCAMI2_short_read_sample_7	102.0
+sylph.profile	genus	Taxon counts	marmgCAMI2_short_read_sample_7	186.0
+sylph.profile	species	Taxon counts	marmgCAMI2_short_read_sample_7	296.0
+sylph.profile	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.0061019816940547315
+sylph.profile	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.026637053274106426
+sylph.profile	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.024618254370178574
+sylph.profile	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.0463761504651177
+sylph.profile	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.053450612433365324
+sylph.profile	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.054219876154705096
+sylph.profile	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_8	0.11937658986883783
+sylph.profile	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_8	0.3559205024548655
+sylph.profile	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_8	0.5134847438423427
+sylph.profile	phylum	Shannon diversity	marmgCAMI2_short_read_sample_8	1.1531030253867542
+sylph.profile	phylum	Shannon equitability	marmgCAMI2_short_read_sample_8	0.38491524612069855
+sylph.profile	class	Shannon diversity	marmgCAMI2_short_read_sample_8	1.6990523132061477
+sylph.profile	class	Shannon equitability	marmgCAMI2_short_read_sample_8	0.49954534316847726
+sylph.profile	order	Shannon diversity	marmgCAMI2_short_read_sample_8	2.8876637170136807
+sylph.profile	order	Shannon equitability	marmgCAMI2_short_read_sample_8	0.6796909382016277
+sylph.profile	family	Shannon diversity	marmgCAMI2_short_read_sample_8	3.336628521565405
+sylph.profile	family	Shannon equitability	marmgCAMI2_short_read_sample_8	0.7031983664466798
+sylph.profile	genus	Shannon diversity	marmgCAMI2_short_read_sample_8	3.8963904242821323
+sylph.profile	genus	Shannon equitability	marmgCAMI2_short_read_sample_8	0.7254986100116135
+sylph.profile	species	Shannon diversity	marmgCAMI2_short_read_sample_8	4.44804006691153
+sylph.profile	species	Shannon equitability	marmgCAMI2_short_read_sample_8	0.7571221297219345
+sylph.profile	superkingdom	True positives	marmgCAMI2_short_read_sample_8	2.0
+sylph.profile	superkingdom	False negatives	marmgCAMI2_short_read_sample_8	0.0
+sylph.profile	superkingdom	False positives	marmgCAMI2_short_read_sample_8	0.0
+sylph.profile	superkingdom	Completeness	marmgCAMI2_short_read_sample_8	1.0
+sylph.profile	superkingdom	Purity	marmgCAMI2_short_read_sample_8	1.0
+sylph.profile	superkingdom	F1 score	marmgCAMI2_short_read_sample_8	1.0
+sylph.profile	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_8	1.0
+sylph.profile	phylum	True positives	marmgCAMI2_short_read_sample_8	20.0
+sylph.profile	phylum	False negatives	marmgCAMI2_short_read_sample_8	3.0
+sylph.profile	phylum	False positives	marmgCAMI2_short_read_sample_8	0.0
+sylph.profile	phylum	Completeness	marmgCAMI2_short_read_sample_8	0.8695652173913043
+sylph.profile	phylum	Purity	marmgCAMI2_short_read_sample_8	1.0
+sylph.profile	phylum	F1 score	marmgCAMI2_short_read_sample_8	0.9302325581395349
+sylph.profile	phylum	Jaccard index	marmgCAMI2_short_read_sample_8	0.8695652173913043
+sylph.profile	class	True positives	marmgCAMI2_short_read_sample_8	28.0
+sylph.profile	class	False negatives	marmgCAMI2_short_read_sample_8	2.0
+sylph.profile	class	False positives	marmgCAMI2_short_read_sample_8	2.0
+sylph.profile	class	Completeness	marmgCAMI2_short_read_sample_8	0.9333333333333333
+sylph.profile	class	Purity	marmgCAMI2_short_read_sample_8	0.9333333333333333
+sylph.profile	class	F1 score	marmgCAMI2_short_read_sample_8	0.9333333333333333
+sylph.profile	class	Jaccard index	marmgCAMI2_short_read_sample_8	0.875
+sylph.profile	order	True positives	marmgCAMI2_short_read_sample_8	67.0
+sylph.profile	order	False negatives	marmgCAMI2_short_read_sample_8	5.0
+sylph.profile	order	False positives	marmgCAMI2_short_read_sample_8	3.0
+sylph.profile	order	Completeness	marmgCAMI2_short_read_sample_8	0.9305555555555556
+sylph.profile	order	Purity	marmgCAMI2_short_read_sample_8	0.9571428571428572
+sylph.profile	order	F1 score	marmgCAMI2_short_read_sample_8	0.943661971830986
+sylph.profile	order	Jaccard index	marmgCAMI2_short_read_sample_8	0.8933333333333333
+sylph.profile	family	True positives	marmgCAMI2_short_read_sample_8	111.0
+sylph.profile	family	False negatives	marmgCAMI2_short_read_sample_8	5.0
+sylph.profile	family	False positives	marmgCAMI2_short_read_sample_8	4.0
+sylph.profile	family	Completeness	marmgCAMI2_short_read_sample_8	0.9568965517241379
+sylph.profile	family	Purity	marmgCAMI2_short_read_sample_8	0.9652173913043478
+sylph.profile	family	F1 score	marmgCAMI2_short_read_sample_8	0.961038961038961
+sylph.profile	family	Jaccard index	marmgCAMI2_short_read_sample_8	0.925
+sylph.profile	genus	True positives	marmgCAMI2_short_read_sample_8	204.0
+sylph.profile	genus	False negatives	marmgCAMI2_short_read_sample_8	12.0
+sylph.profile	genus	False positives	marmgCAMI2_short_read_sample_8	11.0
+sylph.profile	genus	Completeness	marmgCAMI2_short_read_sample_8	0.9444444444444444
+sylph.profile	genus	Purity	marmgCAMI2_short_read_sample_8	0.9488372093023256
+sylph.profile	genus	F1 score	marmgCAMI2_short_read_sample_8	0.9466357308584686
+sylph.profile	genus	Jaccard index	marmgCAMI2_short_read_sample_8	0.8986784140969163
+sylph.profile	species	True positives	marmgCAMI2_short_read_sample_8	315.0
+sylph.profile	species	False negatives	marmgCAMI2_short_read_sample_8	30.0
+sylph.profile	species	False positives	marmgCAMI2_short_read_sample_8	41.0
+sylph.profile	species	Completeness	marmgCAMI2_short_read_sample_8	0.9130434782608695
+sylph.profile	species	Purity	marmgCAMI2_short_read_sample_8	0.8848314606741573
+sylph.profile	species	F1 score	marmgCAMI2_short_read_sample_8	0.8987161198288159
+sylph.profile	species	Jaccard index	marmgCAMI2_short_read_sample_8	0.8160621761658031
+sylph.profile	strain	True positives	marmgCAMI2_short_read_sample_8	0.0
+sylph.profile	strain	False negatives	marmgCAMI2_short_read_sample_8	532.0
+sylph.profile	strain	False positives	marmgCAMI2_short_read_sample_8	0.0
+sylph.profile	strain	Completeness	marmgCAMI2_short_read_sample_8	0.0
+sylph.profile	strain	Purity	marmgCAMI2_short_read_sample_8	0.0
+sylph.profile	strain	Jaccard index	marmgCAMI2_short_read_sample_8	0.0
+sylph.profile	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_8	0.012203999999999625
+sylph.profile	phylum	L1 norm error	marmgCAMI2_short_read_sample_8	0.05327399999999974
+sylph.profile	class	L1 norm error	marmgCAMI2_short_read_sample_8	0.04759100000000004
+sylph.profile	order	L1 norm error	marmgCAMI2_short_read_sample_8	0.090276
+sylph.profile	family	L1 norm error	marmgCAMI2_short_read_sample_8	0.103256
+sylph.profile	genus	L1 norm error	marmgCAMI2_short_read_sample_8	0.10682400000000007
+sylph.profile	species	L1 norm error	marmgCAMI2_short_read_sample_8	0.2235680000000001
+sylph.profile	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_8	0.010765023523809515
+sylph.profile	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_8	0.3801890812188627
+sylph.profile	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_8	1.7887304087175624
+sylph.profile	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_8	2186.9997700000004
+sylph.profile	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_8	1.0000059999999997
+sylph.profile	phylum	Sum of abundances	marmgCAMI2_short_read_sample_8	1.0000059999999995
+sylph.profile	class	Sum of abundances	marmgCAMI2_short_read_sample_8	0.9711089999999999
+sylph.profile	order	Sum of abundances	marmgCAMI2_short_read_sample_8	0.975194
+sylph.profile	family	Sum of abundances	marmgCAMI2_short_read_sample_8	0.9687920000000001
+sylph.profile	genus	Sum of abundances	marmgCAMI2_short_read_sample_8	0.9928499999999998
+sylph.profile	species	Sum of abundances	marmgCAMI2_short_read_sample_8	1.0000059999999993
+sylph.profile	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_8	2.0
+sylph.profile	phylum	Taxon counts	marmgCAMI2_short_read_sample_8	20.0
+sylph.profile	class	Taxon counts	marmgCAMI2_short_read_sample_8	30.0
+sylph.profile	order	Taxon counts	marmgCAMI2_short_read_sample_8	70.0
+sylph.profile	family	Taxon counts	marmgCAMI2_short_read_sample_8	115.0
+sylph.profile	genus	Taxon counts	marmgCAMI2_short_read_sample_8	215.0
+sylph.profile	species	Taxon counts	marmgCAMI2_short_read_sample_8	356.0
+sylph.profile	superkingdom	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.012520506260253193
+sylph.profile	phylum	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.05262652631326349
+sylph.profile	class	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.049743964131228356
+sylph.profile	order	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.0603543488029545
+sylph.profile	family	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.06922045902931347
+sylph.profile	genus	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.07479422131555986
+sylph.profile	species	Bray-Curtis distance	marmgCAMI2_short_read_sample_9	0.16375709519119136
+sylph.profile	superkingdom	Shannon diversity	marmgCAMI2_short_read_sample_9	0.25513499857986
+sylph.profile	superkingdom	Shannon equitability	marmgCAMI2_short_read_sample_9	0.36808199720837675
+sylph.profile	phylum	Shannon diversity	marmgCAMI2_short_read_sample_9	1.161804319902714
+sylph.profile	phylum	Shannon equitability	marmgCAMI2_short_read_sample_9	0.3945757844272312
+sylph.profile	class	Shannon diversity	marmgCAMI2_short_read_sample_9	1.7894050123053484
+sylph.profile	class	Shannon equitability	marmgCAMI2_short_read_sample_9	0.5370033582396369
+sylph.profile	order	Shannon diversity	marmgCAMI2_short_read_sample_9	2.963824602719845
+sylph.profile	order	Shannon equitability	marmgCAMI2_short_read_sample_9	0.7268663117121271
+sylph.profile	family	Shannon diversity	marmgCAMI2_short_read_sample_9	3.353915382211019
+sylph.profile	family	Shannon equitability	marmgCAMI2_short_read_sample_9	0.7315025456153287
+sylph.profile	genus	Shannon diversity	marmgCAMI2_short_read_sample_9	3.9301781645096674
+sylph.profile	genus	Shannon equitability	marmgCAMI2_short_read_sample_9	0.7568285809723088
+sylph.profile	species	Shannon diversity	marmgCAMI2_short_read_sample_9	4.51593826542751
+sylph.profile	species	Shannon equitability	marmgCAMI2_short_read_sample_9	0.7984343712783616
+sylph.profile	superkingdom	True positives	marmgCAMI2_short_read_sample_9	2.0
+sylph.profile	superkingdom	False negatives	marmgCAMI2_short_read_sample_9	0.0
+sylph.profile	superkingdom	False positives	marmgCAMI2_short_read_sample_9	0.0
+sylph.profile	superkingdom	Completeness	marmgCAMI2_short_read_sample_9	1.0
+sylph.profile	superkingdom	Purity	marmgCAMI2_short_read_sample_9	1.0
+sylph.profile	superkingdom	F1 score	marmgCAMI2_short_read_sample_9	1.0
+sylph.profile	superkingdom	Jaccard index	marmgCAMI2_short_read_sample_9	1.0
+sylph.profile	phylum	True positives	marmgCAMI2_short_read_sample_9	19.0
+sylph.profile	phylum	False negatives	marmgCAMI2_short_read_sample_9	2.0
+sylph.profile	phylum	False positives	marmgCAMI2_short_read_sample_9	0.0
+sylph.profile	phylum	Completeness	marmgCAMI2_short_read_sample_9	0.9047619047619048
+sylph.profile	phylum	Purity	marmgCAMI2_short_read_sample_9	1.0
+sylph.profile	phylum	F1 score	marmgCAMI2_short_read_sample_9	0.9500000000000001
+sylph.profile	phylum	Jaccard index	marmgCAMI2_short_read_sample_9	0.9047619047619048
+sylph.profile	class	True positives	marmgCAMI2_short_read_sample_9	27.0
+sylph.profile	class	False negatives	marmgCAMI2_short_read_sample_9	2.0
+sylph.profile	class	False positives	marmgCAMI2_short_read_sample_9	1.0
+sylph.profile	class	Completeness	marmgCAMI2_short_read_sample_9	0.9310344827586207
+sylph.profile	class	Purity	marmgCAMI2_short_read_sample_9	0.9642857142857143
+sylph.profile	class	F1 score	marmgCAMI2_short_read_sample_9	0.9473684210526316
+sylph.profile	class	Jaccard index	marmgCAMI2_short_read_sample_9	0.9
+sylph.profile	order	True positives	marmgCAMI2_short_read_sample_9	57.0
+sylph.profile	order	False negatives	marmgCAMI2_short_read_sample_9	5.0
+sylph.profile	order	False positives	marmgCAMI2_short_read_sample_9	2.0
+sylph.profile	order	Completeness	marmgCAMI2_short_read_sample_9	0.9193548387096774
+sylph.profile	order	Purity	marmgCAMI2_short_read_sample_9	0.9661016949152542
+sylph.profile	order	F1 score	marmgCAMI2_short_read_sample_9	0.9421487603305785
+sylph.profile	order	Jaccard index	marmgCAMI2_short_read_sample_9	0.890625
+sylph.profile	family	True positives	marmgCAMI2_short_read_sample_9	93.0
+sylph.profile	family	False negatives	marmgCAMI2_short_read_sample_9	5.0
+sylph.profile	family	False positives	marmgCAMI2_short_read_sample_9	5.0
+sylph.profile	family	Completeness	marmgCAMI2_short_read_sample_9	0.9489795918367347
+sylph.profile	family	Purity	marmgCAMI2_short_read_sample_9	0.9489795918367347
+sylph.profile	family	F1 score	marmgCAMI2_short_read_sample_9	0.9489795918367347
+sylph.profile	family	Jaccard index	marmgCAMI2_short_read_sample_9	0.9029126213592233
+sylph.profile	genus	True positives	marmgCAMI2_short_read_sample_9	169.0
+sylph.profile	genus	False negatives	marmgCAMI2_short_read_sample_9	11.0
+sylph.profile	genus	False positives	marmgCAMI2_short_read_sample_9	11.0
+sylph.profile	genus	Completeness	marmgCAMI2_short_read_sample_9	0.9388888888888889
+sylph.profile	genus	Purity	marmgCAMI2_short_read_sample_9	0.9388888888888889
+sylph.profile	genus	F1 score	marmgCAMI2_short_read_sample_9	0.9388888888888889
+sylph.profile	genus	Jaccard index	marmgCAMI2_short_read_sample_9	0.8848167539267016
+sylph.profile	species	True positives	marmgCAMI2_short_read_sample_9	250.0
+sylph.profile	species	False negatives	marmgCAMI2_short_read_sample_9	21.0
+sylph.profile	species	False positives	marmgCAMI2_short_read_sample_9	36.0
+sylph.profile	species	Completeness	marmgCAMI2_short_read_sample_9	0.922509225092251
+sylph.profile	species	Purity	marmgCAMI2_short_read_sample_9	0.8741258741258742
+sylph.profile	species	F1 score	marmgCAMI2_short_read_sample_9	0.8976660682226213
+sylph.profile	species	Jaccard index	marmgCAMI2_short_read_sample_9	0.8143322475570033
+sylph.profile	strain	True positives	marmgCAMI2_short_read_sample_9	0.0
+sylph.profile	strain	False negatives	marmgCAMI2_short_read_sample_9	414.0
+sylph.profile	strain	False positives	marmgCAMI2_short_read_sample_9	0.0
+sylph.profile	strain	Completeness	marmgCAMI2_short_read_sample_9	0.0
+sylph.profile	strain	Purity	marmgCAMI2_short_read_sample_9	0.0
+sylph.profile	strain	Jaccard index	marmgCAMI2_short_read_sample_9	0.0
+sylph.profile	superkingdom	L1 norm error	marmgCAMI2_short_read_sample_9	0.025041000000000126
+sylph.profile	phylum	L1 norm error	marmgCAMI2_short_read_sample_9	0.10525300000000071
+sylph.profile	class	L1 norm error	marmgCAMI2_short_read_sample_9	0.0963460000000001
+sylph.profile	order	L1 norm error	marmgCAMI2_short_read_sample_9	0.11792599999999992
+sylph.profile	family	L1 norm error	marmgCAMI2_short_read_sample_9	0.13350099999999998
+sylph.profile	genus	L1 norm error	marmgCAMI2_short_read_sample_9	0.14709600000000003
+sylph.profile	species	L1 norm error	marmgCAMI2_short_read_sample_9	0.29776099999999966
+sylph.profile	na	Weighted UniFrac error	marmgCAMI2_short_read_sample_9	0.014167886095238107
+sylph.profile	na	Unweighted UniFrac error	marmgCAMI2_short_read_sample_9	0.36343428458822324
+sylph.profile	na	Weighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_9	2.163268033368046
+sylph.profile	na	Unweighted UniFrac (CAMI)	marmgCAMI2_short_read_sample_9	1641.9996400000005
+sylph.profile	superkingdom	Sum of abundances	marmgCAMI2_short_read_sample_9	0.9999990000000001
+sylph.profile	phylum	Sum of abundances	marmgCAMI2_short_read_sample_9	0.9999990000000006
+sylph.profile	class	Sum of abundances	marmgCAMI2_short_read_sample_9	0.9751080000000001
+sylph.profile	order	Sum of abundances	marmgCAMI2_short_read_sample_9	0.9795439999999997
+sylph.profile	family	Sum of abundances	marmgCAMI2_short_read_sample_9	0.9675549999999999
+sylph.profile	genus	Sum of abundances	marmgCAMI2_short_read_sample_9	0.9902860000000004
+sylph.profile	species	Sum of abundances	marmgCAMI2_short_read_sample_9	0.999999
+sylph.profile	superkingdom	Taxon counts	marmgCAMI2_short_read_sample_9	2.0
+sylph.profile	phylum	Taxon counts	marmgCAMI2_short_read_sample_9	19.0
+sylph.profile	class	Taxon counts	marmgCAMI2_short_read_sample_9	28.0
+sylph.profile	order	Taxon counts	marmgCAMI2_short_read_sample_9	59.0
+sylph.profile	family	Taxon counts	marmgCAMI2_short_read_sample_9	98.0
+sylph.profile	genus	Taxon counts	marmgCAMI2_short_read_sample_9	180.0
+sylph.profile	species	Taxon counts	marmgCAMI2_short_read_sample_9	286.0
