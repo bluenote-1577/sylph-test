@@ -9,7 +9,7 @@ import seaborn as sns
 from dataclasses import dataclass
 from natsort import natsorted
 cmap = sns.color_palette("muted")
-plt_diag = True
+plt_diag = False
 
 np.random.seed(0)
 def rand_jitter(arr):
@@ -137,8 +137,8 @@ for file in truth_files:
         true_results[-1].append(res)
 
 
-fig, ax = plt.subplots(1, 3, figsize = (16* cm , 7 * cm), sharey = True, sharex = True)
-s = 8
+fig, ax = plt.subplots(1, 3, figsize = (16* cm , 5.5 * cm), sharey = True, sharex = True)
+s = 7
 
 for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
     for j in range(1):
@@ -206,7 +206,7 @@ for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
 
             ax[i].set_xlabel("True containment ANI")
             if j == 1:
-                ax[i].scatter(x,y,s = s, color = cmap[2], alpha = 0.5, label = rf"c = 1000, $R^2$ = {round(good_lr.rvalue**2,3)}")
+                ax[i].scatter(x,y,s = s, color = cmap[2], alpha = 0.5, label = rf"c = 1000, $R$ = {round(good_lr.rvalue**1,3)}")
             else:
                 if i == 0:
                     ax[i].set_title("Illumina", fontsize = plt.rcParams['font.size'])
@@ -215,11 +215,11 @@ for (i,name) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
                 elif i == 2:
                     ax[i].set_title("PacBio", fontsize = plt.rcParams['font.size'])
 
-                ax[i].scatter(x,y,s = s, color = cmap[0], alpha = 0.5, label = rf"sylph, $R^2$ = {round(good_lr.rvalue**2,3)}")
-            ax[i].scatter(x,z, s= s, color = cmap[3], alpha = 0.5, label = rf"Naive, $R^2$ = {round(naive_lr.rvalue**2,3)}")
+                ax[i].scatter(x,y,s = s, color = cmap[0], alpha = 0.5, label = rf"sylph $R$ = {round(good_lr.rvalue**1,2)}")
+            ax[i].scatter(x,z, s= s, color = cmap[3], alpha = 0.5, label = rf"Naive $R$ = {round(naive_lr.rvalue**1,2)}")
             ax[i].plot([90,100],[90,100],'--', c = 'black')
             print('covered: ' + str(covered/total) + 'total: ' + str(total))
-            ax[i].set_ylim([85,100])
+            ax[i].set_ylim([85,102])
             if i == 0:
                 ax[i].set_ylabel("Estimated ANI")
 

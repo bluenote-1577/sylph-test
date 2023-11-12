@@ -140,8 +140,13 @@ for res in results[0]:
         continue
     pair = natsorted([srr,read_file_to_pair_dict[srr]])
     if 'restrict' in res.contig_name:
-        pair_to_res[tuple(pair)].append((res.final_ani))
-        pair_to_res_naive[tuple(pair)].append(res.naive_ani)
+        if boxplot_covs:
+            pair_to_res[tuple(pair)].append((res.eff_cov))
+            pair_to_res_naive[tuple(pair)].append(res.eff_cov)
+
+        else:
+            pair_to_res[tuple(pair)].append((res.final_ani))
+            pair_to_res_naive[tuple(pair)].append(res.naive_ani)
         if tuple(pair) in res_used_pairs:
             continue
         if read_file_to_status[srr] == 'Case':
@@ -150,21 +155,26 @@ for res in results[0]:
                 case_res_n.append(res.naive_ani)
 
             else:
-                case_res.append(res.eff_cov)
-                case_res_n.append(res.eff_cov)
+                case_res.append(res.median_cov)
+                case_res_n.append(res.median_cov)
         else:
             if not boxplot_covs:
                 control_res.append(res.final_ani)
                 control_res_n.append(res.naive_ani)
 
             else:
-                control_res.append(res.eff_cov)
-                control_res_n.append(res.eff_cov)
+                control_res.append(res.median_cov)
+                control_res_n.append(res.median_cov)
 
         res_used_pairs.add(tuple(pair))
     if 'globo' in res.contig_name:
-        pair_to_res_globo[tuple(pair)].append((res.final_ani))
-        pair_to_res_naive_globo[tuple(pair)].append(res.naive_ani)
+        if boxplot_covs:
+            pair_to_res_globo[tuple(pair)].append((res.eff_cov))
+            pair_to_res_naive_globo[tuple(pair)].append(res.eff_cov)
+
+        else:
+            pair_to_res_globo[tuple(pair)].append((res.final_ani))
+            pair_to_res_naive_globo[tuple(pair)].append(res.naive_ani)
 
         if tuple(pair) in globo_used_pairs:
             continue
@@ -174,16 +184,16 @@ for res in results[0]:
                 case_globo_n.append(res.naive_ani)
 
             else:
-                case_globo.append(res.eff_cov)
-                case_globo_n.append(res.eff_cov)
+                case_globo.append(res.median_cov)
+                case_globo_n.append(res.median_cov)
 
         else:
             if not boxplot_covs:
                 control_globo.append(res.final_ani)
                 control_globo_n.append(res.naive_ani)
             else:
-                control_globo.append(res.eff_cov)
-                control_globo_n.append(res.eff_cov)
+                control_globo.append(res.median_cov)
+                control_globo_n.append(res.median_cov)
 
         globo_used_pairs.add(tuple(pair))
 
@@ -191,6 +201,7 @@ print(case_res)
 print(len(globo_used_pairs))
 #print(len(globo_used_pairs))
 print(pair_to_res)
+print(pair_to_res_globo)
 
 sc = np.array(list(pair_to_res.values()))
 sc2 = np.array(list(pair_to_res_naive.values()))
@@ -229,10 +240,10 @@ ax[1][1].text(.05, .99, 'M. globosa', ha='left', va='top', transform=ax[1][1].tr
 ax[1][0].text(.05, .99, 'M. globosa', ha='left', va='top', transform=ax[1][0].transAxes)
 
 
-ax[0][0].text(.55, .25, rf"$R^2$ = {round(sr.rvalue**2,3)}", ha='left', va='top', transform=ax[0][0].transAxes)
-ax[0][1].text(.55, .25, rf"$R^2$ = {round(nr.rvalue**2,3)}", ha='left', va='top', transform=ax[0][1].transAxes)
-ax[1][1].text(.55, .25, rf"$R^2$ = {round(ng.rvalue**2,3)}", ha='left', va='top', transform=ax[1][1].transAxes)
-ax[1][0].text(.55, .25, rf"$R^2$ = {round(sg.rvalue**2,3)}", ha='left', va='top', transform=ax[1][0].transAxes)
+ax[0][0].text(.55, .25, rf"$R$ = {round(sr.rvalue**1,3)}", ha='left', va='top', transform=ax[0][0].transAxes)
+ax[0][1].text(.55, .25, rf"$R$ = {round(nr.rvalue**1,3)}", ha='left', va='top', transform=ax[0][1].transAxes)
+ax[1][1].text(.55, .25, rf"$R$ = {round(ng.rvalue**1,3)}", ha='left', va='top', transform=ax[1][1].transAxes)
+ax[1][0].text(.55, .25, rf"$R$ = {round(sg.rvalue**1,3)}", ha='left', va='top', transform=ax[1][0].transAxes)
 
 for a in ax:
     for b in a:
@@ -307,6 +318,17 @@ case_globo_n = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res_naive_globo.items() if 
 control_res_n = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res_naive.items() if read_file_to_status[a[0]] == 'Control']
 control_globo_n = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res_naive_globo.items() if read_file_to_status[a[0]] == 'Control']
 
+print(len([x for x in case_res if x > 95]), ': num restrica > 95 case')
+print(len([x for x in control_res if x > 95]), ': num restrica > 95 cont')
+print(len([x for x in case_globo if x > 95]), ': num globo > 95 case')
+print(len([x for x in control_globo if x > 95]), ': num globo > 95 cont')
+
+print(len([x for x in case_res if x > 90]), ': num restrica > 90 case')
+print(len([x for x in control_res if x > 90]), ': num restrica > 90 cont')
+print(len([x for x in case_globo if x > 90]), ': num globo > 90 case')
+print(len([x for x in control_globo if x > 90]), ': num globo > 90 cont')
+
+
 
 # Add the boxplots to the axes
 bp1 = ax[0][0].boxplot([case_res, control_res], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['Case', 'Control'])
@@ -359,6 +381,7 @@ bps = [bp1,bp2,bp3,bp4]
 for bp in bps:
     for median in bp['medians']:
         median.set_color('black')
+        print(median.get_ydata())
 
 for a in ax:
     for b in a:

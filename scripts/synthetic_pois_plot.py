@@ -9,7 +9,7 @@ from dataclasses import dataclass
 import glob
 from natsort import natsorted
 
-cov_plot = False
+cov_plot = True
 np.random.seed(0)
 def rand_jitter(arr):
     stdev = 0.00 

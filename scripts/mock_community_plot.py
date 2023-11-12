@@ -115,36 +115,41 @@ fig, ax = plt.subplots(ncols = 3, figsize = (16* cm, 11 * cm * 0.5), sharey = Tr
 res_anis = [[x.final_ani for x in res] for res in results]
 res_anis_low = [[x.final_ani for x in res if x.low] for res in results]
 res_anis_pass = [[x.adj_ani for x in res if not x.low] for res in results]
+res_naive = [[x.naive_ani for x in res] for res in results]
 boxes = []
 all_res = []
 s = 7
 
 offset = 0.0
-width = 0.6
+width = 0.7
 labels = []
-num_methods = 3
+num_methods = 4
 
 
 for (i,x) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
     ax[i].set_title(x, fontsize = plt.rcParams['font.size'])
     positions = []
     positions.append(i*num_methods - 1)
-    positions.append(i*num_methods + 0 - offset)
-    positions.append(i*num_methods + 1 - 2 * offset)
+    positions.append(i*num_methods + 0)
+    positions.append(i*num_methods + 1)
+    positions.append(i*num_methods + 2)
 
     boxes = []
     box_c100 = res_anis[i]
+    box_naive = res_naive[i]
     box_mash = mash_results[i]
     box_sour = sour_results[i]
 
     boxes.append(box_c100)
+    boxes.append(box_naive)
     boxes.append(box_mash)
     boxes.append(box_sour)
     
     pos_c100_low = rand_jitter([positions[0]  for x in range(len(res_anis_low[i]))])
     pos_c100_pass = rand_jitter([positions[0]  for x in range(len(res_anis_pass[i]))])
-    pos_mash = rand_jitter([positions[1]  for x in range(len(box_mash))])
-    pos_sour = rand_jitter([positions[2]  for x in range(len(box_sour))])
+    pos_naive = rand_jitter([positions[1]  for x in range(len(box_naive))])
+    pos_mash = rand_jitter([positions[2]  for x in range(len(box_mash))])
+    pos_sour = rand_jitter([positions[3]  for x in range(len(box_sour))])
 
     dot_label = []
     for box in boxes:
@@ -167,6 +172,7 @@ for (i,x) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
     ax[i].scatter(pos_c100_pass,res_anis_pass[i],  s = s, color= cmap[0])
    # ax[i].set_ylim([70,100])
 
+    ax[i].scatter( pos_naive,box_naive,s = s, color = cmap[3])
     #ax[i].scatter( pos_c1000_low,res_anis_low[2*i+1], s = s, color = 'black', marker = "s")
     #ax[i].scatter( pos_c1000_pass, res_anis_pass[2*i+1],s = s, color = cmap[4], label=dot_label[1] + ' sylph -c1000')
     #ax[i].scatter( pos_c1000_pass, res_anis_pass[2*i+1],s = s, color = cmap[4])
@@ -182,8 +188,9 @@ for (i,x) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
     #labels.append("sylph query\n\n" + dot_label[0])
     #labels.append("mash screen\n\n" + dot_label[1])
     #labels.append("sourmash\n\n" + dot_label[2])
-    labels.append("sylph query")
-    labels.append("mash screen")
+    labels.append("sylph")
+    labels.append("Naive ANI")
+    labels.append("Mash\nscreen")
     labels.append("sourmash")
 
     bp = ax[i].boxplot(boxes, showfliers=False, positions = positions, widths = width, labels=labels)
