@@ -9,7 +9,7 @@ import seaborn as sns
 from dataclasses import dataclass
 from natsort import natsorted
 cmap = sns.color_palette("muted")
-plt_diag = False
+plt_diag = True
 
 np.random.seed(0)
 def rand_jitter(arr):
@@ -44,7 +44,8 @@ results = []
 true_results = []
 
 sylph_files_gap = [
-        "gtdb-on-reads-oct15/gtdb-on-ill-c200.tsv",
+        #"gtdb-on-reads-oct15/gtdb-on-ill-c200.tsv",
+        "results_v0.5/gtdb-on-ill-c200.tsv",
         "gtdb-on-reads-oct15/gtdb-on-nano-c200.tsv",
         "gtdb-on-reads-oct15/gtdb-on-pac-c200.tsv",
         ]

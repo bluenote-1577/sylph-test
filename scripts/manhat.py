@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from collections import defaultdict
 import scipy.stats as stats
 import statsmodels.api as sm
 import statsmodels.stats as ss
@@ -13,7 +14,6 @@ import numpy as np
 cmap = plt.get_cmap('tab20')
 plt.set_cmap(cmap)
 q = 0.05
-LIMIT = 0.0018366409299248078
 
 def fdr(p_vals, alpha ):
     not_used, pvals = ss.multitest.fdrcorrection(p_vals, alpha = alpha)
@@ -24,7 +24,7 @@ def fdr(p_vals, alpha ):
                 limit = p_vals[i]
             continue
     print("LIMIT OF DETECT", limit)
-    return pvals
+    return (pvals,limit)
 
 
 cm = 1/2.54  # centimeters in inches\n",
@@ -47,13 +47,16 @@ mag_to_effect = dict()
 #pval_file = './98-ordered_pvals.txt'
 #pval_file = './98-fixed-covs-ordered_pvals.txt'
 #pval_file = './98-fixed'
-pval_file = '98-fixed-covs-oct15-ordered_pvals.txt'
+#pval_file = '98-fixed-covs-oct15-ordered_pvals.txt'
+pval_file = './98-v05-covs-ordered_pvals.txt'
+#pval_file = './99-v05-01-ordered_pvals.txt'
 #pval_file = './95-fixed-covs-ordered_pvals.txt'
 order_file = './121ordered_mags_by_cluster.txt'
 metadata = './genomes-all_metadata.tsv'
 mag_to_c = dict()
 first = True
 gn_to_rep = dict()
+species_to_mag_pval = defaultdict(list)
 gn_to_mag_rep = dict()
 for line in open(metadata,'r'):
     if first:
@@ -64,7 +67,6 @@ for line in open(metadata,'r'):
     rep = spl[14] +" " + spl[15]
     gn_to_rep[gn] = rep
     gn_to_mag_rep[gn] = spl[13]
-    #print(rep)
 
 
 s_and_mag_pair = []
@@ -72,7 +74,6 @@ for line in open(pval_file,'r'):
     spl = line.split()
     if spl[ind] == "nan":
         continue
-    #print(spl)
     if derep:
         if spl[4] not in seen_cs:
             c.append(int(spl[4])%20)
@@ -87,6 +88,10 @@ for line in open(pval_file,'r'):
         #pvals.append(np.log10(float(spl[ind])))
         mag_to_pval[spl[-1].rstrip()] = np.log10(float(spl[ind]))
         mag_to_effect[spl[-1].rstrip()] = float(spl[2])
+        if spl[4] not in species_to_mag_pval:
+            species_to_mag_pval[spl[4]] = [float(spl[ind]),spl[-1].rstrip()]
+        elif float(spl[ind]) < species_to_mag_pval[spl[4]][0]:
+            species_to_mag_pval[spl[4]] = [float(spl[ind]),spl[-1].rstrip()]
         if spl[4] not in seen_cs:
             s.append(float(spl[ind]))
             s_and_mag_pair.append([float(spl[ind]),spl[-1]])
@@ -94,9 +99,10 @@ for line in open(pval_file,'r'):
 
 
 qq = stats.probplot(s,dist=uniform)
-s_and_mag_pair = sorted(s_and_mag_pair,reverse=False)
-for i in range(10):
-    print(gn_to_rep[s_and_mag_pair[i][1]])
+s_and_mag_pair = sorted(list(species_to_mag_pval.values()),reverse=False)
+for i in range(50):
+    print(i)
+    print(gn_to_rep[s_and_mag_pair[i][1]], s_and_mag_pair[i][0], s_and_mag_pair[i][1])
     #exit()
 
 ax.scatter(-np.log10(qq[0][0]), -np.log10(qq[0][1]), s = 4, label = 'Species\nrepresentative')
@@ -119,18 +125,19 @@ val = 0
 for p in s:
     if  (len(pvals) - count) / len(pvals) * q > 10**p:
         val = p
-        #print(10**val, q)
         break
 
 cs = []
 mag_pval_list = []
 rep_list = [] 
 seen_cs = set()
+seen_mags_in_order_file = set()
 for line in open(order_file,'r'):
     mag = line.split('.fa')[0].rstrip()
+    seen_mags_in_order_file.add(mag)
     if mag in mag_to_pval:
         if interactive:
-            if hash(mag) % 10 == 0:
+            if hash(mag) % 4 == 0:
                 if mag in mag_to_pval:
                     pvals.append(mag_to_pval[mag])
                     seen_cs.add(mag_to_c[mag])
@@ -143,6 +150,23 @@ for line in open(order_file,'r'):
             cs.append(len(seen_cs)%20)
             mag_pval_list.append(mag)
 
+for mag in mag_to_pval:
+    if interactive:
+        if hash(mag) % 10 == 0:
+            if mag not in seen_mags_in_order_file:
+                pvals.append(mag_to_pval[mag])
+                seen_cs.add(mag_to_c[mag])
+                cs.append(len(seen_cs)%20)
+                mag_pval_list.append(mag)
+                rep_list.append(gn_to_rep[mag])
+    else:
+        if mag not in seen_mags_in_order_file:
+            pvals.append(mag_to_pval[mag])
+            seen_cs.add(mag_to_c[mag])
+            cs.append(len(seen_cs)%20)
+            mag_pval_list.append(mag)
+            rep_list.append(gn_to_rep[mag])
+
 
 fig, ax = plt.subplots(figsize = (16* cm , 6 * cm))
 
@@ -151,9 +175,13 @@ if interactive:
     fig = go.Figure()
 
 agatho_qvals = []
-agatho_rep = 'MGYG000002492'
+#agatho_rep = 'MGYG000003682'
+agatho_rep = 'MGYG000002506'
+#MGYG000002492'
 #print(pvals)
-qvals = fdr(np.power(10,pvals), q)
+qvals, LIMIT = fdr(np.power(10,pvals), q)
+throwaway, LIMIT2 = fdr(np.power(10,pvals), 0.10)
+throwaway, LIMIT1 = fdr(np.power(10,pvals), 0.05)
 #I misunderstood qvals, it's a diff procedure and not benjamini hochbergq
 #qvals = np.power(10,pvals)
 #qvals = np.log10(qvals)
@@ -180,7 +208,7 @@ if interactive:
     fig.add_trace(go.Scatter(x=list(range(len(qvals))),
                              y=-np.array(qvals),
                              mode='markers',
-                             marker=dict(color=cs, size=2),
+                             marker=dict(color=cs, size=5),
                              hovertext=[f'MAG: {rep_list[i]}' for i in range(len(qvals))],
                              hoverinfo="text"))
     # Add a horizontal line to represent the q-value threshold
@@ -204,7 +232,9 @@ if interactive:
 plt.scatter(range(len(qvals)), -np.array(qvals),c = cs,s = size)
 ax.spines[['right', 'top']].set_visible(False)
 plt.xticks([])
-plt.axhline(-np.log10(LIMIT))
+plt.axhline(-np.log10(LIMIT1), ls = '--', c = 'black', label = '0.05 FDR threshold')
+plt.axhline(-np.log10(LIMIT2), ls = '-.', c = 'gray', label = '0.10 FDR threshold')
+plt.legend(frameon=False)
 
 #plt.scatter(range(len(qvals)), fd,c = c,s = 1)
 plt.ylabel("-log10(p-val)")
@@ -217,14 +247,17 @@ plt.set_cmap(cmap)
 
 fig, ax = plt.subplots(figsize = (5.5* cm , 4.5 * cm))
 plt.ylabel("-log10(p-val)")
-plt.xlabel("A. rectalis genomes ordered by similarity")
+plt.xlabel("E. coli genomes ordered by similarity")
 mag_c = mag_to_c[agatho_rep]
-#print(mag_c)
+print(mag_c)
 it_tab20 = [plt.cm.tab20(i) for i in range(20)]
 plt.scatter(range(len(agatho_qvals)), -np.array(agatho_qvals), c = [it_tab20[mag_c] for x in agatho_qvals], s = size, cmap = cmap)
 plt.xticks([])
 ax.spines[['right', 'top']].set_visible(False)
-plt.axhline(-np.log10(LIMIT))
+plt.axhline(-np.log10(LIMIT1), ls = '--', c = 'black', label = '0.05 FDR threshold')
+plt.axhline(-np.log10(LIMIT2), ls = '-.', c = 'gray', label = '0.10 FDR threshold')
+#plt.legend(frameon=False)
+
 plt.savefig("figures/agatho.png", dpi = 300)
 plt.show()
 

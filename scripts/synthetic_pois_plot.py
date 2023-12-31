@@ -9,7 +9,7 @@ from dataclasses import dataclass
 import glob
 from natsort import natsorted
 
-cov_plot = True
+cov_plot = False
 np.random.seed(0)
 def rand_jitter(arr):
     stdev = 0.00 
@@ -173,7 +173,7 @@ for index in range(3):
             if i != len(cs):
                 label = f"sylph -c {cs[i]}"
             else:
-                label = "Naive ANI"
+                label = "Naive containment"
             ax[index].scatter(xpos, ypos, s = s, color = cmap[i], label = label)
             print(xs[i])
 

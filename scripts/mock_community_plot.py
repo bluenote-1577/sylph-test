@@ -40,9 +40,9 @@ mash_results = []
 sour_results = []
 
 sylph_files = [
-        "results_meslier-oct15/mock2_ill_c200",
-        "results_meslier-oct15/mock2_nano_c200",
-        "results_meslier-oct15/mock2_pac_c200",
+        "ref_profile_results_v0.5/mock2_ill_c200",
+        "ref_profile_results_v0.5/mock2_nano_c200",
+        "ref_profile_results_v0.5/mock2_pac_c200",
         ]
 
 
@@ -189,7 +189,7 @@ for (i,x) in enumerate(['Illumina', 'Nanopore-old', 'PacBio']):
     #labels.append("mash screen\n\n" + dot_label[1])
     #labels.append("sourmash\n\n" + dot_label[2])
     labels.append("sylph")
-    labels.append("Naive ANI")
+    labels.append("Naive\ncontainment")
     labels.append("Mash\nscreen")
     labels.append("sourmash")
 

@@ -16,7 +16,7 @@ def remove_singletons(d):
 
 cmap = sns.color_palette("muted")
 
-boxplot_covs = False
+boxplot_covs = True
 other_ind = 3
 
 np.random.seed(0)
@@ -94,7 +94,7 @@ for file in prita_files:
         query_file = spl[0]
         abund = 0
         if ind == 2:
-            abund = float(spl[2])
+            abund = float(spl[3])
         final_ani = float(spl[2+ind])
         naive_ani = float(spl[10+ind])
         adj_ani = None
@@ -143,14 +143,35 @@ control_globo_n = []
 
 globo_used_pairs = set()
 
+case_RES = []
+control_RES = []
 
-fig, ax = plt.subplots(2,2,figsize = (8* cm , 8 * cm))
+case_GLO = []
+control_GLO = []
+
+
+
+
+#fig, ax = plt.subplots(2,2,figsize = (8* cm , 8 * cm))
 for res in results[0]:
     #srr = res.query_file.split('/')[-1].split('_')[0]
     srr = res.query_file.split('/')[-1].split('.')[0].split('_')[0]
     if srr not in read_file_to_pair_dict:
         continue
     pair = natsorted([srr,read_file_to_pair_dict[srr]])
+
+    if 'restrict' in res.contig_name:
+        if read_file_to_status[srr] == 'Case':
+            case_RES.append(res)
+        else:
+            control_RES.append(res)
+
+    if 'globo' in res.contig_name:
+        if read_file_to_status[srr] == 'Case':
+            case_GLO.append(res)
+        else:
+            control_GLO.append(res)
+
     if 'restrict' in res.contig_name:
         if boxplot_covs:
             pair_to_res[tuple(pair)].append((res.abund))
@@ -227,49 +248,49 @@ sc_g = np.array(list(pair_to_res_globo.values()))
 sc2_g = np.array(list(pair_to_res_naive_globo.values()))
 
 s = 7
-ax[0][0].scatter(sc[:,0], sc[:,1], alpha = 1.00, s = s, color = cmap[0], label = 'sylph adjusted')
-ax[0][1].scatter(sc2[:,0], sc2[:,1], alpha = 1.00, s = s, color = cmap[other_ind], label =  'Naive containment')
-ax[1][0].scatter(sc_g[:,0], sc_g[:,1], alpha = 1.00, s = s, color = cmap[0], label = 'sylph adjusted')
-ax[1][1].scatter(sc2_g[:,0], sc2_g[:,1], alpha = 1.00, s = s, color = cmap[other_ind], label =  'Naive containment')
-ax[0][0].plot([82,100],[82,100],'--',c='black')
-ax[1][0].plot([82,100],[82,100],'--',c='black')
-ax[0][1].plot([82,100],[82,100],'--',c='black')
-ax[1][1].plot([82,100],[82,100],'--',c='black')
-ax[0][0].set_ylabel('Right sample ANI')
-ax[1][0].set_ylabel('Right sample ANI')
-ax[1][1].set_xlabel('Left sample ANI')
-ax[1][0].set_xlabel('Left sample ANI')
+#ax[0][0].scatter(sc[:,0], sc[:,1], alpha = 1.00, s = s, color = cmap[0], label = 'sylph adjusted')
+#ax[0][1].scatter(sc2[:,0], sc2[:,1], alpha = 1.00, s = s, color = cmap[other_ind], label =  'Naive containment')
+#ax[1][0].scatter(sc_g[:,0], sc_g[:,1], alpha = 1.00, s = s, color = cmap[0], label = 'sylph adjusted')
+#ax[1][1].scatter(sc2_g[:,0], sc2_g[:,1], alpha = 1.00, s = s, color = cmap[other_ind], label =  'Naive containment')
+#ax[0][0].plot([82,100],[82,100],'--',c='black')
+#ax[1][0].plot([82,100],[82,100],'--',c='black')
+#ax[0][1].plot([82,100],[82,100],'--',c='black')
+#ax[1][1].plot([82,100],[82,100],'--',c='black')
+#ax[0][0].set_ylabel('Right sample ANI')
+#ax[1][0].set_ylabel('Right sample ANI')
+#ax[1][1].set_xlabel('Left sample ANI')
+#ax[1][0].set_xlabel('Left sample ANI')
 
 
-lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes[0:2]]
-lines, labels = [sum(lol, []) for lol in zip(*lines_labels)]
-fig.legend(lines, labels, loc = 'upper center', frameon=False,
-           bbox_transform = plt.gcf().transFigure, ncol = 2)
-
-sr = stats.linregress(sc[:,0], sc[:,1])
-nr = stats.linregress(sc2[:,0], sc2[:,1])
-sg = stats.linregress(sc_g[:,0], sc_g[:,1])
-ng = stats.linregress(sc2_g[:,0], sc2_g[:,1])
-
-ax[0][0].text(.05, .99, rf"M. restricta ", ha='left', va='top', transform=ax[0][0].transAxes)
-ax[0][1].text(.05, .99, 'M. restricta', ha='left', va='top', transform=ax[0][1].transAxes)
-ax[1][1].text(.05, .99, 'M. globosa', ha='left', va='top', transform=ax[1][1].transAxes)
-ax[1][0].text(.05, .99, 'M. globosa', ha='left', va='top', transform=ax[1][0].transAxes)
-
-
-ax[0][0].text(.55, .25, rf"$R$ = {round(sr.rvalue**1,3)}", ha='left', va='top', transform=ax[0][0].transAxes)
-ax[0][1].text(.55, .25, rf"$R$ = {round(nr.rvalue**1,3)}", ha='left', va='top', transform=ax[0][1].transAxes)
-ax[1][1].text(.55, .25, rf"$R$ = {round(ng.rvalue**1,3)}", ha='left', va='top', transform=ax[1][1].transAxes)
-ax[1][0].text(.55, .25, rf"$R$ = {round(sg.rvalue**1,3)}", ha='left', va='top', transform=ax[1][0].transAxes)
-
-for a in ax:
-    for b in a:
-        b.spines[['right', 'top']].set_visible(False)
-        #b.legend(frameon=False, loc='lower right')
-#fig.tight_layout()
-fig.tight_layout(rect=(0,0,1,0.95))
-plt.savefig("figures/chng_left_right_concordance.svg")
-plt.show()
+#lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes[0:2]]
+#lines, labels = [sum(lol, []) for lol in zip(*lines_labels)]
+#fig.legend(lines, labels, loc = 'upper center', frameon=False,
+#           bbox_transform = plt.gcf().transFigure, ncol = 2)
+#
+#sr = stats.linregress(sc[:,0], sc[:,1])
+#nr = stats.linregress(sc2[:,0], sc2[:,1])
+#sg = stats.linregress(sc_g[:,0], sc_g[:,1])
+#ng = stats.linregress(sc2_g[:,0], sc2_g[:,1])
+#
+#ax[0][0].text(.05, .99, rf"M. restricta ", ha='left', va='top', transform=ax[0][0].transAxes)
+#ax[0][1].text(.05, .99, 'M. restricta', ha='left', va='top', transform=ax[0][1].transAxes)
+#ax[1][1].text(.05, .99, 'M. globosa', ha='left', va='top', transform=ax[1][1].transAxes)
+#ax[1][0].text(.05, .99, 'M. globosa', ha='left', va='top', transform=ax[1][0].transAxes)
+#
+#
+#ax[0][0].text(.55, .25, rf"$R$ = {round(sr.rvalue**1,3)}", ha='left', va='top', transform=ax[0][0].transAxes)
+#ax[0][1].text(.55, .25, rf"$R$ = {round(nr.rvalue**1,3)}", ha='left', va='top', transform=ax[0][1].transAxes)
+#ax[1][1].text(.55, .25, rf"$R$ = {round(ng.rvalue**1,3)}", ha='left', va='top', transform=ax[1][1].transAxes)
+#ax[1][0].text(.55, .25, rf"$R$ = {round(sg.rvalue**1,3)}", ha='left', va='top', transform=ax[1][0].transAxes)
+#
+#for a in ax:
+#    for b in a:
+#        b.spines[['right', 'top']].set_visible(False)
+#        #b.legend(frameon=False, loc='lower right')
+##fig.tight_layout()
+#fig.tight_layout(rect=(0,0,1,0.95))
+#plt.savefig("figures/chng_left_right_concordance.svg")
+#plt.show()
 
 
 from scipy.stats import ranksums
@@ -316,14 +337,11 @@ def add_stat_annotation(ax, bp, pval):
     elif pval < 0.05:
         ax.plot([x1, x1, x2, x2], [y_annotation, y_annotation + scale * y_range, y_annotation + scale * y_range, y_annotation], lw=1.5, c='k')
         ax.text((x1+x2)/2, y_annotation + 0.01 * y_range, "*", ha='center', va='bottom', fontsize = 11)
-
-
-
+     #   ax.text((x1+x2)/2, y_annotation + 0.01 * y_range, "", ha='center', va='bottom', fontsize = 11)
     # Add the p-value as text
-    ax.text((x1+x2)/2, y_annotation - 0.50, "p={:.4f}".format(pval), ha='center', va='bottom', fontsize=7)
+    #ax.text((x1+x2)/2, y_annotation - 0.50, "p={:.4f}".format(pval), ha='center', va='top', fontsize=7)
 
 # Create the figure and axes
-fig, ax = plt.subplots(2,2, figsize=(8*cm, 8*cm))
 
 case_res = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res.items() if read_file_to_status[a[0]] == 'Case']
 case_globo = [x[0]/2 + x[1]/2 for (a,x) in pair_to_res_globo.items() if read_file_to_status[a[0]] == 'Case']
@@ -345,14 +363,47 @@ print(len([x for x in control_res if x > 90]), ': num restrica > 90 cont')
 print(len([x for x in case_globo if x > 90]), ': num globo > 90 case')
 print(len([x for x in control_globo if x > 90]), ': num globo > 90 cont')
 
+fig, axes = plt.subplots(2,2, figsize=(8*cm, 5*cm), sharey=True)
+
+ms = 2
+low = 87
+
+axes[0][0].plot([x.naive_ani for x in case_RES], [x.adj_ani for x in case_RES], 'o', ms = ms, c = cmap[3], label = 'Malassezia restricta')
+axes[1][0].plot([x.naive_ani for x in case_GLO], [x.adj_ani for x in case_GLO], 'x', ms = ms, c = cmap[4], label = 'Malassezia globosa')
+axes[0][0].set_xlim([low,100])
+axes[0][0].set_ylim([95,100])
+axes[1][0].set_xlim([low,100])
+axes[1][0].set_ylim([95,100])
+axes[0][0].axvline(95, ls = '--', c = 'gray')
+axes[1][0].axvline(95, ls = '--', c = 'gray')
+axes[1][0].set_xlabel('Naive ANI')
+axes[1][1].set_xlabel('Eff. coverage')
+axes[0][0].set_ylabel('Sylph ANI')
+axes[1][0].set_ylabel('Sylph ANI')
+
+axes[0][1].plot([x.eff_cov for x in case_RES], [x.adj_ani for x in case_RES], 'o', ms = ms, c = cmap[3])
+axes[1][1].plot([x.eff_cov for x in case_GLO], [x.adj_ani for x in case_GLO], 'x', ms = ms, c = cmap[4])
+axes[0][1].set_xscale('log')
+axes[1][1].set_xscale('log')
+
+for a in axes:
+    for b in a:
+        b.spines[['right', 'top']].set_visible(False)
+
+lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes[0:4]]
+lines, labels = [sum(lol, []) for lol in zip(*lines_labels)]
+fig.legend(lines, labels, loc = 'upper center', frameon=False,
+           bbox_transform = plt.gcf().transFigure, ncol = 2)
+fig.tight_layout(rect=(0,0,1,0.95))
+plt.savefig('figures/chng_v0.5-fungi.svg')
+plt.show()
 
 
+fig, ax = plt.subplots(1,2, figsize=(6*cm, 4*cm))
 # Add the boxplots to the axes
-bp1 = ax[0][0].boxplot([case_res, control_res], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['Case', 'Control'])
-bp2 = ax[0][1].boxplot([case_res_n, control_res_n], patch_artist=True, boxprops=dict(facecolor=cmap[other_ind]),labels = ['Case', 'Control'])
-bp3 = ax[1][0].boxplot([case_globo, control_globo], patch_artist=True, boxprops=dict(facecolor=cmap[0]), labels = ['Case','Control'])
-bp4 = ax[1][1].boxplot([case_globo_n, control_globo_n], patch_artist=True, boxprops=dict(facecolor=cmap[other_ind]), labels = ['Case', 'Control'])
-boxplots = [bp1, bp2, bp3, bp4]
+bp1 = ax[0].boxplot([case_res, control_res], patch_artist=True, boxprops=dict(facecolor=cmap[3]), labels = ['Case', 'Control'], widths=(0.4,0.4))
+bp2 = ax[1].boxplot([case_globo, control_globo], patch_artist=True, boxprops=dict(facecolor=cmap[4]),labels = ['Case', 'Control'],widths=(0.4,0.4))
+boxplots = [bp1, bp2]
 
 print(f"n = {len(case_res) + len(control_globo)}")
 
@@ -366,48 +417,40 @@ fig.legend(lines, labels, loc = 'upper center', frameon=False,
 # Set the x and y axis labels for the boxplots
 l = 'ANI'
 if boxplot_covs:
-    l = 'Relative abundance'
-ax[0][0].set_ylabel(l)
-ax[0][1].set_ylabel(l)
-ax[1][1].set_ylabel(l)
-ax[1][0].set_ylabel(l)
+    l = 'Abundance'
+ax[0].set_ylabel(l)
+#ax[1].set_ylabel(l)
 
 #for l in range(2):
     #for k in range(2):
         #ax[l][k].set_ylim([85,103])
 
-ax[0][0].text(.05, 1.15, rf"M. restricta ", ha='left', va='top', transform=ax[0][0].transAxes, fontsize = 7)
-ax[0][1].text(.05, 1.15, 'M. restricta', ha='left', va='top', transform=ax[0][1].transAxes, fontsize = 7)
-ax[1][1].text(.05, 1.15, 'M. globosa', ha='left', va='top', transform=ax[1][1].transAxes, fontsize = 7)
-ax[1][0].text(.05, 1.15, 'M. globosa', ha='left', va='top', transform=ax[1][0].transAxes, fontsize = 7)
+#ax[0].text(.05, 1.15, rf"M. restricta ", ha='left', va='top', transform=ax[0].transAxes, fontsize = 7)
+#ax[1].text(.05, 1.15, 'M. globosa', ha='left', va='top', transform=ax[1].transAxes, fontsize = 7)
 
 
 
-# Set the titles for the subplots
-#ax[0][0].set_title('M. restricta ANI sylph')
-#ax[0][1].set_title('M. restricta ANI naive')
-#ax[1][0].set_title('M. globosal ANI sylph')
-#ax[1][1].set_title('M. globosa ANI naive')
+#ax[0].set_title('M. restricta ANI sylph')
+#ax[1].set_title('M. globosal ANI sylph')
 
-p_values = [ranksums(case_res, control_res)[1],  ranksums(case_res_n, control_res_n)[1], ranksums(case_globo, control_globo)[1], ranksums(case_globo_n, control_globo_n)[1]]
+p_values = [ranksums(case_res, control_res)[1],  ranksums(case_globo, control_globo)[1]]
 print(p_values)
 
-add_stat_annotation(ax[0][0], bp1, p_values[0])
-add_stat_annotation(ax[0][1], bp2, p_values[1])
-add_stat_annotation(ax[1][0], bp3, p_values[2])
-add_stat_annotation(ax[1][1], bp4, p_values[3])
+add_stat_annotation(ax[0], bp1, p_values[0])
+add_stat_annotation(ax[1], bp2, p_values[1])
 
-bps = [bp1,bp2,bp3,bp4]
+bps = [bp1,bp2]
 for bp in bps:
     for median in bp['medians']:
         median.set_color('black')
         print(median.get_ydata(), 'median')
 
 for a in ax:
-    for b in a:
-        b.spines[['right', 'top']].set_visible(False)
+    a.spines[['right', 'top']].set_visible(False)
 
-fig.legend([bp1["boxes"][0], bp2["boxes"][0]], ['sylph adjusted', 'Naive containment'], loc='upper center', frameon=False, bbox_transform = plt.gcf().transFigure, ncol = 2)
-fig.tight_layout(rect=(0,0,1,0.95))
-plt.savefig("figures/chng_adjusted_ani_pvalues.svg")
+    #ax.text((x1+x2)/2, y_annotation - 0.50, "p={:.4f}".format(pval), ha='center', va='top', fontsize=7)
+fig.legend([bp1["boxes"][0], bp2["boxes"][0]], ["M. restricta\np={:.4f}".format(p_values[0]) , "M. globosa\np={:.4f}".format(p_values[1])], loc='upper center', frameon=False, bbox_transform = plt.gcf().transFigure, ncol = 2)
+fig.tight_layout(rect=(0,0,1,0.87))
+plt.savefig("figures/chng_adjusted_abund-v0.5.svg")
 plt.show()
+print(p_values)
