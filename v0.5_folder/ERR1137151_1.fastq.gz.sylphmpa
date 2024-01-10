@@ -1,0 +1,796 @@
+#SampleID	real_gut_reads/ERR1137151_1.fastq.gz
+#clade_name	relative_abundance	sequence_abundance	ANI (if strain-level)
+d__Bacteria	99.13320000000007	94.44609999999999	NA
+d__Archaea	0.56	0.3258	NA
+NO_TAXONOMY	0.3072	0.31909999999999994	NA
+d__Bacteria|p__Bacillota_A	54.614700000000006	51.00680000000004	NA
+d__Bacteria|p__Bacteroidota	30.204299999999996	34.147199999999984	NA
+d__Bacteria|p__Bacillota	5.6777	3.2137999999999995	NA
+d__Bacteria|p__Actinomycetota	5.479000000000001	3.5911000000000004	NA
+d__Bacteria|p__Bacillota_C	2.4082999999999997	1.8514	NA
+d__Archaea|p__Methanobacteriota	0.56	0.3258	NA
+d__Bacteria|p__Pseudomonadota	0.47819999999999996	0.3659	NA
+d__Bacteria|p__Desulfobacterota	0.1881	0.19690000000000002	NA
+NO_TAXONOMY|t__GCF_016908695.1	0.1116	0.1578	98.06
+NO_TAXONOMY|t__GCA_014306095.1	0.1036	0.0682	98.18
+d__Bacteria|p__Bacillota_B	0.0442	0.0196	NA
+d__Bacteria|p__Verrucomicrobiota	0.0387	0.0534	NA
+NO_TAXONOMY|t__GCF_005121165.2	0.0338	0.038	98.2
+NO_TAXONOMY|t__GCA_014337155.1	0.0313	0.0289	97.35
+NO_TAXONOMY|t__GCA_014337215.1	0.0106	0.0131	97.42
+NO_TAXONOMY|t__GCF_904419295.1	0.0103	0.0085	98.27
+NO_TAXONOMY|t__GCF_904395335.1	0.006	0.0046	98.28
+d__Bacteria|p__Bacillota_A|c__Clostridia	54.614700000000006	51.00680000000004	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia	30.204299999999996	34.147199999999984	NA
+d__Bacteria|p__Bacillota|c__Bacilli	5.6777	3.2137999999999995	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia	3.8981999999999997	2.5865000000000005	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes	2.4082999999999997	1.8514	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia	1.5807999999999998	1.0046	NA
+d__Archaea|p__Methanobacteriota|c__Methanobacteria	0.56	0.3258	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria	0.47819999999999996	0.3659	NA
+d__Bacteria|p__Desulfobacterota|c__Desulfovibrionia	0.1881	0.19690000000000002	NA
+d__Bacteria|p__Bacillota_B|c__Peptococcia	0.0442	0.0196	NA
+d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria	0.028	0.0456	NA
+d__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiae	0.0107	0.0078	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	30.164099999999998	34.12439999999999	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales	28.532299999999992	29.5936	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales	23.442300000000007	19.321800000000003	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales	3.8981999999999997	2.5865000000000005	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales	2.6558	1.8821	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RF39	2.1675	0.8196000000000001	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Veillonellales	1.741	1.3142	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales	1.5807999999999998	1.0046	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales	1.4268	1.0801	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Selenomonadales	0.6551	0.5283	NA
+d__Archaea|p__Methanobacteriota|c__Methanobacteria|o__Methanobacteriales	0.56	0.3258	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20	0.5088999999999999	0.291	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales	0.47009999999999996	0.36010000000000003	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Lactobacillales	0.3455	0.2211	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales	0.3439	0.2937	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__UBA1381	0.3058	0.3118	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Clostridiales	0.3048	0.2873	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__TANB77	0.2588	0.1185	NA
+d__Bacteria|p__Desulfobacterota|c__Desulfovibrionia|o__Desulfovibrionales	0.1881	0.19690000000000002	NA
+d__Bacteria|p__Bacillota_B|c__Peptococcia|o__Peptococcales	0.0442	0.0196	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales	0.0402	0.0228	NA
+d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria|o__Victivallales	0.028	0.0456	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Acidaminococcales	0.0122	0.0089	NA
+d__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiae|o__Opitutales	0.0107	0.0078	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales_A	0.0081	0.0058	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae	28.47769999999999	29.556099999999997	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	24.186200000000003	28.096000000000004	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae	13.104199999999997	12.053700000000005	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae	5.8647	4.114399999999999	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae	4.234400000000001	3.811600000000001	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae	3.8981999999999997	2.5865000000000005	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae	3.7538999999999993	2.5677999999999996	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RF39|f__UBA660	2.1675	0.8196000000000001	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Erysipelotrichaceae	2.0865	1.4123	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Veillonellales|f__Dialisteraceae	1.741	1.3142	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae	1.0072	1.42	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae	0.9935	0.6092	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74	0.8704	0.761	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Selenomonadales|f__Selenomonadaceae	0.6551	0.5283	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae	0.5873	0.39540000000000003	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Coprobacillaceae	0.5693	0.4698	NA
+d__Archaea|p__Methanobacteriota|c__Methanobacteria|o__Methanobacteriales|f__Methanobacteriaceae	0.56	0.3258	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Burkholderiaceae_A	0.47009999999999996	0.36010000000000003	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Butyricicoccaceae	0.4351	0.3791	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-449	0.414	0.2423	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae	0.3455	0.2211	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae	0.32549999999999996	0.3843	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__UBA1381|f__UBA1381	0.3058	0.3118	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Clostridiales|f__Clostridiaceae	0.3048	0.2873	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__CAG-272	0.2844	0.2068	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae	0.2767	0.1526	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__TANB77|f__CAG-508	0.2588	0.1185	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Barnesiellaceae	0.2535	0.274	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Pumilibacteraceae	0.2	0.1033	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae	0.19619999999999999	0.1862	NA
+d__Bacteria|p__Desulfobacterota|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae	0.1881	0.19690000000000002	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae	0.1477	0.10750000000000001	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-288	0.0949	0.04869999999999999	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__UBA1750	0.0725	0.0598	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA11471	0.0621	0.0481	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Muribaculaceae	0.0584	0.0466	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__CAG-274	0.0546	0.0375	NA
+d__Bacteria|p__Bacillota_B|c__Peptococcia|o__Peptococcales|f__Peptococcaceae	0.0442	0.0196	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__UBA1820	0.0402	0.0228	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Coprobacteraceae	0.0368	0.0438	NA
+d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria|o__Victivallales|f__Victivallaceae	0.0155	0.0252	NA
+d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria|o__Victivallales|f__UBA1829	0.0125	0.0204	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae	0.0122	0.0089	NA
+d__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiae|o__Opitutales|f__CAG-312	0.0107	0.0078	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales_A|f__Succinivibrionaceae	0.0081	0.0058	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-314	0.0072	0.0034	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella	17.7366	18.3525	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium	6.1459	5.5053	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter	5.2711	5.613700000000001	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_D	4.4341	4.1321	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes	4.1158	3.704100000000001	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium	3.8981999999999997	2.5865000000000005	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Ruminococcus_E	3.6725	2.7893	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola	3.5553000000000003	5.386900000000001	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A	3.1738000000000004	3.9149	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Coprococcus	2.8918	2.8036	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	2.4383	3.7506	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RF39|f__UBA660|g__CAG-302	2.1675	0.8196000000000001	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira	2.1406	1.9221000000000001	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes	1.9413	1.5604999999999998	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor	1.7949000000000002	1.8646	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Veillonellales|f__Dialisteraceae|g__Dialister	1.7337	1.3103	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia	1.6744	2.2339	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Gemmiger	1.6738000000000002	1.7862999999999998	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Dorea_A	1.2612	1.1725	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas	1.147	0.6489999999999999	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerobutyricum	1.1058	1.1425	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Fusicatenibacter	1.0975	1.2386	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Erysipelotrichaceae|g__Absicoccus	1.0814	0.6179	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g__Parabacteroides	1.0072	1.42	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Erysipelotrichaceae|g__Holdemanella	1.0051	0.7944	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella	0.9935	0.6092	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Eubacterium_R	0.9845	0.5369	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-217	0.847	0.5044	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170	0.6755	0.49279999999999996	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Selenomonadales|f__Selenomonadaceae|g__Megamonas	0.6551	0.5283	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__UBA11524	0.6512	0.5961	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Butyrivibrio_A	0.5753	0.4508	NA
+d__Archaea|p__Methanobacteriota|c__Methanobacteria|o__Methanobacteriales|f__Methanobacteriaceae|g__Methanobrevibacter_A	0.56	0.3258	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Coprobacillaceae|g__Faecalibacillus	0.5596	0.4602	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_F	0.5403	0.5271	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_C	0.5257	0.3937	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter	0.5222	0.4833	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Butyribacter	0.5005999999999999	0.47740000000000005	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Oliverpabstia	0.4814	0.5069	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Paraprevotella	0.456	0.606	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__RUG115	0.4489	0.4188	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-449|g__CAG-449	0.414	0.2423	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Burkholderiaceae_A|g__Duodenibacillus	0.3756	0.2775	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Ligilactobacillus	0.3455	0.2211	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-103	0.3106	0.18230000000000002	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__UBA1381|f__UBA1381|g__CAG-41	0.3058	0.3118	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium	0.3048	0.2873	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Anaerotardibacter	0.2993	0.1625	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__ER4	0.2809	0.24	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__TANB77|f__CAG-508|g__CAG-269	0.2588	0.1185	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__F23-B02	0.2557	0.2032	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Limivicinus	0.2537	0.159	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Barnesiellaceae|g__Barnesiella	0.2535	0.274	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae|g__Odoribacter	0.2493	0.2704	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Choladocola	0.2448	0.2551	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter	0.24400000000000002	0.2127	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Butyricicoccaceae|g__Butyricicoccus_A	0.236	0.201	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Dorea	0.2341	0.2341	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Copromonas	0.2266	0.2629	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Limivivens	0.2229	0.2677	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Bariatricus	0.2202	0.2242	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Pumilibacteraceae|g__UBA10677	0.2	0.1033	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Butyricicoccaceae|g__Agathobaculum	0.1991	0.17809999999999998	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__CAG-448	0.1904	0.127	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Coprococcus_A	0.1826	0.202	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Onthomonas	0.1821	0.1128	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__KLE1615	0.16710000000000003	0.2103	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__Scatosoma	0.1646	0.0844	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia	0.1586	0.1674	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_G	0.1501	0.1353	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Ventricola	0.1456	0.1097	NA
+d__Bacteria|p__Desulfobacterota|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Desulfovibrio	0.1381	0.1242	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Schaedlerella	0.1378	0.1401	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Evtepia	0.1308	0.0905	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Senegalimassilia	0.1239	0.0933	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_I	0.1199	0.1273	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Romboutsia	0.1191	0.1164	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes_A	0.1186	0.1075	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-177	0.1182	0.0769	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia	0.1134	0.08399999999999999	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Enterocloster	0.111	0.12190000000000001	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Ventrimonas	0.1078	0.11560000000000001	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Clostridium_Q	0.1041	0.107	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Lawsonibacter	0.1021	0.0897	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UMGS1071	0.1004	0.0614	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Burkholderiaceae_A|g__Sutterella	0.0945	0.0826	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-317	0.0921	0.0845	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Pararoseburia	0.0917	0.0748	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminiclostridium_E	0.084	0.0711	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Aphodovivens	0.0769	0.0592	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__CAG-115	0.0769	0.0639	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae|g__Butyricimonas	0.07619999999999999	0.1139	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA7597	0.0738	0.047	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__UBA1750|g__Spyradocola	0.0725	0.0598	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__UMGS1696	0.0681	0.0553	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Intestinibacter	0.06620000000000001	0.061900000000000004	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eisenbergiella	0.0642	0.071	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-288|g__CAG-345	0.0622	0.0319	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA11471|g__UBA11471	0.0621	0.0481	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Merdisoma	0.0608	0.0459	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UBA1417	0.0597	0.0593	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__UBA3402	0.0594	0.081	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Muribaculaceae|g__CAG-1031	0.0584	0.0466	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Adlercreutzia	0.056799999999999996	0.0514	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Angelakisella	0.0561	0.0324	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__Alangreenwoodia	0.0555	0.0378	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__CAG-274|g__CAG-274	0.0546	0.0375	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-95	0.0536	0.0556	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnoclostridium_B	0.0534	0.0495	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__CAG-238	0.0509	0.0362	NA
+d__Bacteria|p__Desulfobacterota|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Bilophila	0.05	0.0727	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Hominisplanchenecus	0.0462	0.0513	NA
+d__Bacteria|p__Bacillota_B|c__Peptococcia|o__Peptococcales|f__Peptococcaceae|g__QAKL01	0.0442	0.0196	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Avimicrobium	0.044	0.0324	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__Lentihominibacter	0.041299999999999996	0.0335	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__UBA1820|g__Merdimorpha	0.0402	0.0228	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__UBA3818	0.0395	0.0198	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Coprobacteraceae|g__Coprobacter	0.0368	0.0438	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Choladousia	0.0351	0.0415	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__UBA11774	0.0344	0.0239	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Limiplasma	0.0338	0.0287	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Anaeromassilibacillus	0.0328	0.0371	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-288|g__CAG-288	0.0327	0.0168	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__JAGTTR01	0.0326	0.0318	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA10281	0.0275	0.0124	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__Flemingibacterium	0.0259	0.0245	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__CAJFUR01	0.0237	0.022	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Clostridium_A	0.0235	0.0242	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Egerieenecus	0.0235	0.0166	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__COE1	0.0228	0.0247	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAJJNI01	0.0227	0.0185	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__HGM13006	0.0208	0.0185	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Pseudoscilispira	0.0171	0.0117	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Fimadaptatus	0.0163	0.0099	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__UBA866	0.0155	0.0109	NA
+d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria|o__Victivallales|f__Victivallaceae|g__Victivallis	0.0155	0.0252	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UMGS856	0.0154	0.0179	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Flavonifractor	0.0133	0.0159	NA
+d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria|o__Victivallales|f__UBA1829|g__UBA11452	0.0125	0.0204	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium	0.0122	0.0089	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Terrisporobacter	0.0109	0.0079	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__Borkfalkia	0.0108	0.0088	NA
+d__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiae|o__Opitutales|f__CAG-312|g__Merdousia	0.0107	0.0078	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UBA737	0.0107	0.007	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Coprobacillaceae|g__Thomasclavelia	0.0097	0.0096	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruthenibacterium	0.0087	0.0058	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales_A|f__Succinivibrionaceae|g__Succinatimonas	0.0081	0.0058	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Veillonellales|f__Dialisteraceae|g__Allisonella	0.0073	0.0039	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-314|g__CAG-314	0.0072	0.0034	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Instestinimonas_A	0.0069	0.0057	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Gordonibacter	0.0067	0.007	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella copri	14.4592	15.9434	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter rectalis	4.6269	5.0107	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_D|s__Ruminococcus_D bicirculans	4.4341	4.1321	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp003447235	3.2774	2.4091	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus eutactus_A	2.8918	2.8036	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium longum	2.3702	2.1086	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Ruminococcus_E|s__Ruminococcus_E bromii_B	1.8796	1.4162	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes avistercoris	1.7817	1.498	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Veillonellales|f__Dialisteraceae|g__Dialister|s__Dialister hominis	1.7337	1.3103	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola vulgatus	1.6579	2.6872	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Ruminococcus_E|s__Ruminococcus_E bovis	1.5532	1.1898	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RF39|f__UBA660|g__CAG-302|s__CAG-302 sp900543825	1.4468	0.5208	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium angulatum	1.4142	0.8977	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A massiliensis	1.4063	1.6411	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira rogosae	1.4048	1.2425	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Gemmiger|s__Gemmiger qucibialis	1.34	1.4761	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes|s__Anaerostipes hadrus_A	1.3143	1.0149	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Dorea_A|s__Dorea_A longicatena	1.1444	1.0474	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium duncaniae	1.1156	1.0865	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerobutyricum|s__Anaerobutyricum hallii	1.1058	1.1425	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Fusicatenibacter|s__Fusicatenibacter saccharivorans	1.0975	1.2386	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium adolescentis	1.0871	0.7131	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Erysipelotrichaceae|g__Absicoccus|s__Absicoccus sp000434355	1.0814	0.6179	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides uniformis	1.0798	1.5997	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Erysipelotrichaceae|g__Holdemanella|s__Holdemanella biformis	1.0051	0.7944	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes putredinis	1.001	0.8015	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium prausnitzii	0.9846	0.9369	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Eubacterium_R|s__Eubacterium_R sp000434995	0.9845	0.5369	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor sp900066565	0.8789	1.1254	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g__Parabacteroides|s__Parabacteroides merdae	0.8571	1.1932	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium sp900539945	0.8501	0.6452	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-217|s__CAG-217 sp000436335	0.847	0.5044	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola sp900760795	0.8316	1.0732	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola massiliensis	0.8315	1.2128	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia intestinalis	0.817	1.1524	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella|s__Collinsella sp900541285	0.8156	0.5044	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia inulinivorans	0.7999	1.0166	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RF39|f__UBA660|g__CAG-302|s__CAG-302 sp001916775	0.7207	0.2988	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sp000435555	0.7115	0.3554	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor sp003447295	0.7113	0.5483	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium catenulatum	0.6747	0.4404	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Selenomonadales|f__Selenomonadaceae|g__Megamonas|s__Megamonas funiformis	0.6551	0.5283	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__UBA11524|s__UBA11524 sp000437595	0.6512	0.5961	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes|s__Anaerostipes hadrus	0.627	0.5456	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A wexlerae	0.6248	0.8842	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium longum	0.6227	0.4662	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes communis	0.5931	0.6147	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Butyrivibrio_A|s__Butyrivibrio_A crossotus	0.5753	0.4508	NA
+d__Archaea|p__Methanobacteriota|c__Methanobacteria|o__Methanobacteriales|f__Methanobacteriaceae|g__Methanobrevibacter_A|s__Methanobrevibacter_A smithii	0.56	0.3258	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_F|s__Eubacterium_F sp003491505	0.5403	0.5271	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter sp905209075	0.5265	0.4692	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Paraprevotella|s__Paraprevotella clara	0.456	0.606	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__RUG115|s__RUG115 sp900066395	0.4489	0.4188	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira eligens_A	0.4181	0.3968	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-449|g__CAG-449|s__CAG-449 sp900551385	0.414	0.2423	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides stercoris	0.3859	0.4857	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides ovatus	0.3788	0.7697	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Burkholderiaceae_A|g__Duodenibacillus|s__Duodenibacillus massiliensis	0.3756	0.2775	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Oliverpabstia|s__Oliverpabstia intestinalis	0.3665	0.372	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Coprobacillaceae|g__Faecalibacillus|s__Faecalibacillus faecis	0.3636	0.2883	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Ligilactobacillus|s__Ligilactobacillus ruminis	0.3455	0.2211	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes shahii	0.3335	0.394	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium prausnitzii_D	0.3142	0.3002	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__UBA1381|f__UBA1381|g__CAG-41|s__CAG-41 sp900066215	0.3058	0.3118	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_C|s__Ruminococcus_C sp000433635	0.2798	0.1972	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Anaerotardibacter|s__Anaerotardibacter sp900753095	0.2746	0.148	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp900066335	0.2684	0.3129	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__F23-B02|s__F23-B02 sp001916715	0.2557	0.2032	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Limivicinus|s__Limivicinus sp003150355	0.2537	0.159	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Barnesiellaceae|g__Barnesiella|s__Barnesiella intestinihominis	0.2535	0.274	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Butyribacter|s__Butyribacter sp003529475	0.2526	0.2524	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Butyribacter|s__Butyribacter sp000436755	0.248	0.225	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Ruminococcus_E|s__Ruminococcus_E sp003526955	0.2397	0.1833	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Butyricicoccaceae|g__Butyricicoccus_A|s__Butyricicoccus_A intestinisimiae	0.236	0.201	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium sp000435835	0.2358	0.229	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola dorei	0.2343	0.4137	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Dorea|s__Dorea formicigenerans	0.2341	0.2341	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium prausnitzii_I	0.2334	0.1965	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Bariatricus|s__Bariatricus comes	0.2202	0.2242	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp000432135	0.2189	0.1745	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter|s__Mediterraneibacter lactaris	0.2177	0.1867	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes merdipullorum	0.2173	0.1745	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter|s__Mediterraneibacter faecis	0.2131	0.218	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium prausnitzii_F	0.2056	0.1822	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor intestinalis	0.2047	0.1909	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__ER4|s__ER4 sp000765235	0.2004	0.1717	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Pumilibacteraceae|g__UBA10677|s__UBA10677 sp900762945	0.2	0.1033	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp900066205	0.1963	0.2467	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Coprobacillaceae|g__Faecalibacillus|s__Faecalibacillus intestinalis	0.196	0.1719	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Gemmiger|s__Gemmiger formicilis	0.1947	0.1981	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__CAG-448|s__CAG-448 sp003150135	0.1904	0.127	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A luti	0.1881	0.2192	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Coprococcus_A|s__Coprococcus_A catus_A	0.1826	0.202	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Onthomonas|s__Onthomonas sp900752305	0.1821	0.1128	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides caccae	0.1786	0.2562	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella|s__Collinsella bouchesdurhonensis	0.1779	0.1048	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-103|s__CAG-103 sp000432375	0.177	0.1044	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Limivivens|s__Limivivens sp900543575	0.1725	0.2199	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__Scatosoma|s__Scatosoma sp900555925	0.1646	0.0844	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira sp900316325	0.1628	0.1501	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia stercoris	0.1586	0.1674	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sp900545585	0.1576	0.1092	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira sp000437735	0.1549	0.1327	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae|g__Odoribacter|s__Odoribacter sp900548135	0.1535	0.1383	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__TANB77|f__CAG-508|g__CAG-269|s__CAG-269 sp000438255	0.1533	0.0705	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__KLE1615|s__KLE1615 sp900066985	0.1526	0.1971	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g__Parabacteroides|s__Parabacteroides distasonis	0.1501	0.2268	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_G|s__Eubacterium_G ventriosum	0.1501	0.1353	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_C|s__Ruminococcus_C sp000437175	0.1472	0.1144	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Copromonas|s__Copromonas sp900066535	0.147	0.1732	NA
+d__Bacteria|p__Desulfobacterota|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Desulfovibrio|s__Desulfovibrio sp900556755	0.1381	0.1242	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Schaedlerella|s__Schaedlerella sp900066545	0.1378	0.1401	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-103|s__CAG-103 sp900757655	0.1336	0.0779	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Evtepia|s__Evtepia excrementipullorum	0.1308	0.0905	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Senegalimassilia|s__Senegalimassilia anaerobia	0.1239	0.0933	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sp000435975	0.1209	0.0748	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Romboutsia|s__Romboutsia timonensis	0.1191	0.1164	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-177|s__CAG-177 sp003514385	0.1182	0.0769	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Dorea_A|s__Dorea_A longicatena_B	0.1168	0.1251	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Butyricicoccaceae|g__Agathobaculum|s__Agathobaculum sp003481705	0.115	0.104	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Oliverpabstia|s__Oliverpabstia faecicola	0.1149	0.1349	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp003516765	0.1132	0.0718	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp900066355	0.1077	0.1226	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__TANB77|f__CAG-508|g__CAG-269|s__CAG-269 sp000437215	0.1055	0.048	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Clostridium_Q|s__Clostridium_Q fessum	0.1041	0.107	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides thetaiotaomicron	0.1038	0.2051	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A obeum	0.1024	0.1165	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UMGS1071|s__UMGS1071 sp900542375	0.1004	0.0614	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium bifidum	0.0995	0.0691	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Choladocola|s__Choladocola sp003481535	0.0982	0.1023	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides finegoldii	0.0958	0.1472	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae|g__Odoribacter|s__Odoribacter splanchnicus	0.0958	0.1321	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Burkholderiaceae_A|g__Sutterella|s__Sutterella seckii_A	0.0945	0.0826	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes finegoldii	0.0934	0.1095	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-317|s__CAG-317 sp000433215	0.0921	0.0845	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Pararoseburia|s__Pararoseburia lenta	0.0917	0.0748	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter|s__Mediterraneibacter torques	0.0914	0.0786	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter|s__Dysosmobacter sp001916835	0.0898	0.1034	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp905214155	0.0882	0.0491	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp900545925	0.0874	0.0883	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes_A|s__Alistipes_A indistinctus	0.0841	0.0754	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Butyricicoccaceae|g__Agathobaculum|s__Agathobaculum butyriciproducens	0.0841	0.0741	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminiclostridium_E|s__Ruminiclostridium_E siraeum	0.084	0.0711	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Choladocola|s__Choladocola sp003480725	0.0831	0.0855	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__ER4|s__ER4 sp900317525	0.0805	0.0683	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides sp900556625	0.0801	0.0768	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Copromonas|s__Copromonas sp900066785	0.0796	0.0897	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Aphodovivens|s__Aphodovivens avistercoris	0.0769	0.0592	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__CAG-115|s__CAG-115 sp003531585	0.0769	0.0639	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Gemmiger|s__Gemmiger sp900540595	0.0757	0.0634	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp003477525	0.0746	0.1019	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sp900548615	0.0737	0.0477	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__UBA1750|g__Spyradocola|s__Spyradocola sp905193155	0.0725	0.0598	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium sp900758465	0.0722	0.0492	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp900066505	0.072	0.0902	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Ventricola|s__Ventricola sp900542395	0.0706	0.0509	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp000285855	0.0703	0.1143	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium sp001916075	0.069	0.0583	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__UMGS1696|s__UMGS1696 sp900753285	0.0681	0.0553	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp900553545	0.0667	0.0354	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Enterocloster|s__Enterocloster sp000431375	0.0665	0.0792	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides eggerthii	0.0664	0.0874	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter|s__Dysosmobacter sp900544615	0.0663	0.0453	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_C|s__Ruminococcus_C sp000980705	0.0656	0.0609	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eisenbergiella|s__Eisenbergiella sp900066775	0.0642	0.071	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Choladocola|s__Choladocola sp018223365	0.0635	0.0673	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Gemmiger|s__Gemmiger sp900539695	0.0634	0.0487	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter sp000434275	0.0633	0.0768	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp900120195	0.0629	0.0653	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-288|g__CAG-345|s__CAG-345 sp000433315	0.0622	0.0319	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA11471|g__UBA11471|s__UBA11471 sp000434215	0.0621	0.0481	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter|s__Dysosmobacter sp900542115	0.0619	0.0362	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Merdisoma|s__Merdisoma sp900553635	0.0608	0.0459	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes onderdonkii	0.0601	0.0729	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Ventrimonas|s__Ventrimonas sp003478505	0.0597	0.067	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UBA1417|s__UBA1417 sp003531055	0.0597	0.0593	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__UBA3402|s__UBA3402 sp003478355	0.0594	0.081	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Muribaculaceae|g__CAG-1031|s__CAG-1031 sp000431215	0.0584	0.0466	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia hominis	0.0575	0.0649	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Angelakisella|s__Angelakisella sp900547385	0.0561	0.0324	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__Alangreenwoodia|s__Alangreenwoodia sp905206455	0.0555	0.0378	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_I|s__Eubacterium_I ramulus	0.0555	0.0601	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__CAG-274|g__CAG-274|s__CAG-274 sp000432155	0.0546	0.0375	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter faecis	0.0544	0.057	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnoclostridium_B|s__Lachnoclostridium_B sp900066555	0.0534	0.0495	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp002404795	0.0532	0.0367	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_I|s__Eubacterium_I ramulus_A	0.0523	0.0572	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas coprocola	0.0514	0.0413	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Limivivens|s__Limivivens sp905214955	0.0504	0.0478	NA
+d__Bacteria|p__Desulfobacterota|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Bilophila|s__Bilophila wadsworthia	0.05	0.0727	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Ventrimonas|s__Ventrimonas sp003480315	0.0481	0.0486	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp000436735	0.0479	0.037	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Hominisplanchenecus|s__Hominisplanchenecus faecis	0.0462	0.0513	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp000434635	0.0447	0.0351	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Enterocloster|s__Enterocloster sp900541315	0.0445	0.0427	NA
+d__Bacteria|p__Bacillota_B|c__Peptococcia|o__Peptococcales|f__Peptococcaceae|g__QAKL01|s__QAKL01 sp003343815	0.0442	0.0196	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Avimicrobium|s__Avimicrobium caecorum	0.044	0.0324	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Intestinibacter|s__Intestinibacter bartlettii	0.0437	0.0408	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-95|s__CAG-95 sp900066375	0.0407	0.0431	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae|g__Butyricimonas|s__Butyricimonas faecihominis	0.0407	0.0613	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA7597|s__UBA7597 sp003448195	0.0406	0.0263	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__UBA1820|g__Merdimorpha|s__Merdimorpha sp002314265	0.0402	0.0228	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__UBA3818|s__UBA3818 sp900557155	0.0395	0.0198	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Ventricola|s__Ventricola sp900542445	0.0391	0.033	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Ventricola|s__Ventricola sp900548125	0.0359	0.0258	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes timonensis	0.0357	0.039	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae|g__Butyricimonas|s__Butyricimonas virosa	0.0355	0.0526	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Choladousia|s__Choladousia sp902363135	0.0351	0.0415	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__UBA11774|s__UBA11774 sp003507655	0.0344	0.0239	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Limiplasma|s__Limiplasma sp900548145	0.0338	0.0287	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA7597|s__UBA7597 sp900542935	0.0332	0.0207	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_C|s__Ruminococcus_C sp900545285	0.0331	0.0212	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Anaeromassilibacillus|s__Anaeromassilibacillus stercoravium	0.0328	0.0371	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-288|g__CAG-288|s__CAG-288 sp000437395	0.0327	0.0168	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__JAGTTR01|s__JAGTTR01 sp018223385	0.0326	0.0318	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides salyersiae	0.0323	0.0539	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Adlercreutzia|s__Adlercreutzia equolifaciens	0.0321	0.0288	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sp900552475	0.0319	0.0206	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp900546075	0.0315	0.0217	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Lawsonibacter|s__Lawsonibacter asaccharolyticus	0.0308	0.0413	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__Lentihominibacter|s__Lentihominibacter sp900066305	0.0306	0.0254	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__CAG-238|s__CAG-238 sp900551415	0.0297	0.0211	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp003525905	0.0279	0.0192	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA10281|s__UBA10281 sp900767885	0.0275	0.0124	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Lawsonibacter|s__Lawsonibacter sp900549405	0.0273	0.0176	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes_A|s__Alistipes_A pullistercoris	0.0262	0.0249	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter|s__Dysosmobacter faecalis	0.026	0.0278	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__Flemingibacterium|s__Flemingibacterium sp900546315	0.0259	0.0245	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Anaerotardibacter|s__Anaerotardibacter sp000436075	0.0247	0.0145	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Adlercreutzia|s__Adlercreutzia hattorii	0.0247	0.0226	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Lawsonibacter|s__Lawsonibacter sp900066645	0.0243	0.022	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__CAJFUR01|s__CAJFUR01 sp904420575	0.0237	0.022	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Clostridium_A|s__Clostridium_A leptum	0.0235	0.0242	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Egerieenecus|s__Egerieenecus sp900553315	0.0235	0.0166	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__COE1|s__COE1 sp001916965	0.0228	0.0247	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAJJNI01|s__CAJJNI01 sp905193085	0.0227	0.0185	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Intestinibacter|s__Intestinibacter sp900540355	0.0225	0.0211	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__CAG-238|s__CAG-238 sp900542245	0.0212	0.0151	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides intestinalis	0.0208	0.0395	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__HGM13006|s__HGM13006 sp900756575	0.0208	0.0185	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Lawsonibacter|s__Lawsonibacter sp905215425	0.0197	0.0088	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Coprobacteraceae|g__Coprobacter|s__Coprobacter secundus	0.0194	0.0252	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Coprobacteraceae|g__Coprobacter|s__Coprobacter fastidiosus	0.0174	0.0186	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Pseudoscilispira|s__Pseudoscilispira sp018369915	0.0171	0.0117	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Fimadaptatus|s__Fimadaptatus sp900553645	0.0163	0.0099	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__UBA866|s__UBA866 sp900543295	0.0155	0.0109	NA
+d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria|o__Victivallales|f__Victivallaceae|g__Victivallis|s__Victivallis vadensis	0.0155	0.0252	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UMGS856|s__UMGS856 sp900546265	0.0154	0.0179	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__KLE1615|s__KLE1615 sp905214365	0.0145	0.0132	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Flavonifractor|s__Flavonifractor plautii	0.0133	0.0159	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-95|s__CAG-95 sp000438155	0.0129	0.0125	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides nordii	0.0127	0.0222	NA
+d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria|o__Victivallales|f__UBA1829|g__UBA11452|s__UBA11452 sp003526375	0.0125	0.0204	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium|s__Phascolarctobacterium faecium	0.0122	0.0089	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_I|s__Eubacterium_I avistercoris	0.0121	0.01	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Terrisporobacter|s__Terrisporobacter sp900557165	0.0109	0.0079	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__Borkfalkia|s__Borkfalkia ceftriaxoniphila	0.0108	0.0088	NA
+d__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiae|o__Opitutales|f__CAG-312|g__Merdousia|s__Merdousia sp900545705	0.0107	0.0078	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__Lentihominibacter|s__Lentihominibacter sp905193765	0.0107	0.0081	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UBA737|s__UBA737 sp900549055	0.0107	0.007	NA
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Coprobacillaceae|g__Thomasclavelia|s__Thomasclavelia sp000508865	0.0097	0.0096	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp000435995	0.0093	0.008	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruthenibacterium|s__Ruthenibacterium merdipullorum	0.0087	0.0058	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes_A|s__Alistipes_A ihumii	0.0083	0.0072	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales_A|f__Succinivibrionaceae|g__Succinatimonas|s__Succinatimonas hippei	0.0081	0.0058	NA
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Veillonellales|f__Dialisteraceae|g__Allisonella|s__Allisonella histaminiformans	0.0073	0.0039	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-314|g__CAG-314|s__CAG-314 sp000437915	0.0072	0.0034	NA
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Instestinimonas_A|s__Instestinimonas_A gabonensis	0.0069	0.0057	NA
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Gordonibacter|s__Gordonibacter urolithinfaciens	0.0067	0.007	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides cellulosilyticus	0.0033	0.0072	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella copri|t__GCF_000157935.1	14.4592	15.9434	97.02
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter rectalis|t__GCA_000020605.1	4.6269	5.0107	98.05
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_D|s__Ruminococcus_D bicirculans|t__GCF_000723465.1	4.4341	4.1321	97.87
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp003447235|t__GCA_003447235.1	3.2774	2.4091	98.42
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus eutactus_A|t__GCF_001404675.1	2.8918	2.8036	98.85
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium longum|t__GCF_003293635.1	2.3702	2.1086	98.97
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Ruminococcus_E|s__Ruminococcus_E bromii_B|t__GCF_002834235.1	1.8796	1.4162	97.89
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes avistercoris|t__GCA_000434235.1	1.7817	1.498	99.14
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Veillonellales|f__Dialisteraceae|g__Dialister|s__Dialister hominis|t__GCF_007164725.1	1.7337	1.3103	99.37
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola vulgatus|t__GCF_000012825.1	1.6579	2.6872	99.45
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Ruminococcus_E|s__Ruminococcus_E bovis|t__GCF_005601135.1	1.5532	1.1898	96.23
+d__Bacteria|p__Bacillota|c__Bacilli|o__RF39|f__UBA660|g__CAG-302|s__CAG-302 sp900543825|t__GCA_900543825.1	1.4468	0.5208	98.59
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium angulatum|t__GCF_001025155.1	1.4142	0.8977	99.02
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A massiliensis|t__GCF_001487165.1	1.4063	1.6411	97.99
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira rogosae|t__GCA_900112995.1	1.4048	1.2425	99.23
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Gemmiger|s__Gemmiger qucibialis|t__GCF_003324125.1	1.34	1.4761	98.88
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes|s__Anaerostipes hadrus_A|t__GCF_001404655.1	1.3143	1.0149	99.32
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Dorea_A|s__Dorea_A longicatena|t__GCF_000154065.1	1.1444	1.0474	99.02
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium duncaniae|t__GCF_010509575.1	1.1156	1.0865	97.6
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerobutyricum|s__Anaerobutyricum hallii|t__GCF_000173975.1	1.1058	1.1425	99.33
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Fusicatenibacter|s__Fusicatenibacter saccharivorans|t__GCF_015557635.1	1.0975	1.2386	98.91
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium adolescentis|t__GCF_000010425.1	1.0871	0.7131	98.69
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Erysipelotrichaceae|g__Absicoccus|s__Absicoccus sp000434355|t__GCA_003480165.1	1.0814	0.6179	99.25
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides uniformis|t__GCF_000154205.1	1.0798	1.5997	98.58
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Erysipelotrichaceae|g__Holdemanella|s__Holdemanella biformis|t__GCF_000156655.1	1.0051	0.7944	97.15
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes putredinis|t__GCF_000154465.1	1.001	0.8015	99.59
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium prausnitzii|t__GCF_003324185.1	0.9846	0.9369	96.88
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Eubacterium_R|s__Eubacterium_R sp000434995|t__GCA_000434995.1	0.9845	0.5369	98.98
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor sp900066565|t__GCA_003584705.1	0.8789	1.1254	98.53
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g__Parabacteroides|s__Parabacteroides merdae|t__GCF_000154105.1	0.8571	1.1932	99.01
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium sp900539945|t__GCA_900539945.1	0.8501	0.6452	98.11
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-217|s__CAG-217 sp000436335|t__GCA_000436335.1	0.847	0.5044	98.07
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola sp900760795|t__GCA_900760795.1	0.8316	1.0732	97.49
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola massiliensis|t__GCF_000382445.1	0.8315	1.2128	96.72
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia intestinalis|t__GCF_900537995.1	0.817	1.1524	98.66
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella|s__Collinsella sp900541285|t__GCA_900541285.1	0.8156	0.5044	96.49
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia inulinivorans|t__GCF_000174195.1	0.7999	1.0166	98.68
+d__Bacteria|p__Bacillota|c__Bacilli|o__RF39|f__UBA660|g__CAG-302|s__CAG-302 sp001916775|t__GCA_001916775.1	0.7207	0.2988	97.2
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sp000435555|t__GCA_000435555.1	0.7115	0.3554	99.07
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor sp003447295|t__GCA_003447295.1	0.7113	0.5483	97.33
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium catenulatum|t__GCF_001025195.1	0.6747	0.4404	98.29
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Selenomonadales|f__Selenomonadaceae|g__Megamonas|s__Megamonas funiformis|t__GCF_010669225.1	0.6551	0.5283	98.91
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__UBA11524|s__UBA11524 sp000437595|t__GCA_000437595.1	0.6512	0.5961	98.02
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Anaerostipes|s__Anaerostipes hadrus|t__GCF_000332875.2	0.627	0.5456	98.26
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A wexlerae|t__GCF_000484655.1	0.6248	0.8842	97.83
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium longum|t__GCF_000196555.1	0.6227	0.4662	98.94
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes communis|t__GCF_006542665.1	0.5931	0.6147	98.2
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Butyrivibrio_A|s__Butyrivibrio_A crossotus|t__GCF_000156015.1	0.5753	0.4508	98.36
+d__Archaea|p__Methanobacteriota|c__Methanobacteria|o__Methanobacteriales|f__Methanobacteriaceae|g__Methanobrevibacter_A|s__Methanobrevibacter_A smithii|t__GCF_000016525.1	0.56	0.3258	98.52
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_F|s__Eubacterium_F sp003491505|t__GCF_003477605.1	0.5403	0.5271	97.58
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter sp905209075|t__GCA_905209075.1	0.5265	0.4692	98.71
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Paraprevotella|s__Paraprevotella clara|t__GCF_000233955.1	0.456	0.606	97.76
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__RUG115|s__RUG115 sp900066395|t__GCF_003479605.1	0.4489	0.4188	98.1
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira eligens_A|t__GCF_009680455.1	0.4181	0.3968	98.55
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-449|g__CAG-449|s__CAG-449 sp900551385|t__GCA_900551385.1	0.414	0.2423	97.6
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides stercoris|t__GCF_000154525.1	0.3859	0.4857	98.34
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides ovatus|t__GCF_001314995.1	0.3788	0.7697	98.52
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Burkholderiaceae_A|g__Duodenibacillus|s__Duodenibacillus massiliensis|t__GCF_900128485.1	0.3756	0.2775	98.96
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Oliverpabstia|s__Oliverpabstia intestinalis|t__GCF_009696065.1	0.3665	0.372	97.98
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Coprobacillaceae|g__Faecalibacillus|s__Faecalibacillus faecis|t__GCF_003024675.1	0.3636	0.2883	99.44
+d__Bacteria|p__Bacillota|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Ligilactobacillus|s__Ligilactobacillus ruminis|t__GCF_900113455.1	0.3455	0.2211	97.64
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes shahii|t__GCF_000210575.1	0.3335	0.394	99.14
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium prausnitzii_D|t__GCF_002549755.1	0.3142	0.3002	98.15
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__UBA1381|f__UBA1381|g__CAG-41|s__CAG-41 sp900066215|t__GCA_003460745.1	0.3058	0.3118	98.12
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_C|s__Ruminococcus_C sp000433635|t__GCA_000433635.1	0.2798	0.1972	98.28
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Anaerotardibacter|s__Anaerotardibacter sp900753095|t__GCA_900753095.1	0.2746	0.148	98.85
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp900066335|t__GCF_003461955.1	0.2684	0.3129	99.58
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__F23-B02|s__F23-B02 sp001916715|t__GCA_001916715.1	0.2557	0.2032	97.51
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Limivicinus|s__Limivicinus sp003150355|t__GCA_003150355.1	0.2537	0.159	98.07
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Barnesiellaceae|g__Barnesiella|s__Barnesiella intestinihominis|t__GCF_000296465.1	0.2535	0.274	98.53
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Butyribacter|s__Butyribacter sp003529475|t__GCF_003478335.1	0.2526	0.2524	98.85
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Butyribacter|s__Butyribacter sp000436755|t__GCA_000436755.1	0.248	0.225	99.12
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Ruminococcus_E|s__Ruminococcus_E sp003526955|t__GCF_014288065.1	0.2397	0.1833	98.45
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Butyricicoccaceae|g__Butyricicoccus_A|s__Butyricicoccus_A intestinisimiae|t__GCF_018918345.1	0.236	0.201	97.93
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium sp000435835|t__GCA_000435835.1	0.2358	0.229	99.61
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola dorei|t__GCF_013009555.1	0.2343	0.4137	97.85
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Dorea|s__Dorea formicigenerans|t__GCF_000169235.1	0.2341	0.2341	99.15
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium prausnitzii_I|t__GCF_003287495.1	0.2334	0.1965	98.52
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Bariatricus|s__Bariatricus comes|t__GCA_000155875.1	0.2202	0.2242	98.93
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp000432135|t__GCA_000432135.1	0.2189	0.1745	98.84
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter|s__Mediterraneibacter lactaris|t__GCF_000155205.1	0.2177	0.1867	99.08
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes merdipullorum|t__GCA_900546065.1	0.2173	0.1745	98.21
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter|s__Mediterraneibacter faecis|t__GCA_001312505.1	0.2131	0.218	98.06
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium prausnitzii_F|t__GCF_002549775.1	0.2056	0.1822	98.81
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor intestinalis|t__GCF_009695995.1	0.2047	0.1909	97.14
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__ER4|s__ER4 sp000765235|t__GCF_000765235.1	0.2004	0.1717	97.79
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Pumilibacteraceae|g__UBA10677|s__UBA10677 sp900762945|t__GCA_900762945.1	0.2	0.1033	99.17
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp900066205|t__GCF_013304735.1	0.1963	0.2467	96.89
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Coprobacillaceae|g__Faecalibacillus|s__Faecalibacillus intestinalis|t__GCF_003024685.1	0.196	0.1719	98.34
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Gemmiger|s__Gemmiger formicilis|t__GCF_900167555.1	0.1947	0.1981	98.1
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__CAG-448|s__CAG-448 sp003150135|t__GCA_003150135.1	0.1904	0.127	98.34
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A luti|t__GCF_009707925.1	0.1881	0.2192	99.33
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Coprococcus_A|s__Coprococcus_A catus_A|t__GCF_902381825.1	0.1826	0.202	97.96
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Onthomonas|s__Onthomonas sp900752305|t__GCA_900752305.1	0.1821	0.1128	98.4
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides caccae|t__GCF_002222615.2	0.1786	0.2562	99.29
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella|s__Collinsella bouchesdurhonensis|t__GCF_900155365.1	0.1779	0.1048	97.66
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-103|s__CAG-103 sp000432375|t__GCA_000432375.1	0.177	0.1044	98.64
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Limivivens|s__Limivivens sp900543575|t__GCA_018223435.1	0.1725	0.2199	99.08
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__Scatosoma|s__Scatosoma sp900555925|t__GCA_900555925.1	0.1646	0.0844	98.66
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira sp900316325|t__GCF_014287955.1	0.1628	0.1501	98.89
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia|s__Blautia stercoris|t__GCA_003481745.1	0.1586	0.1674	98.17
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sp900545585|t__GCA_900545585.1	0.1576	0.1092	98.15
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira sp000437735|t__GCA_000437735.1	0.1549	0.1327	99.21
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae|g__Odoribacter|s__Odoribacter sp900548135|t__GCA_900548135.1	0.1535	0.1383	99.63
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__TANB77|f__CAG-508|g__CAG-269|s__CAG-269 sp000438255|t__GCA_000438255.1	0.1533	0.0705	99.31
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__KLE1615|s__KLE1615 sp900066985|t__GCA_003478935.1	0.1526	0.1971	97.91
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g__Parabacteroides|s__Parabacteroides distasonis|t__GCF_000012845.1	0.1501	0.2268	98.03
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_G|s__Eubacterium_G ventriosum|t__GCF_000153885.1	0.1501	0.1353	98.76
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_C|s__Ruminococcus_C sp000437175|t__GCA_000437175.1	0.1472	0.1144	98.82
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Copromonas|s__Copromonas sp900066535|t__GCF_003435375.1	0.147	0.1732	98.16
+d__Bacteria|p__Desulfobacterota|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Desulfovibrio|s__Desulfovibrio sp900556755|t__GCF_012843875.1	0.1381	0.1242	98.54
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Schaedlerella|s__Schaedlerella sp900066545|t__GCA_003480425.1	0.1378	0.1401	97.48
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-103|s__CAG-103 sp900757655|t__GCA_900757655.1	0.1336	0.0779	97.25
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Evtepia|s__Evtepia excrementipullorum|t__GCA_900546255.1	0.1308	0.0905	98.52
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Senegalimassilia|s__Senegalimassilia anaerobia|t__GCF_000236865.1	0.1239	0.0933	97.61
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sp000435975|t__GCA_000435975.1	0.1209	0.0748	98.75
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Romboutsia|s__Romboutsia timonensis|t__GCF_900106845.1	0.1191	0.1164	98.96
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-177|s__CAG-177 sp003514385|t__GCA_003514385.1	0.1182	0.0769	97.12
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Dorea_A|s__Dorea_A longicatena_B|t__GCF_001404875.1	0.1168	0.1251	97.64
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Butyricicoccaceae|g__Agathobaculum|s__Agathobaculum sp003481705|t__GCF_003481705.1	0.115	0.104	96.52
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Oliverpabstia|s__Oliverpabstia faecicola|t__GCF_004123145.1	0.1149	0.1349	95.07
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp003516765|t__GCA_003516765.1	0.1132	0.0718	97.94
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp900066355|t__GCA_900066355.1	0.1077	0.1226	98.58
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__TANB77|f__CAG-508|g__CAG-269|s__CAG-269 sp000437215|t__GCA_000437215.1	0.1055	0.048	98.61
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Clostridium_Q|s__Clostridium_Q fessum|t__GCF_003024715.1	0.1041	0.107	97.62
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides thetaiotaomicron|t__GCF_000011065.1	0.1038	0.2051	99.08
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A obeum|t__GCF_000153905.1	0.1024	0.1165	98.29
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UMGS1071|s__UMGS1071 sp900542375|t__GCA_900542375.1	0.1004	0.0614	99.15
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Actinomycetales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium bifidum|t__GCF_001025135.1	0.0995	0.0691	99.14
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Choladocola|s__Choladocola sp003481535|t__GCA_018228645.1	0.0982	0.1023	98.31
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides finegoldii|t__GCF_000156195.1	0.0958	0.1472	96.87
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae|g__Odoribacter|s__Odoribacter splanchnicus|t__GCF_000190535.1	0.0958	0.1321	98.86
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Burkholderiaceae_A|g__Sutterella|s__Sutterella seckii_A|t__GCF_009183815.1	0.0945	0.0826	95.56
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes finegoldii|t__GCF_000265365.1	0.0934	0.1095	98.52
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-317|s__CAG-317 sp000433215|t__GCF_003435815.1	0.0921	0.0845	98.67
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Pararoseburia|s__Pararoseburia lenta|t__GCF_003478275.1	0.0917	0.0748	98.91
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Mediterraneibacter|s__Mediterraneibacter torques|t__GCF_000153925.1	0.0914	0.0786	99.5
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter|s__Dysosmobacter sp001916835|t__GCF_014297285.1	0.0898	0.1034	97.2
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp905214155|t__GCA_905214155.1	0.0882	0.0491	98.43
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp900545925|t__GCA_900545925.1	0.0874	0.0883	96.54
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes_A|s__Alistipes_A indistinctus|t__GCF_000231275.1	0.0841	0.0754	99.04
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Butyricicoccaceae|g__Agathobaculum|s__Agathobaculum butyriciproducens|t__GCA_003096535.1	0.0841	0.0741	99.02
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminiclostridium_E|s__Ruminiclostridium_E siraeum|t__GCA_000154325.1	0.084	0.0711	97.08
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Choladocola|s__Choladocola sp003480725|t__GCA_003480725.1	0.0831	0.0855	98.15
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__ER4|s__ER4 sp900317525|t__GCF_018918025.1	0.0805	0.0683	97.28
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides sp900556625|t__GCA_900556625.1	0.0801	0.0768	96.72
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Copromonas|s__Copromonas sp900066785|t__GCF_003478035.1	0.0796	0.0897	97.66
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Aphodovivens|s__Aphodovivens avistercoris|t__GCA_018710945.1	0.0769	0.0592	97.14
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__CAG-115|s__CAG-115 sp003531585|t__GCA_003531585.1	0.0769	0.0639	98.31
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Gemmiger|s__Gemmiger sp900540595|t__GCA_900540595.1	0.0757	0.0634	97.23
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp003477525|t__GCF_003477525.1	0.0746	0.1019	97.15
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sp900548615|t__GCA_900548615.1	0.0737	0.0477	98.37
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__UBA1750|g__Spyradocola|s__Spyradocola sp905193155|t__GCA_905193155.1	0.0725	0.0598	98.6
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Faecalibacterium|s__Faecalibacterium sp900758465|t__GCA_900758465.1	0.0722	0.0492	97.63
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp900066505|t__GCF_013304385.1	0.072	0.0902	97.7
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Ventricola|s__Ventricola sp900542395|t__GCA_900542395.1	0.0706	0.0509	97.84
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp000285855|t__GCA_000285855.2	0.0703	0.1143	95.24
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium sp001916075|t__GCF_014287815.1	0.069	0.0583	98.15
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__UMGS1696|s__UMGS1696 sp900753285|t__GCA_900753285.1	0.0681	0.0553	98.09
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp900553545|t__GCA_900553545.1	0.0667	0.0354	97.52
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Enterocloster|s__Enterocloster sp000431375|t__GCF_003473545.1	0.0665	0.0792	98.65
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides eggerthii|t__GCF_000155815.1	0.0664	0.0874	96.35
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter|s__Dysosmobacter sp900544615|t__GCA_900544615.1	0.0663	0.0453	98.25
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_C|s__Ruminococcus_C sp000980705|t__GCA_000980705.1	0.0656	0.0609	98.18
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eisenbergiella|s__Eisenbergiella sp900066775|t__GCA_003481005.1	0.0642	0.071	97.68
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Choladocola|s__Choladocola sp018223365|t__GCA_018223365.1	0.0635	0.0673	96.4
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Gemmiger|s__Gemmiger sp900539695|t__GCA_900539695.1	0.0634	0.0487	98.11
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter sp000434275|t__GCA_902363675.1	0.0633	0.0768	98.53
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Blautia_A|s__Blautia_A sp900120195|t__GCF_900120195.1	0.0629	0.0653	96.93
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-288|g__CAG-345|s__CAG-345 sp000433315|t__GCA_000433315.1	0.0622	0.0319	99.41
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA11471|g__UBA11471|s__UBA11471 sp000434215|t__GCA_000434215.1	0.0621	0.0481	99.33
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter|s__Dysosmobacter sp900542115|t__GCA_900542115.1	0.0619	0.0362	98.46
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Merdisoma|s__Merdisoma sp900553635|t__GCA_900553635.1	0.0608	0.0459	98.53
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes onderdonkii|t__GCF_000374505.1	0.0601	0.0729	95.89
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Ventrimonas|s__Ventrimonas sp003478505|t__GCF_003478505.1	0.0597	0.067	98.01
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UBA1417|s__UBA1417 sp003531055|t__GCA_008681155.1	0.0597	0.0593	98.02
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__UBA3402|s__UBA3402 sp003478355|t__GCA_003478355.1	0.0594	0.081	97.6
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Muribaculaceae|g__CAG-1031|s__CAG-1031 sp000431215|t__GCA_000431215.1	0.0584	0.0466	98.13
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia hominis|t__GCF_000225345.1	0.0575	0.0649	97.72
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Angelakisella|s__Angelakisella sp900547385|t__GCA_900547385.1	0.0561	0.0324	98.27
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__Alangreenwoodia|s__Alangreenwoodia sp905206455|t__GCA_905206455.1	0.0555	0.0378	98.85
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_I|s__Eubacterium_I ramulus|t__GCF_000469345.1	0.0555	0.0601	97.26
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__CAG-274|g__CAG-274|s__CAG-274 sp000432155|t__GCA_000432155.1	0.0546	0.0375	99.12
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter faecis|t__GCF_001406815.1	0.0544	0.057	98.19
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Lachnoclostridium_B|s__Lachnoclostridium_B sp900066555|t__GCF_003477705.1	0.0534	0.0495	97.49
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp002404795|t__GCA_002404795.1	0.0532	0.0367	96.34
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_I|s__Eubacterium_I ramulus_A|t__GCF_003122485.1	0.0523	0.0572	98.65
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas coprocola|t__GCF_018408575.1	0.0514	0.0413	96.88
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Limivivens|s__Limivivens sp905214955|t__GCA_905214955.1	0.0504	0.0478	99.11
+d__Bacteria|p__Desulfobacterota|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Bilophila|s__Bilophila wadsworthia|t__GCF_000701705.1	0.05	0.0727	98.97
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Ventrimonas|s__Ventrimonas sp003480315|t__GCF_003480315.1	0.0481	0.0486	96.06
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-170|s__CAG-170 sp000436735|t__GCA_000436735.1	0.0479	0.037	95.63
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Hominisplanchenecus|s__Hominisplanchenecus faecis|t__GCA_902363685.1	0.0462	0.0513	97.47
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp000434635|t__GCA_000434635.1	0.0447	0.0351	98.36
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Enterocloster|s__Enterocloster sp900541315|t__GCA_900541315.1	0.0445	0.0427	98.18
+d__Bacteria|p__Bacillota_B|c__Peptococcia|o__Peptococcales|f__Peptococcaceae|g__QAKL01|s__QAKL01 sp003343815|t__GCA_003343815.1	0.0442	0.0196	98.49
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Avimicrobium|s__Avimicrobium caecorum|t__GCF_016901815.1	0.044	0.0324	97.61
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Intestinibacter|s__Intestinibacter bartlettii|t__GCF_000154445.1	0.0437	0.0408	99.23
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-95|s__CAG-95 sp900066375|t__GCA_003490145.1	0.0407	0.0431	97.51
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae|g__Butyricimonas|s__Butyricimonas faecihominis|t__GCF_014647335.1	0.0407	0.0613	98.72
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA7597|s__UBA7597 sp003448195|t__GCA_905203015.1	0.0406	0.0263	95.61
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Flavobacteriales|f__UBA1820|g__Merdimorpha|s__Merdimorpha sp002314265|t__GCA_002314265.1	0.0402	0.0228	98.33
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__UBA3818|s__UBA3818 sp900557155|t__GCA_900557155.1	0.0395	0.0198	99.0
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Ventricola|s__Ventricola sp900542445|t__GCA_900542445.1	0.0391	0.033	98.37
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Ventricola|s__Ventricola sp900548125|t__GCA_900548125.1	0.0359	0.0258	95.76
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes timonensis|t__GCF_900107675.1	0.0357	0.039	98.95
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Marinifilaceae|g__Butyricimonas|s__Butyricimonas virosa|t__GCF_000519105.1	0.0355	0.0526	97.36
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Choladousia|s__Choladousia sp902363135|t__GCA_902363135.1	0.0351	0.0415	97.28
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__UBA11774|s__UBA11774 sp003507655|t__GCA_003507655.1	0.0344	0.0239	98.73
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Limiplasma|s__Limiplasma sp900548145|t__GCA_900548145.1	0.0338	0.0287	98.2
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA7597|s__UBA7597 sp900542935|t__GCA_900542935.1	0.0332	0.0207	95.76
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruminococcus_C|s__Ruminococcus_C sp900545285|t__GCA_900545285.1	0.0331	0.0212	95.45
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Anaeromassilibacillus|s__Anaeromassilibacillus stercoravium|t__GCF_002159845.1	0.0328	0.0371	97.78
+d__Bacteria|p__Bacillota|c__Bacilli|o__RFN20|f__CAG-288|g__CAG-288|s__CAG-288 sp000437395|t__GCA_000437395.1	0.0327	0.0168	99.7
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__JAGTTR01|s__JAGTTR01 sp018223385|t__GCA_018223385.1	0.0326	0.0318	97.16
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides salyersiae|t__GCF_000381365.1	0.0323	0.0539	98.63
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Adlercreutzia|s__Adlercreutzia equolifaciens|t__GCF_000478885.1	0.0321	0.0288	97.42
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sp900552475|t__GCA_900552475.1	0.0319	0.0206	97.22
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp900546075|t__GCA_900546075.1	0.0315	0.0217	96.55
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Lawsonibacter|s__Lawsonibacter asaccharolyticus|t__GCA_003112755.1	0.0308	0.0413	97.57
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__Lentihominibacter|s__Lentihominibacter sp900066305|t__GCA_902362435.1	0.0306	0.0254	97.29
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__CAG-238|s__CAG-238 sp900551415|t__GCA_900551415.1	0.0297	0.0211	95.39
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp003525905|t__GCA_003525905.1	0.0279	0.0192	96.91
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA10281|s__UBA10281 sp900767885|t__GCA_900767885.1	0.0275	0.0124	99.22
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Lawsonibacter|s__Lawsonibacter sp900549405|t__GCA_900549405.1	0.0273	0.0176	96.77
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes_A|s__Alistipes_A pullistercoris|t__GCF_009557455.1	0.0262	0.0249	96.52
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter|s__Dysosmobacter faecalis|t__GCF_018408705.1	0.026	0.0278	96.77
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__Flemingibacterium|s__Flemingibacterium sp900546315|t__GCA_900546315.1	0.0259	0.0245	98.09
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Anaerotardibacter|s__Anaerotardibacter sp000436075|t__GCA_000436075.1	0.0247	0.0145	98.04
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Adlercreutzia|s__Adlercreutzia hattorii|t__GCF_011405655.1	0.0247	0.0226	95.93
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Lawsonibacter|s__Lawsonibacter sp900066645|t__GCA_902362775.1	0.0243	0.022	97.28
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__CAJFUR01|s__CAJFUR01 sp904420575|t__GCA_904420575.1	0.0237	0.022	96.82
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Clostridium_A|s__Clostridium_A leptum|t__GCA_000154345.1	0.0235	0.0242	95.35
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Egerieenecus|s__Egerieenecus sp900553315|t__GCA_900553315.1	0.0235	0.0166	97.72
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__COE1|s__COE1 sp001916965|t__GCA_001916965.1	0.0228	0.0247	96.33
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAJJNI01|s__CAJJNI01 sp905193085|t__GCA_905193085.1	0.0227	0.0185	99.11
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Intestinibacter|s__Intestinibacter sp900540355|t__GCF_015667935.1	0.0225	0.0211	98.25
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__CAG-238|s__CAG-238 sp900542245|t__GCA_900542245.1	0.0212	0.0151	98.15
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides intestinalis|t__GCF_000172175.1	0.0208	0.0395	97.1
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__HGM13006|s__HGM13006 sp900756575|t__GCA_900756575.1	0.0208	0.0185	97.12
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Lawsonibacter|s__Lawsonibacter sp905215425|t__GCA_905215425.1	0.0197	0.0088	97.46
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Coprobacteraceae|g__Coprobacter|s__Coprobacter secundus|t__GCA_000803105.1	0.0194	0.0252	96.95
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Coprobacteraceae|g__Coprobacter|s__Coprobacter fastidiosus|t__GCF_003634345.1	0.0174	0.0186	97.46
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Pseudoscilispira|s__Pseudoscilispira sp018369915|t__GCA_018369915.1	0.0171	0.0117	97.57
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-74|g__Fimadaptatus|s__Fimadaptatus sp900553645|t__GCA_900553645.1	0.0163	0.0099	96.88
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__UBA866|s__UBA866 sp900543295|t__GCA_900543295.1	0.0155	0.0109	100.0
+d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria|o__Victivallales|f__Victivallaceae|g__Victivallis|s__Victivallis vadensis|t__GCF_003096415.1	0.0155	0.0252	98.91
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UMGS856|s__UMGS856 sp900546265|t__GCA_900546265.1	0.0154	0.0179	98.28
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__KLE1615|s__KLE1615 sp905214365|t__GCA_905214365.1	0.0145	0.0132	96.52
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Flavonifractor|s__Flavonifractor plautii|t__GCF_000239295.1	0.0133	0.0159	97.01
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-95|s__CAG-95 sp000438155|t__GCA_000438155.1	0.0129	0.0125	97.79
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides nordii|t__GCA_000613465.1	0.0127	0.0222	97.48
+d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria|o__Victivallales|f__UBA1829|g__UBA11452|s__UBA11452 sp003526375|t__GCA_003526375.1	0.0125	0.0204	99.6
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium|s__Phascolarctobacterium faecium|t__GCF_003269275.1	0.0122	0.0089	99.46
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Eubacterium_I|s__Eubacterium_I avistercoris|t__GCA_019116105.1	0.0121	0.01	98.9
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Peptostreptococcaceae|g__Terrisporobacter|s__Terrisporobacter sp900557165|t__GCA_900557165.1	0.0109	0.0079	99.71
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__Borkfalkia|s__Borkfalkia ceftriaxoniphila|t__GCF_004134775.1	0.0108	0.0088	97.28
+d__Bacteria|p__Verrucomicrobiota|c__Verrucomicrobiae|o__Opitutales|f__CAG-312|g__Merdousia|s__Merdousia sp900545705|t__GCA_900545705.1	0.0107	0.0078	99.54
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Peptostreptococcales|f__Anaerovoracaceae|g__Lentihominibacter|s__Lentihominibacter sp905193765|t__GCA_905193765.1	0.0107	0.0081	98.85
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__UBA737|s__UBA737 sp900549055|t__GCA_900549055.1	0.0107	0.007	97.48
+d__Bacteria|p__Bacillota|c__Bacilli|o__Erysipelotrichales|f__Coprobacillaceae|g__Thomasclavelia|s__Thomasclavelia sp000508865|t__GCA_000508865.1	0.0097	0.0096	97.7
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp000435995|t__GCA_900545515.1	0.0093	0.008	98.81
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Ruthenibacterium|s__Ruthenibacterium merdipullorum|t__GCA_900546885.1	0.0087	0.0058	97.4
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes_A|s__Alistipes_A ihumii|t__GCF_000321205.1	0.0083	0.0072	98.24
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales_A|f__Succinivibrionaceae|g__Succinatimonas|s__Succinatimonas hippei|t__GCF_000188195.1	0.0081	0.0058	97.57
+d__Bacteria|p__Bacillota_C|c__Negativicutes|o__Veillonellales|f__Dialisteraceae|g__Allisonella|s__Allisonella histaminiformans|t__GCF_900103425.1	0.0073	0.0039	99.2
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Christensenellales|f__CAG-314|g__CAG-314|s__CAG-314 sp000437915|t__GCA_000437915.1	0.0072	0.0034	98.8
+d__Bacteria|p__Bacillota_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Instestinimonas_A|s__Instestinimonas_A gabonensis|t__GCF_014281125.1	0.0069	0.0057	98.08
+d__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Eggerthellaceae|g__Gordonibacter|s__Gordonibacter urolithinfaciens|t__GCF_900199375.1	0.0067	0.007	98.28
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides cellulosilyticus|t__GCF_000158035.1	0.0033	0.0072	98.86

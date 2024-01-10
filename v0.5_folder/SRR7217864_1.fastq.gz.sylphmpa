@@ -1,0 +1,22 @@
+#SampleID	real_gut_reads/SRR7217864_1.fastq.gz
+#clade_name	relative_abundance	sequence_abundance	ANI (if strain-level)
+d__Bacteria	100.0	23.8242	NA
+d__Bacteria|p__Actinomycetota	68.3229	19.5107	NA
+d__Bacteria|p__Pseudomonadota	31.6771	4.3135	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia	68.3229	19.5107	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria	31.6771	4.3135	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Propionibacteriales	51.5503	16.1586	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales	31.6771	4.3135	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Mycobacteriales	16.7726	3.3521	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Propionibacteriales|f__Propionibacteriaceae	51.5503	16.1586	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Neisseriaceae	31.6771	4.3135	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Mycobacteriales|f__Mycobacteriaceae	16.7726	3.3521	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Propionibacteriales|f__Propionibacteriaceae|g__Cutibacterium	51.5503	16.1586	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Neisseriaceae|g__QFNR01	31.6771	4.3135	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Mycobacteriales|f__Mycobacteriaceae|g__Lawsonella	16.7726	3.3521	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Propionibacteriales|f__Propionibacteriaceae|g__Cutibacterium|s__Cutibacterium acnes	51.5503	16.1586	NA
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Neisseriaceae|g__QFNR01|s__QFNR01 sp003248485	31.6771	4.3135	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Mycobacteriales|f__Mycobacteriaceae|g__Lawsonella|s__Lawsonella clevelandensis_A	16.7726	3.3521	NA
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Propionibacteriales|f__Propionibacteriaceae|g__Cutibacterium|s__Cutibacterium acnes|t__GCF_003030305.1	51.5503	16.1586	98.97
+d__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Burkholderiales|f__Neisseriaceae|g__QFNR01|s__QFNR01 sp003248485|t__GCA_003248485.1	31.6771	4.3135	95.27
+d__Bacteria|p__Actinomycetota|c__Actinomycetia|o__Mycobacteriales|f__Mycobacteriaceae|g__Lawsonella|s__Lawsonella clevelandensis_A|t__GCA_003241315.1	16.7726	3.3521	96.93

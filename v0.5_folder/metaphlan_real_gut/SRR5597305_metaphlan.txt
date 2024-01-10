@@ -1,0 +1,6 @@
+#mpa_vOct22_CHOCOPhlAnSGB_202212
+#/home/jimshawster/miniconda3/envs/mpa4/bin/metaphlan SRR5597305_1.fastq.gz,SRR5597305_2.fastq.gz --bowtie2out SRR5597305.bowtie2.bz2 --nproc 10 --input_type fastq -o SRR5597305_metaphlan.txt
+#2276354 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+UNCLASSIFIED	-1	100.0	
