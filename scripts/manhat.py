@@ -189,7 +189,7 @@ qvals = pvals
 seen_reps = set()
 for (i,pval) in enumerate(qvals):
     m = mag_pval_list[i]
-    if pval < np.log10(LIMIT):
+    if pval < np.log10(LIMIT2):
         rep = gn_to_rep[m]
         if rep not in seen_reps:
             s = f"{10**pvals[i]},{10**pval},{rep},{gn_to_mag_rep[m]},{m},{mag_to_effect[mag_pval_list[i]]}"
@@ -262,4 +262,4 @@ plt.savefig("figures/agatho.png", dpi = 300)
 plt.show()
 
 
-print(len([x for x in agatho_qvals if x < np.log10(LIMIT)]), len(agatho_qvals))
+print(len([x for x in agatho_qvals if x < np.log10(LIMIT2)]), len(agatho_qvals))

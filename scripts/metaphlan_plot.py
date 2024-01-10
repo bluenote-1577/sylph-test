@@ -11,7 +11,7 @@ plt.rcParams.update({'font.size': 7})
 #plt.rcParams.update({'figure.autolayout': True})
 plt.rcParams.update({'font.family':'arial'})
 
-ab_t = 0.1
+ab_t = 0.01
 
 
 def read_metaphlan(file, cut):
