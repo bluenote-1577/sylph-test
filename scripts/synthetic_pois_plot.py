@@ -9,7 +9,7 @@ from dataclasses import dataclass
 import glob
 from natsort import natsorted
 
-cov_plot = False
+cov_plot = True
 np.random.seed(0)
 def rand_jitter(arr):
     stdev = 0.00 
@@ -45,6 +45,7 @@ class result:
 #files_g = [glob.glob('synthetic_simulated_results/31-*-*'), glob.glob('synthetic_simulated_results_95/31-*-*'), glob.glob('synthetic_simulated_results_85/31-*-*')]
 #files_g = [glob.glob('synthetic_simulated_results_jul3/31-*-*'), glob.glob('synthetic_simulated_results_95_jul3/31-*-*'), glob.glob('synthetic_simulated_results_85_jul3/31-*-*')]
 files_g = [glob.glob('synthetic_simulated_results_oct15/31-*-*'), glob.glob('synthetic_simulated_results_95_oct15/31-*-*'), glob.glob('synthetic_simulated_results_85_oct15/31-*-*')]
+is_eff_cov = False
 
 #files = sys.argv[2:]
 true_anis = [100, 96.2, 90.5]
@@ -52,12 +53,19 @@ true_anis = [100, 96.2, 90.5]
 #re_str = "(\d+)-(\d+\.?\d+)-.+\.fastq.gz"
 re_str = "(\d+)-(\d+)-(\d+)-(\d+\.?\d+).tsv"
 
+
+#------------------New real result. Comment for synthetic----------------
+
+files_g = [glob.glob('./fig1_poisson_real/31-*-*')]
+true_anis = [99.26]
+is_eff_cov = True
+
 if not cov_plot: 
     fig, ax = plt.subplots(3,1, figsize = (10 * cm,  16*cm))
 else:
     fig, ax = plt.subplots(3,3, figsize = (16* cm , 16 * cm))
 
-for index in range(3):
+for index in range(len(files_g)):
     cs = set()
     ks = set()
     ck_res = defaultdict(lambda: defaultdict(list))
@@ -73,8 +81,12 @@ for index in range(3):
         cs.add(c)
         ks.add(k)
         it = int(x[0][2])
+        print(file,k,c,it)
         abund = round(float(x[0][3]),4)
-        eff_cov = round((150 - k + 1) / 150 * abund,4)
+        if not is_eff_cov:
+            eff_cov = round((150 - k + 1) / 150 * abund,4)
+        else: 
+            eff_cov = abund
         eff_covs.add(eff_cov)
 
         for line in open(file,'r'):
@@ -102,6 +114,7 @@ for index in range(3):
             median_cov = float(spl[7])
             res = result(mean_cov, adj_ani, naive_ani, median_cov, ref_file, query_file, cis[0], cis[1], lam, eff_cov)
             ck_res[c][k].append(res)
+            print(res)
 
     cs = sorted(list(cs))
     ks = sorted(list(ks))
@@ -175,16 +188,17 @@ for index in range(3):
             else:
                 label = "Naive containment"
             ax[index].scatter(xpos, ypos, s = s, color = cmap[i], label = label)
-            print(xs[i])
+            #print(xs[i])
 
         true_ani = true_anis[index]
-        ax[index].axhline(y=100, linestyle='--', color='black')
-        ax[index].axhline(y=true_ani, linestyle='--', color='red')
+        #ax[index].axhline(y=100, linestyle='--', color='black')
+        ax[index].axhline(y=true_ani, linestyle='--', color='red', label=f'True ANI (' + str(true_ani) + ')')
         #ax[index].legend(lines, labels, frameon=False, loc = 'lower right')
         ax[index].spines[['right', 'top']].set_visible(False)
         ax[index].set_xlabel("True effective coverage")
         if index == 0:
-            ax[index].set_ylabel("Estimated ANI\n(Truth 100)")
+            #ax[index].set_ylabel(f"Estimated ANI\n(Truth {true_anis[index]})")
+            ax[index].set_ylabel(f"Estimated ANI")
         elif index == 1:
             ax[index].set_ylabel("Estimated ANI\n(Truth 96.2)")
         else:
@@ -200,7 +214,7 @@ for index in range(3):
     if cov_plot:
         r = [0.008,2.4]
         if index == 0:
-            ani_label = ', ANI = 100'
+            ani_label = f', ANI = {true_anis[index]}'
         if index == 1:
             ani_label = ', ANI = 96.2'
         if index == 2:

@@ -7,7 +7,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 from scipy.stats.distributions import norm,uniform
-interactive = False
+interactive = True
 
 import matplotlib.cm as cm
 import numpy as np

@@ -1,0 +1,23 @@
+	Command being timed: "sylph sketch -t 50 -1 reads/ERR011201_1.fastq.gz reads/ERR209458_1.fastq.gz reads/ERR209848_1.fastq.gz reads/ERR321109_1.fastq.gz reads/ERR321526_1.fastq.gz reads/ERR321561_1.fastq.gz reads/ERR479104_1.fastq.gz reads/ERR479206_1.fastq.gz reads/ERR505097_1.fastq.gz reads/ERR525793_1.fastq.gz reads/ERR526021_1.fastq.gz reads/ERR527117_1.fastq.gz reads/ERR719726_1.fastq.gz reads/ERR1137151_1.fastq.gz reads/ERR1293793_1.fastq.gz reads/ERR1297654_1.fastq.gz reads/ERR1398250_1.fastq.gz reads/ERR1620336_1.fastq.gz reads/ERR2017435_1.fastq.gz reads/SRR528049_1.fastq.gz reads/SRR528337_1.fastq.gz reads/SRR532541_1.fastq.gz reads/SRR1214319_1.fastq.gz reads/SRR1214571_1.fastq.gz reads/SRR1214858_1.fastq.gz reads/SRR1569915_1.fastq.gz reads/SRR1765182_1.fastq.gz reads/SRR1804181_1.fastq.gz reads/SRR1804314_1.fastq.gz reads/SRR5597305_1.fastq.gz reads/SRR5651443_1.fastq.gz reads/SRR5813285_1.fastq.gz reads/SRR5866424_1.fastq.gz reads/SRR5936099_1.fastq.gz reads/SRR5983313_1.fastq.gz reads/SRR5983328_1.fastq.gz reads/SRR5983472_1.fastq.gz reads/SRR6075151_1.fastq.gz reads/SRR6075232_1.fastq.gz reads/SRR6468621_1.fastq.gz reads/SRR7217864_1.fastq.gz reads/SRR8353774_1.fastq.gz reads/SRR8353861_1.fastq.gz reads/SRR8427684_1.fastq.gz reads/SRR8427965_1.fastq.gz -2 reads/ERR011201_2.fastq.gz reads/ERR209458_2.fastq.gz reads/ERR209848_2.fastq.gz reads/ERR321109_2.fastq.gz reads/ERR321526_2.fastq.gz reads/ERR321561_2.fastq.gz reads/ERR479104_2.fastq.gz reads/ERR479206_2.fastq.gz reads/ERR505097_2.fastq.gz reads/ERR525793_2.fastq.gz reads/ERR526021_2.fastq.gz reads/ERR527117_2.fastq.gz reads/ERR719726_2.fastq.gz reads/ERR1137151_2.fastq.gz reads/ERR1293793_2.fastq.gz reads/ERR1297654_2.fastq.gz reads/ERR1398250_2.fastq.gz reads/ERR1620336_2.fastq.gz reads/ERR2017435_2.fastq.gz reads/SRR528049_2.fastq.gz reads/SRR528337_2.fastq.gz reads/SRR532541_2.fastq.gz reads/SRR1214319_2.fastq.gz reads/SRR1214571_2.fastq.gz reads/SRR1214858_2.fastq.gz reads/SRR1569915_2.fastq.gz reads/SRR1765182_2.fastq.gz reads/SRR1804181_2.fastq.gz reads/SRR1804314_2.fastq.gz reads/SRR5597305_2.fastq.gz reads/SRR5651443_2.fastq.gz reads/SRR5813285_2.fastq.gz reads/SRR5866424_2.fastq.gz reads/SRR5936099_2.fastq.gz reads/SRR5983313_2.fastq.gz reads/SRR5983328_2.fastq.gz reads/SRR5983472_2.fastq.gz reads/SRR6075151_2.fastq.gz reads/SRR6075232_2.fastq.gz reads/SRR6468621_2.fastq.gz reads/SRR7217864_2.fastq.gz reads/SRR8353774_2.fastq.gz reads/SRR8353861_2.fastq.gz reads/SRR8427684_2.fastq.gz reads/SRR8427965_2.fastq.gz -d sketches"
+	User time (seconds): 1788.64
+	System time (seconds): 97.59
+	Percent of CPU this job got: 841%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:44.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3317260
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 12
+	Minor (reclaiming a frame) page faults: 7683104
+	Voluntary context switches: 210624
+	Involuntary context switches: 5433
+	Swaps: 0
+	File system inputs: 105232016
+	File system outputs: 1661592
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

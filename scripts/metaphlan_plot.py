@@ -11,7 +11,7 @@ plt.rcParams.update({'font.size': 7})
 #plt.rcParams.update({'figure.autolayout': True})
 plt.rcParams.update({'font.family':'arial'})
 
-ab_t = 0.01
+ab_t = 0.00
 
 
 def read_metaphlan(file, cut):
@@ -30,7 +30,7 @@ def read_metaphlan(file, cut):
     return species_abs
 
 
-def mp_plot(file1, file2, sample, cut):
+def mp_plot(file1, file2, sample, cut, motus = False, first = False):
     c = 'black'
     if cut == False:
         c = 'red'
@@ -41,7 +41,7 @@ def mp_plot(file1, file2, sample, cut):
     #print(df1,df2)
 
     # Filter the first file for the specific sample
-    df1 = df1[df1['Sample_file'] == 'real_gut_reads/' + sample + '_1.fastq.gz']
+    df1 = df1[df1['Sample_file'].str.contains(sample) & ~df1['Sample_file'].str.contains('subsamp')]
     if cut:
         df1 = df1[df1['Taxonomic_abundance'] > ab_t]
     else:
@@ -54,43 +54,77 @@ def mp_plot(file1, file2, sample, cut):
     # Merge the two dataframes on the Genome column
     num_gn_df1 = len(df1)
     num_gn_df2 = len(df2)
+    if num_gn_df1 == 0 or num_gn_df2 == 0:
+        return
 
-    print(sample, 'sylph', num_gn_df1, 'metaphlan', num_gn_df2, 'diff', num_gn_df1 - num_gn_df2)
+    if motus:
+        print(sample, 'sylph', num_gn_df1, 'mOTUs', num_gn_df2, 'diff', num_gn_df1 - num_gn_df2)
+    else:
+        print(sample, 'sylph', num_gn_df1, 'metaphlan', num_gn_df2, 'diff', num_gn_df1 - num_gn_df2)
 
     if cut:
-        a = ax[0]
+        a = ax
     else:
-        a = ax[1]
-    a.set_ylabel('Sylph species detected')
-    a.set_xlabel('MetaPhlAn4 species detected')
-    a.plot(num_gn_df2, num_gn_df1, 'o', c = c, ms = 3)
+        a = ax
+    a.set_ylabel('sylph species detected')
+    a.set_xlabel('MetaPhlAn4/mOTUs3 species detected')
+    if motus:
+        c = 'blue'
+        marker = 'x'
+        l = 'mOTUs3'
+    else:
+        c = 'red'
+        marker = 'o'
+        l = 'MetaPhlAn4'
+    if first:
+        a.plot(num_gn_df2, num_gn_df1, marker , c = c, ms = 3, label = l)
+    else:
+        a.plot(num_gn_df2, num_gn_df1, marker , c = c, ms = 3)
     #plt.title(f'Log-Log Plot of True Coverage vs Mean for {sample}')
     #plt.xscale('log')
     #plt.yscale('log')
-    a.grid(True)
+    #a.grid(True)
 
 def get_sample(file):
     return file.split('/')[-1].split('_')[0]
 
-fig, ax = plt.subplots(2,1, figsize=(14*cm, 12*cm))
+fig, ax = plt.subplots(1,1, figsize=(10*cm, 6*cm))
 # Usage
 file1 = sys.argv[1]  # Replace with the path to your first file
 file2 = sys.argv[2:]  # Replace with the path to your second file
-for d in [True, False]:
+motfirst = True
+metfirst = True
+for d in [True]:
     for f in file2:
+        if 'subsamp' in f:
+            continue
+        if 'motus' in f:
+            motus = True
+        else:
+            motus = False
         sample = get_sample(f)
-        #print(sample)
-        mp_plot(file1, f, sample, d)
-ax[0].plot([0,300],[0,300],'-')
-ax[1].plot([0,300],[0,300],'-')
-ax[0].spines['top'].set_visible(False)
-ax[0].spines['right'].set_visible(False)
-ax[1].spines['top'].set_visible(False)
-ax[1].spines['right'].set_visible(False)
+        print(sample)
+        if motfirst and motus:
+            mp_plot(file1, f, sample, d, motus, first = True)
+            motfirst = False
+            continue
+        if metfirst and not motus:
+            mp_plot(file1, f, sample, d, motus, first = True)
+            metfirst = False
+            continue
+        mp_plot(file1, f, sample, d, motus)
+        # set the legend for the first plot only
+ax.plot([0,800],[0,800],'--', c = 'black')
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+plt.legend(frameon=False)
+#ax[1].plot([0,400],[0,400],'-')
+#ax[1].spines['top'].set_visible(False)
+#ax[1].spines['right'].set_visible(False)
+#ax[1].legend(['Species with <= 0.01% abundance'],frameon=False,)
 
-ax[0].legend(['Species with > 0.01% abundance'],frameon=False)
-ax[1].legend(['Species with <= 0.01% abundance'],frameon=False,)
-ax[0].set_title("Sylph vs MetaPhlAn4 number of species detected on 50 real gut metagenomes")
+ax.set_title("# detected species (50 real gut metagenomes)")
+plt.tight_layout()
 plt.savefig("supp_figs/metaphlan-vs-sylph_50_gut.svg")
 plt.show()
 
