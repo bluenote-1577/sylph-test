@@ -16,7 +16,7 @@ For files that are gzipped, you may have to ungzip.
 
 ### Fig. 3
 
-* `cd` into `real_gut_results_v0.5` and look at the `real_gut_results_v0.5/scripts` python scripts.
+* `cd` into `real_gut_results_v0.5` or `real_gut_results_v0.5/hadza` and look at the `scripts` python scripts. 
 
 ### Fig. 4
 
