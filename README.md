@@ -1,6 +1,6 @@
 # sylph-test - scripts for recreating results from sylph paper
 
-In the scripts/* folder you will find a set of python scripts for recreating results from Fig.1, Fig.3, Fig. 4 from our paper. The notebooks will show how Figs. 2 and 5 were obtained. All intermediate results are already present in this directory except for the following:
+In the scripts/* folder you will find a set of python scripts for recreating results from Fig.1, Fig. 2, Fig.3, Fig. 4, Fig. 6 from our paper. The notebooks will show how Figs. 2 and 5 were obtained. All intermediate results are already present in this directory except for the following:
 
 For example, `python scripts/chng_between_sample.py` will regenerate the figures for the skin microbiome fungi result in our paper. 
 
