@@ -4,24 +4,30 @@ In the scripts/* folder you will find a set of python scripts for recreating res
 
 For example, `python scripts/chng_between_sample.py` will regenerate the figures for the skin microbiome fungi result in our paper. 
 
+For files that are gzipped, you may have to ungzip. 
+
 ### Fig. 1
 
 * Look at `scripts/synthetic_pois_plot.py`
 
 ### Fig. 2
 
-* Look at `profile_analysis.ipynb`
+* Look at `profile_analysis.ipynb`.
 
 ### Fig. 3
 
-* Look at `scripts/diagonal_ani_nn.py` and `scripts/mock_community_plot.py`
+* `cd` into `real_gut_results_v0.5` and look at the `real_gut_results_v0.5/scripts` python scripts.
 
 ### Fig. 4
+
+* Look at `scripts/diagonal_ani_nn.py` and `scripts/mock_community_plot.py`
+
+### Fig. 5
 
 * Look at `analysis.ipynb` for the MWAS statistical calculation and `scripts/manhat.py`.
 * Look at `scripts/chng_between_sample.py` for the Chng et al analysis
 
-### Fig. 5
+### Fig. 6
 * Look at `real_profile_analysis.ipynb`.
 
 1. Python 3 with the following libraries:
