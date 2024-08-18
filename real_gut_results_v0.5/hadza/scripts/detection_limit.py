@@ -213,7 +213,7 @@ for i in [0]:
     cmap = [mute[0], mute[4], mute[6]]
 
     # Plotting
-    plt.figure(figsize=(7/2.54, 6/2.54))
+    plt.figure(figsize=(6.5/2.54, 6/2.54))
     if i == 0:
         y = 'detect'
     else:

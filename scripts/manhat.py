@@ -137,7 +137,7 @@ for line in open(order_file,'r'):
     seen_mags_in_order_file.add(mag)
     if mag in mag_to_pval:
         if interactive:
-            if hash(mag) % 4 == 0:
+            if hash(mag) % 3 == 0:
                 if mag in mag_to_pval:
                     pvals.append(mag_to_pval[mag])
                     seen_cs.add(mag_to_c[mag])
@@ -152,7 +152,7 @@ for line in open(order_file,'r'):
 
 for mag in mag_to_pval:
     if interactive:
-        if hash(mag) % 10 == 0:
+        if hash(mag) % 3 == 0:
             if mag not in seen_mags_in_order_file:
                 pvals.append(mag_to_pval[mag])
                 seen_cs.add(mag_to_c[mag])
@@ -175,9 +175,12 @@ if interactive:
     fig = go.Figure()
 
 agatho_qvals = []
-#agatho_rep = 'MGYG000003682'
-agatho_rep = 'MGYG000002506'
-#MGYG000002492'
+#r.lac
+agatho_rep = 'MGYG000003682'
+#ecoli
+#agatho_rep = 'MGYG000002506'
+#actuallya gatho
+#agatho_rep = 'MGYG000002492'
 #print(pvals)
 qvals, LIMIT = fdr(np.power(10,pvals), q)
 throwaway, LIMIT2 = fdr(np.power(10,pvals), 0.10)
@@ -251,7 +254,7 @@ plt.xlabel("E. coli genomes ordered by similarity")
 mag_c = mag_to_c[agatho_rep]
 print(mag_c)
 it_tab20 = [plt.cm.tab20(i) for i in range(20)]
-plt.scatter(range(len(agatho_qvals)), -np.array(agatho_qvals), c = [it_tab20[mag_c] for x in agatho_qvals], s = size, cmap = cmap)
+plt.scatter(range(len(agatho_qvals)), -np.array(agatho_qvals), c = [it_tab20[mag_c%20] for x in agatho_qvals], s = size, cmap = cmap)
 plt.xticks([])
 ax.spines[['right', 'top']].set_visible(False)
 plt.axhline(-np.log10(LIMIT1), ls = '--', c = 'black', label = '0.05 FDR threshold')

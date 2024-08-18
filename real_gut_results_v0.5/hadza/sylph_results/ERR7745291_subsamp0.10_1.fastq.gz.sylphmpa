@@ -357,16 +357,16 @@ d__Bacteria|p__Verrucomicrobiota|c__Lentisphaeria|o__Victivallales|f__UBA1829|g_
 d__Bacteria|p__Firmicutes_B|c__Peptococcia|o__Peptococcales|f__Peptococcaceae|g__QAKL01	0.003	0.0016	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__UMGS1810|f__UMGS1810|g__UMGS1810	0.0028	0.002	NA	NA
 d__Bacteria|p__Desulfobacterota_I|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Bilophila	0.0027	0.0046	NA	NA
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900551275	11.1946	16.3077	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp000436915	11.1946	12.9924	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900551275	11.1946	16.3077	NA	NA
 d__Bacteria|p__Cyanobacteria|c__Vampirovibrionia|o__Gastranaerophilales|f__Gastranaerophilaceae|g__Zag111|s__Zag111 sp002103105	6.2262	4.3923	NA	NA
 d__Bacteria|p__Campylobacterota|c__Campylobacteria|o__Campylobacterales|f__Campylobacteraceae|g__Campylobacter_D|s__Campylobacter_D sp900539255	4.2137	2.9879	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella copri_A	3.0817	4.5305	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp015074785	2.7672	4.0096	NA	NA
 d__Bacteria|p__Elusimicrobiota|c__Elusimicrobia|o__Elusimicrobiales|f__Elusimicrobiaceae|g__UBA1436|s__UBA1436 sp900541355	2.0754	1.2005	NA	NA
 d__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Succinivibrionaceae|g__Succinivibrio|s__Succinivibrio sp000431835	2.0125	1.7011	NA	NA
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900551985	1.761	2.2635	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp900546445	1.761	1.0861	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900551985	1.761	2.2635	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Paludibacteraceae|g__RF16|s__RF16 sp900556095	1.761	1.0923	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900548745	1.6981	1.895	NA	NA
 d__Bacteria|p__Cyanobacteria|c__Vampirovibrionia|o__Gastranaerophilales|f__Gastranaerophilaceae|g__UMGS1585|s__UMGS1585 sp900553205	1.5723	1.141	NA	NA
@@ -794,16 +794,16 @@ d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g
 d__Bacteria|p__Firmicutes_B|c__Peptococcia|o__Peptococcales|f__Peptococcaceae|g__QAKL01|s__QAKL01 sp003343815	0.003	0.0016	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__UMGS1810|f__UMGS1810|g__UMGS1810|s__UMGS1810 sp900555295	0.0028	0.002	NA	NA
 d__Bacteria|p__Desulfobacterota_I|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Bilophila|s__Bilophila wadsworthia	0.0027	0.0046	NA	NA
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900551275|t__GCF_019127135.1	11.1946	16.3077	97.68	178.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp000436915|t__GCA_000436915.1	11.1946	12.9924	97.12	178.0
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900551275|t__GCF_019127135.1	11.1946	16.3077	97.68	178.0
 d__Bacteria|p__Cyanobacteria|c__Vampirovibrionia|o__Gastranaerophilales|f__Gastranaerophilaceae|g__Zag111|s__Zag111 sp002103105|t__GCA_002103105.1	6.2262	4.3923	98.62	99.0
 d__Bacteria|p__Campylobacterota|c__Campylobacteria|o__Campylobacterales|f__Campylobacteraceae|g__Campylobacter_D|s__Campylobacter_D sp900539255|t__GCA_900539255.1	4.2137	2.9879	98.09	67.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella copri_A|t__GCF_002224675.1	3.0817	4.5305	98.78	49.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp015074785|t__GCF_015074785.1	2.7672	4.0096	95.11	44.0
 d__Bacteria|p__Elusimicrobiota|c__Elusimicrobia|o__Elusimicrobiales|f__Elusimicrobiaceae|g__UBA1436|s__UBA1436 sp900541355|t__GCA_900541355.1	2.0754	1.2005	98.11	33.0
 d__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Succinivibrionaceae|g__Succinivibrio|s__Succinivibrio sp000431835|t__GCA_000431835.1	2.0125	1.7011	98.81	32.0
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900551985|t__GCA_900551985.1	1.761	2.2635	95.13	28.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp900546445|t__GCA_900546445.1	1.761	1.0861	97.14	28.0
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900551985|t__GCA_900551985.1	1.761	2.2635	95.13	28.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Paludibacteraceae|g__RF16|s__RF16 sp900556095|t__GCA_900556095.1	1.761	1.0923	97.55	28.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900548745|t__GCA_900548745.1	1.6981	1.895	97.07	27.0
 d__Bacteria|p__Cyanobacteria|c__Vampirovibrionia|o__Gastranaerophilales|f__Gastranaerophilaceae|g__UMGS1585|s__UMGS1585 sp900553205|t__GCA_900553205.1	1.5723	1.141	98.65	25.0

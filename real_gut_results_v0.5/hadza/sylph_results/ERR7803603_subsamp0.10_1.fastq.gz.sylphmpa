@@ -170,8 +170,8 @@ d__Bacteria|p__Verrucomicrobiota|c__Kiritimatiellae|o__RFP12|f__UBA1067|g__RUG57
 d__Bacteria|p__Elusimicrobiota|c__Elusimicrobia|o__Elusimicrobiales|f__Elusimicrobiaceae|g__UBA1436	1.0309	0.574	NA	NA
 d__Bacteria|p__Firmicutes_C|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium_A	0.9749	0.8165	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__F23-B02	0.9136	0.5592	NA	NA
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Falcatimonas	0.8881	1.2507	NA	NA
 d__Bacteria|p__Firmicutes_C|c__Negativicutes|o__Veillonellales|f__Dialisteraceae|g__Dialister	0.8881	0.7634	NA	NA
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Falcatimonas	0.8881	1.2507	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Agathobacter	0.6949	0.8116999999999999	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Angelakisella	0.6781	0.46130000000000004	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Alloprevotella	0.6712000000000001	0.6439	NA	NA
@@ -436,14 +436,14 @@ d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__P3|g__Onthomorpha
 d__Bacteria|p__Campylobacterota|c__Campylobacteria|o__Campylobacterales|f__Campylobacteraceae|g__Campylobacter_D|s__Campylobacter_D sp900539255	1.6396	1.1892	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella copri_A	1.3891	2.0889	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp900544195	1.3435	1.5073	NA	NA
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp015074785	1.1386	1.6875	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900546535	1.1386	1.7165	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp015074785	1.1386	1.6875	NA	NA
 d__Bacteria|p__Verrucomicrobiota|c__Kiritimatiellae|o__RFP12|f__UBA1067|g__RUG572|s__RUG572 sp900547945	1.1158	1.4777	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp000435075	1.0247	1.0356	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-83|s__CAG-83 sp900547745	0.9792	0.6856	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp000436915	0.9564	1.1354	NA	NA
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Falcatimonas|s__Falcatimonas sp018918265	0.8881	1.2507	NA	NA
 d__Bacteria|p__Firmicutes_C|c__Negativicutes|o__Veillonellales|f__Dialisteraceae|g__Dialister|s__Dialister sp900543455	0.8881	0.7634	NA	NA
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Falcatimonas|s__Falcatimonas sp018918265	0.8881	1.2507	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__F23-B02|s__F23-B02 sp900556535	0.8653	0.5266	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900313215	0.8653	1.0418	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900551275	0.8198	1.2216	NA	NA
@@ -456,34 +456,34 @@ d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g_
 d__Bacteria|p__Elusimicrobiota|c__Elusimicrobia|o__Elusimicrobiales|f__Elusimicrobiaceae|g__UBA1436|s__UBA1436 sp900540405	0.5465	0.2876	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp002251385	0.5465	0.6112	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Limivicinus|s__Limivicinus sp900547315	0.5238	0.3828	NA	NA
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Christensenellales|f__CAG-138|g__PeH17|s__PeH17 sp000435055	0.501	0.3803	NA	NA
 d__Bacteria|p__Firmicutes_C|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium_A|s__Phascolarctobacterium_A succinatutens	0.501	0.4078	NA	NA
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp900545245	0.501	0.6158	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-83|s__CAG-83 sp000435555	0.501	0.3058	NA	NA
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900290275	0.4782	0.7177	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp900545245	0.501	0.6158	NA	NA
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Christensenellales|f__CAG-138|g__PeH17|s__PeH17 sp000435055	0.501	0.3803	NA	NA
 d__Bacteria|p__Elusimicrobiota|c__Elusimicrobia|o__Elusimicrobiales|f__Elusimicrobiaceae|g__UBA1436|s__UBA1436 sp900541355	0.4782	0.2829	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__UBA4372|s__UBA4372 sp900543815	0.4782	0.5358	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Fimenecus|s__Fimenecus sp004556705	0.4782	0.4105	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900290275	0.4782	0.7177	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp900763965	0.4554	0.3443	NA	NA
 d__Bacteria|p__Firmicutes|c__Bacilli|o__RF39|f__UBA660|g__CAG-710|s__CAG-710 sp000432595	0.4554	0.2014	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__TANB77|f__CAG-508|g__CAG-492|s__CAG-492 sp900557045	0.4554	0.2923	NA	NA
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella hominis	0.4554	0.7172	NA	NA
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Angelakisella|s__Angelakisella sp900552845	0.4554	0.3043	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp900546445	0.4554	0.2873	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Alloprevotella|s__Alloprevotella sp900542795	0.4554	0.4124	NA	NA
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-177|s__CAG-177 sp003538135	0.4327	0.3583	NA	NA
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Angelakisella|s__Angelakisella sp900552845	0.4554	0.3043	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella hominis	0.4554	0.7172	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__ER4|s__ER4 sp000765235	0.4327	0.453	NA	NA
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-177|s__CAG-177 sp003538135	0.4327	0.3583	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Butyrivibrio_A|s__Butyrivibrio_A sp000431815	0.4099	0.3636	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia inulinivorans	0.4099	0.6365	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-83|s__CAG-83 sp000435975	0.3871	0.2926	NA	NA
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900552515	0.3871	0.3326	NA	NA
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor sp900554205	0.3871	0.5007	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Muribaculaceae|g__Limisoma|s__Limisoma sp000437795	0.3871	0.3599	NA	NA
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-95|s__CAG-95 sp000438155	0.3643	0.4317	NA	NA
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor sp900554205	0.3871	0.5007	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900552515	0.3871	0.3326	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-45|s__CAG-45 sp000438375	0.3643	0.414	NA	NA
 d__Bacteria|p__Firmicutes_C|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium_A|s__Phascolarctobacterium_A sp900753045	0.3643	0.3445	NA	NA
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp002265625	0.3416	0.4876	NA	NA
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-95|s__CAG-95 sp000438155	0.3643	0.4317	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-964|s__CAG-964 sp000435335	0.3416	0.2766	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp002265625	0.3416	0.4876	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__TANB77|f__CAG-465|g__CAG-465|s__CAG-465 sp000433755	0.3283	0.1483	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus sp000433075	0.3261	0.3308	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp000434975	0.3171	0.3892	NA	NA
@@ -633,8 +633,8 @@ d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__F23-B02|s__F23-B02 sp900545805	0.041	0.0268	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter|s__Dysosmobacter sp900763685	0.0408	0.0207	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__UMGS902|s__UMGS902 sp003343845	0.0399	0.0312	NA	NA
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA10281|s__UBA10281 sp900548285	0.0392	0.0284	NA	NA
 d__Bacteria|p__Desulfobacterota_I|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Desulfovibrio|s__Desulfovibrio sp900556755	0.0392	0.0431	NA	NA
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA10281|s__UBA10281 sp900548285	0.0392	0.0284	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium sp000435835	0.0382	0.0454	NA	NA
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900552675	0.0381	0.0326	NA	NA
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__COE1|s__COE1 sp001916965	0.0381	0.0505	NA	NA
@@ -969,14 +969,14 @@ d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__P3|g__Onthomorpha
 d__Bacteria|p__Campylobacterota|c__Campylobacteria|o__Campylobacterales|f__Campylobacteraceae|g__Campylobacter_D|s__Campylobacter_D sp900539255|t__GCA_900539255.1	1.6396	1.1892	97.36	72.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella copri_A|t__GCF_002224675.1	1.3891	2.0889	98.06	61.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp900544195|t__GCA_900544195.1	1.3435	1.5073	97.67	59.0
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp015074785|t__GCF_015074785.1	1.1386	1.6875	96.27	50.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900546535|t__GCF_009494395.1	1.1386	1.7165	96.93	50.0
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp015074785|t__GCF_015074785.1	1.1386	1.6875	96.27	50.0
 d__Bacteria|p__Verrucomicrobiota|c__Kiritimatiellae|o__RFP12|f__UBA1067|g__RUG572|s__RUG572 sp900547945|t__GCA_900547945.1	1.1158	1.4777	98.73	49.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp000435075|t__GCA_000435075.1	1.0247	1.0356	96.18	45.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-83|s__CAG-83 sp900547745|t__GCA_900547745.1	0.9792	0.6856	98.67	43.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp000436915|t__GCA_000436915.1	0.9564	1.1354	97.08	42.0
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Falcatimonas|s__Falcatimonas sp018918265|t__GCF_018918265.1	0.8881	1.2507	98.88	39.0
 d__Bacteria|p__Firmicutes_C|c__Negativicutes|o__Veillonellales|f__Dialisteraceae|g__Dialister|s__Dialister sp900543455|t__GCA_900543455.1	0.8881	0.7634	96.56	39.0
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Falcatimonas|s__Falcatimonas sp018918265|t__GCF_018918265.1	0.8881	1.2507	98.88	39.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__F23-B02|s__F23-B02 sp900556535|t__GCA_900556535.1	0.8653	0.5266	98.21	38.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900313215|t__GCF_009495355.1	0.8653	1.0418	98.57	38.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900551275|t__GCF_019127135.1	0.8198	1.2216	97.94	36.0
@@ -989,34 +989,34 @@ d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g_
 d__Bacteria|p__Elusimicrobiota|c__Elusimicrobia|o__Elusimicrobiales|f__Elusimicrobiaceae|g__UBA1436|s__UBA1436 sp900540405|t__GCA_900540405.1	0.5465	0.2876	95.38	24.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp002251385|t__GCF_002251385.1	0.5465	0.6112	97.7	24.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Limivicinus|s__Limivicinus sp900547315|t__GCA_900547315.1	0.5238	0.3828	98.9	23.0
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Christensenellales|f__CAG-138|g__PeH17|s__PeH17 sp000435055|t__GCA_000435055.1	0.501	0.3803	98.52	22.0
 d__Bacteria|p__Firmicutes_C|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium_A|s__Phascolarctobacterium_A succinatutens|t__GCF_000188175.1	0.501	0.4078	97.94	22.0
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp900545245|t__GCA_900545245.1	0.501	0.6158	96.67	22.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-83|s__CAG-83 sp000435555|t__GCA_000435555.1	0.501	0.3058	98.17	22.0
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900290275|t__GCF_900290275.1	0.4782	0.7177	98.57	21.0
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp900545245|t__GCA_900545245.1	0.501	0.6158	96.67	22.0
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Christensenellales|f__CAG-138|g__PeH17|s__PeH17 sp000435055|t__GCA_000435055.1	0.501	0.3803	98.52	22.0
 d__Bacteria|p__Elusimicrobiota|c__Elusimicrobia|o__Elusimicrobiales|f__Elusimicrobiaceae|g__UBA1436|s__UBA1436 sp900541355|t__GCA_900541355.1	0.4782	0.2829	98.12	21.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__UBA4372|s__UBA4372 sp900543815|t__GCA_900543815.1	0.4782	0.5358	97.98	21.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Fimenecus|s__Fimenecus sp004556705|t__GCA_004556705.1	0.4782	0.4105	97.08	21.0
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900290275|t__GCF_900290275.1	0.4782	0.7177	98.57	21.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp900763965|t__GCA_900763965.1	0.4554	0.3443	97.5	20.0
 d__Bacteria|p__Firmicutes|c__Bacilli|o__RF39|f__UBA660|g__CAG-710|s__CAG-710 sp000432595|t__GCA_000432595.1	0.4554	0.2014	97.21	20.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__TANB77|f__CAG-508|g__CAG-492|s__CAG-492 sp900557045|t__GCA_900557045.1	0.4554	0.2923	97.05	20.0
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella hominis|t__GCF_004535825.1	0.4554	0.7172	98.19	20.0
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Angelakisella|s__Angelakisella sp900552845|t__GCA_900552845.1	0.4554	0.3043	98.63	20.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__UBA932|g__Cryptobacteroides|s__Cryptobacteroides sp900546445|t__GCA_900546445.1	0.4554	0.2873	96.74	20.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Alloprevotella|s__Alloprevotella sp900542795|t__GCA_900542795.1	0.4554	0.4124	98.62	20.0
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-177|s__CAG-177 sp003538135|t__GCA_003538135.1	0.4327	0.3583	98.52	19.0
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Angelakisella|s__Angelakisella sp900552845|t__GCA_900552845.1	0.4554	0.3043	98.63	20.0
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella hominis|t__GCF_004535825.1	0.4554	0.7172	98.19	20.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__ER4|s__ER4 sp000765235|t__GCF_000765235.1	0.4327	0.453	98.08	19.0
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-177|s__CAG-177 sp003538135|t__GCA_003538135.1	0.4327	0.3583	98.52	19.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Butyrivibrio_A|s__Butyrivibrio_A sp000431815|t__GCA_000431815.1	0.4099	0.3636	98.21	18.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Roseburia|s__Roseburia inulinivorans|t__GCF_000174195.1	0.4099	0.6365	97.67	18.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__CAG-83|s__CAG-83 sp000435975|t__GCA_000435975.1	0.3871	0.2926	98.52	17.0
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900552515|t__GCA_900552515.1	0.3871	0.3326	98.13	17.0
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor sp900554205|t__GCA_900554205.1	0.3871	0.5007	98.23	17.0
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Muribaculaceae|g__Limisoma|s__Limisoma sp000437795|t__GCA_000437795.1	0.3871	0.3599	97.89	17.0
-d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-95|s__CAG-95 sp000438155|t__GCA_000438155.1	0.3643	0.4317	98.44	16.0
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor sp900554205|t__GCA_900554205.1	0.3871	0.5007	98.23	17.0
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900552515|t__GCA_900552515.1	0.3871	0.3326	98.13	17.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-45|s__CAG-45 sp000438375|t__GCA_902363825.1	0.3643	0.414	98.6	16.0
 d__Bacteria|p__Firmicutes_C|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium_A|s__Phascolarctobacterium_A sp900753045|t__GCA_900753045.1	0.3643	0.3445	96.11	16.0
-d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp002265625|t__GCF_002265625.1	0.3416	0.4876	98.19	15.0
+d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__CAG-95|s__CAG-95 sp000438155|t__GCA_000438155.1	0.3643	0.4317	98.44	16.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__CAG-964|s__CAG-964 sp000435335|t__GCA_000435335.1	0.3416	0.2766	98.6	15.0
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp002265625|t__GCF_002265625.1	0.3416	0.4876	98.19	15.0
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__TANB77|f__CAG-465|g__CAG-465|s__CAG-465 sp000433755|t__GCA_000433755.1	0.3283	0.1483	98.27	14.415
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus sp000433075|t__GCF_003482105.1	0.3261	0.3308	98.47	14.32
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp000434975|t__GCF_019052365.1	0.3171	0.3892	97.3	13.927
@@ -1166,8 +1166,8 @@ d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__F23-B02|s__F23-B02 sp900545805|t__GCA_900545805.1	0.041	0.0268	98.0	1.798
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Dysosmobacter|s__Dysosmobacter sp900763685|t__GCA_900763685.1	0.0408	0.0207	98.1	1.791
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Oscillospirales|f__CAG-272|g__UMGS902|s__UMGS902 sp003343845|t__GCA_003343845.1	0.0399	0.0312	98.55	1.751
+d__Bacteria|p__Desulfobacterota_I|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Desulfovibrio|s__Desulfovibrio sp900556755|t__GCF_012843875.1	0.0392	0.0431	98.7	1.722
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Christensenellales|f__Borkfalkiaceae|g__UBA10281|s__UBA10281 sp900548285|t__GCA_900548285.1	0.0392	0.0284	98.24	1.722
-d__Bacteria|p__Desulfobacterota_I|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Desulfovibrio|s__Desulfovibrio sp900556755|t__GCF_012843875.1	0.0392	0.0431	98.7	1.721
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium sp000435835|t__GCA_000435835.1	0.0382	0.0454	99.52	1.678
 d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp900552675|t__GCA_900552675.1	0.0381	0.0326	97.68	1.674
 d__Bacteria|p__Firmicutes_A|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__COE1|s__COE1 sp001916965|t__GCA_001916965.1	0.0381	0.0505	99.02	1.673

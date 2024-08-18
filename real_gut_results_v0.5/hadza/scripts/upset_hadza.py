@@ -8,11 +8,13 @@ import numpy as np
 from upsetplot import UpSet
 from upsetplot import plot as upplot
 
-quantile_share = True
-venn = False
+quantile_share = False
+venn = True
 upset = False
-quantiles = [0.10, 0.2, 0.30, 0.4, 0.5,0.6,0.7,0.8,0.9, 1]
-#quantiles = [1,0.25]
+#quantiles = [0.10, 0.2, 0.30, 0.4, 0.5,0.6,0.7,0.8,0.9, 1]
+#quantiles = [0.1,0.3,0.5,1,2,3,4,5,6]
+#quantiles = np.logspace(-3, 0, 10)
+quantiles = [1]
 cm = 1/2.54  # centimeters in inches\n",
     ##Change this to get a bigger figure. \n",
 cmap = sns.color_palette("muted")
@@ -74,12 +76,19 @@ def read_and_filter(file_path, species, quantile=1):
     if 'motus' in file_path:
         species_df['Relative Abundance'] *= 100
 
+    if 'motus' in file_path and not species:
+        #sum rows with same 'Species' 
+        species_df = species_df.groupby('Species').sum().reset_index()
+
     sorted_df = species_df.sort_values(by='Relative Abundance', ascending=False)  # Sort the DataFrame in descending order
-    print(file_path, sorted_df.head())
+    #print(file_path, sorted_df.head())
     # Calculate the number of rows to select for the top quantile%
-    num_rows = int(len(sorted_df) * quantile)
     # Select the top 95% of entries
+    num_rows = int(len(sorted_df) * quantile)
+    #num_rows = int(100 * quantile)
     top_quantile_percent_df = sorted_df.head(num_rows)
+
+    #top_quantile_percent_df = sorted_df[sorted_df['Relative Abundance'] > quantile]
     return top_quantile_percent_df
 
 
@@ -136,12 +145,14 @@ for spec in [True, False]:
 
             # Create a DataFrame with counts for each combination
             data = pd.Series(1, index=index).groupby(level=list(range(3))).sum()/len(sylph_files)
-            data = data.round()
+            data = data.round(0)
             #concatenate data to an existing dataframe
             data.name = "count"
             df = pd.concat([df, data], axis=0, ignore_index=False)
             # Assuming 's' is your Series
             df = df.groupby(level=[0, 1, 2]).sum()
+            # integer type
+            df = df.astype(int)
             print(df)
 
                 # Check current level names

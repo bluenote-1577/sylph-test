@@ -392,8 +392,10 @@ for a in axes:
 
 lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes[0:4]]
 lines, labels = [sum(lol, []) for lol in zip(*lines_labels)]
-fig.legend(lines, labels, loc = 'upper center', frameon=False,
+lgnd = fig.legend(lines, labels, loc = 'upper center', frameon=False,
            bbox_transform = plt.gcf().transFigure, ncol = 2)
+for handle in lgnd.legend_handles:
+    handle.set_markersize(4.0)
 fig.tight_layout(rect=(0,0,1,0.95))
 plt.savefig('figures/chng_v0.5-fungi.svg')
 plt.show()

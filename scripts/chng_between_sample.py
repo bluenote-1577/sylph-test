@@ -212,6 +212,7 @@ for res in results[0]:
 print(case_res)
 print(len(globo_used_pairs))
 #print(len(globo_used_pairs))
+print(len(res_used_pairs))
 print(pair_to_res)
 print(pair_to_res_globo)
 

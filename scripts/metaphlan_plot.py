@@ -14,19 +14,34 @@ plt.rcParams.update({'font.family':'arial'})
 ab_t = 0.00
 
 
-def read_metaphlan(file, cut):
+def read_metaphlan(file, cut, genus=True):
     species_abs = dict()
     with open(file,'r') as f:
         for line in f:
-            if 's__' in line:
-                ab = float(line.split('\t')[1])
-                spec = line.split('\t')[0].split('|')[-1]
-                if cut:
-                    if ab > ab_t:
-                        species_abs[spec] = ab
-                else:
-                    if ab < ab_t:
-                        species_abs[spec] = ab
+            if not genus:
+                if 's__' in line:
+                    ab = float(line.split('\t')[1])
+                    spec = line.split('\t')[0].split('|')[-1]
+                    if cut:
+                        if ab > ab_t:
+                            species_abs[spec] = ab
+                    else:
+                        if ab < ab_t:
+                            species_abs[spec] = ab
+            else:
+                if 's__' in line and 't__' not in line:
+                    ab = float(line.split('\t')[1])
+                    if 'motus' in file:
+                        spec = line.split('\t')[0].split(';')[-2]
+                    else:
+                        spec = line.split('\t')[0].split('|')[-2]
+                    print(spec)
+                    if cut:
+                        if ab > ab_t:
+                            species_abs[spec] = ab
+                    else:
+                        if ab < ab_t:
+                            species_abs[spec] = ab
     return species_abs
 
 
@@ -88,7 +103,7 @@ def mp_plot(file1, file2, sample, cut, motus = False, first = False):
 def get_sample(file):
     return file.split('/')[-1].split('_')[0]
 
-fig, ax = plt.subplots(1,1, figsize=(10*cm, 6*cm))
+fig, ax = plt.subplots(1,1, figsize=(4*cm, 4*cm))
 # Usage
 file1 = sys.argv[1]  # Replace with the path to your first file
 file2 = sys.argv[2:]  # Replace with the path to your second file
@@ -114,7 +129,7 @@ for d in [True]:
             continue
         mp_plot(file1, f, sample, d, motus)
         # set the legend for the first plot only
-ax.plot([0,800],[0,800],'--', c = 'black')
+ax.plot([100,800],[100,800],'--', c = 'black')
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 plt.legend(frameon=False)
@@ -123,7 +138,7 @@ plt.legend(frameon=False)
 #ax[1].spines['right'].set_visible(False)
 #ax[1].legend(['Species with <= 0.01% abundance'],frameon=False,)
 
-ax.set_title("# detected species (50 real gut metagenomes)")
+#ax.set_title("# detected species (50 real gut metagenomes)")
 plt.tight_layout()
 plt.savefig("supp_figs/metaphlan-vs-sylph_50_gut.svg")
 plt.show()
